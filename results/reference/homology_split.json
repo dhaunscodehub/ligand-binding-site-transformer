@@ -58,7 +58,7 @@
     "curation": "chemical component dictionary + curated exclusion lists",
     "exclude_saccharides": true,
     "component_cache": {
-      "cache_path": "/Users/dhanus/claudeGithubWork/ligand-binding-site-transformer/data/chemcomp_cache.json",
+      "cache_path": "data/chemcomp_cache.json",
       "n_cached_components": 422,
       "n_lookup_failures": 0,
       "lookup_failures": [],
