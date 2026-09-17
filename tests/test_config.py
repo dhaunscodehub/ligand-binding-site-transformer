@@ -94,8 +94,15 @@ def test_cutoff_error_names_conventional_values():
 
 
 def test_split_strategy_error_says_which_arms_leak():
-    with pytest.raises(ConfigError, match="leak"):
+    with pytest.raises(ConfigError, match="leaks by design"):
         config_from_dict({"split": {"strategy": "random"}})
+
+
+def test_residue_level_strategy_is_refused_at_config_time():
+    """Not after the dataset is built: that would mean minutes of downloading
+    before the error appears."""
+    with pytest.raises(ConfigError, match="not runnable as a pipeline"):
+        config_from_dict({"split": {"strategy": "random_residue"}})
 
 
 def test_paths_resolve_relative_to_the_config_file(tmp_path):

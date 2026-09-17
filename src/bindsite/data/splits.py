@@ -263,7 +263,9 @@ def residue_split(
     """Every protein in every fold: residues are split, not proteins.
 
     The most severe leak available here, and included only so the control
-    experiment can measure it. Adjacent residues share nearly all their
+    experiment can measure it. :class:`~bindsite.config.SplitConfig`
+    refuses it as a pipeline strategy, so it cannot be selected by
+    configuration. Adjacent residues share nearly all their
     features, so a model can interpolate a held-out residue from its own
     protein's neighbours without learning anything generalisable.
 

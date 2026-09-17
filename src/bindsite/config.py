@@ -139,11 +139,25 @@ class SplitConfig:
     verify_identity: bool = True
 
     def __post_init__(self) -> None:
-        if self.strategy not in ("homology", "random_protein", "random_residue"):
+        if self.strategy == "random_residue":
+            # Rejected here rather than in the pipeline. The pipeline cannot
+            # run a residue-level split, and refusing only after the dataset
+            # has been built means several minutes of downloading before the
+            # error appears.
             raise ConfigError(
-                f"[split] strategy must be homology, random_protein or "
-                f"random_residue; got {self.strategy!r}. The latter two leak and "
-                "exist only as comparison arms."
+                "[split] strategy 'random_residue' is not runnable as a "
+                "pipeline configuration: residues of the same protein would "
+                "appear in train and test, which is the most severe leak in "
+                "this task. It is implemented only inside the control "
+                "experiments, where its purpose is to be measured — see "
+                "bindsite.validation.leakage_by_split_level, or run "
+                "`bindsite validate`."
+            )
+        if self.strategy not in ("homology", "random_protein"):
+            raise ConfigError(
+                f"[split] strategy must be 'homology' or 'random_protein'; got "
+                f"{self.strategy!r}. 'random_protein' leaks by design and "
+                "exists only as a comparison arm."
             )
         for name in ("test_fraction", "val_fraction"):
             value = getattr(self, name)
