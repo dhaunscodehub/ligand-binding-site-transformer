@@ -5,7 +5,7 @@
 
 The dataset, curation, homology separation, features, baselines, the
 transformer, evaluation and the control experiments all execute end to end on
-real RCSB data and are covered by 311 passing tests. The transformer is
+real RCSB data and are covered by 312 passing tests. The transformer is
 genuinely trained (Apple MPS, 392 s) and evaluated, not merely implemented.
 
 ## What runs
@@ -96,7 +96,7 @@ All `VERIFIED_REPRODUCED`; see [docs/VALIDATION.md](docs/VALIDATION.md).
 ```bash
 pip install -e ".[all]"
 python scripts/smoke_test.py                                      # 43/43
-python -m pytest tests/                                           # 311 passed
+python -m pytest tests/                                           # 312 passed
 python scripts/validate_controls.py -c configs/homology_split.yaml  # 7/7
 bindsite run -c configs/homology_split.yaml -v
 bindsite run -c configs/random_split.yaml -v

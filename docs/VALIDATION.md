@@ -173,13 +173,13 @@ what "30% identity" means in the binding-site literature.
 python -m pytest tests/
 ```
 
-**311 tests, all passing** (`VERIFIED_REPRODUCED`):
+**312 tests, all passing** (`VERIFIED_REPRODUCED`):
 
 | Module | Tests | Focus |
 |---|---|---|
 | `test_structure.py` | 38 | Parsing, altloc resolution, ligand curation, geometric labelling |
 | `test_homology.py` | 33 | Local vs global identity, the connected-components invariant |
-| `test_config.py` | 45 | Rejection of every malformed input |
+| `test_config.py` | 46 | Rejection of every malformed input |
 | `test_models.py` | 33 | Baselines, transformer, ablations, padding invariance |
 | `test_evaluate.py` | 28 | AUROC/AUPRC under imbalance, two-level metrics |
 | `test_splits.py` | 24 | Cluster disjointness, direct sequence verification |
@@ -232,7 +232,7 @@ AUROC alone.
 
 `IMPLEMENTED_AND_TESTED` for the dataset, curation, homology separation,
 features, baselines, evaluation and controls — all execute end to end on real
-data and are covered by 311 tests.
+data and are covered by 312 tests.
 
 `IMPLEMENTED_NOT_FULLY_EXECUTED` for MMseqs2 clustering and for
 distributed/HPC training.

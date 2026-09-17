@@ -41,7 +41,7 @@ bindsite run -c configs/homology_split.yaml | jq .comparison
 | | |
 |---|---|
 | **Implementation** | `IMPLEMENTED_AND_TESTED` (dataset, curation, homology separation, features, models, evaluation, controls) |
-| **Tests** | 311 passing |
+| **Tests** | 312 passing |
 | **Smoke test** | 43/43 |
 | **Controls** | 7/7 |
 | **Dataset** | 416 proteins, 91,692 residues, 7.80% positive rate, 307 distinct ligands — all real, curated from RCSB |
