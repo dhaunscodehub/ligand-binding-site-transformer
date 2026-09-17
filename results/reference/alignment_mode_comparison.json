@@ -1,0 +1,62 @@
+{
+  "purpose": "Why this repository uses LOCAL alignment for sequence identity. Global alignment forces end-to-end matching, which inflates identity between unrelated proteins to the point that a 30% threshold admits about a tenth of all pairs; the transitive closure of that similarity graph merges the entire dataset into one component, leaving no family to hold out.",
+  "n_proteins": 416,
+  "n_pairs": 86320,
+  "distributions": {
+    "global": {
+      "mean": 0.2421175772656805,
+      "p50": 0.22784810126582278,
+      "p75": 0.26262626262626265,
+      "p90": 0.3026315789473684,
+      "p95": 0.32926829268292684,
+      "p99": 0.9278350515463918,
+      "p99.9": 1.0,
+      "max": 1.0,
+      "fraction_of_pairs_above_0.30": 0.10706672845227062
+    },
+    "local": {
+      "mean": 0.06713212470441662,
+      "p50": 0.04827586206896552,
+      "p75": 0.0707070707070707,
+      "p90": 0.10101010101010101,
+      "p95": 0.13043478260869565,
+      "p99": 0.9278350515463918,
+      "p99.9": 1.0,
+      "max": 1.0,
+      "fraction_of_pairs_above_0.30": 0.014087117701575533
+    }
+  },
+  "threshold_sweep_local_alignment": {
+    "0.25": {
+      "n_clusters": 178,
+      "largest": 34,
+      "n_edges": 1323
+    },
+    "0.3": {
+      "n_clusters": 199,
+      "largest": 32,
+      "n_edges": 1216
+    },
+    "0.35": {
+      "n_clusters": 210,
+      "largest": 32,
+      "n_edges": 1159
+    },
+    "0.4": {
+      "n_clusters": 218,
+      "largest": 32,
+      "n_edges": 1105
+    },
+    "0.5": {
+      "n_clusters": 227,
+      "largest": 29,
+      "n_edges": 992
+    },
+    "0.6": {
+      "n_clusters": 233,
+      "largest": 29,
+      "n_edges": 977
+    }
+  },
+  "interpretation": "Under global alignment the median identity between arbitrary pairs is 0.228 and 10.7% of all pairs reach 30%. Under local alignment the median is 0.048 and only 1.4% reach 30%, while genuine homologs still sit above 90% (p99 = 0.928). The local distribution is bimodal, so the clustering is stable across thresholds from 0.25 to 0.60."
+}

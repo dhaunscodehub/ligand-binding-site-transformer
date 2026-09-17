@@ -1,0 +1,3459 @@
+{
+"00J": {
+"id": "00J",
+"type": "non-polymer",
+"name": "N,2-DIMETHYL-6-{[7-(2-MORPHOLIN-4-YLETHOXY)QUINOLIN-4-YL]OXY}-1-BENZOFURAN-3-CARBOXAMIDE",
+"formula": "C26 H27 N3 O5",
+"formula_weight": 461.51,
+"parent": null
+},
+"017": {
+"id": "017",
+"type": "non-polymer",
+"name": "(3R,3AS,6AR)-HEXAHYDROFURO[2,3-B]FURAN-3-YL(1S,2R)-3-[[(4-AMINOPHENYL)SULFONYL](ISOBUTYL)AMINO]-1-BENZYL-2-HYDROXYPROPYLCARBAMATE",
+"formula": "C27 H37 N3 O7 S",
+"formula_weight": 547.664,
+"parent": null
+},
+"059": {
+"id": "059",
+"type": "non-polymer",
+"name": "(2S)-2-[3-(AMINOMETHYL)PHENYL]-3-{(S)-HYDROXY[(1R)-2-METHYL-1-{[(2-PHENYLETHYL)SULFONYL]AMINO}PROPYL]PHOSPHORYL}PROPANOIC ACID",
+"formula": "C22 H31 N2 O6 P S",
+"formula_weight": 482.53,
+"parent": null
+},
+"065": {
+"id": "065",
+"type": "non-polymer",
+"name": "(3R,3AS,6AR)-HEXAHYDROFURO[2,3-B]FURAN-3-YL(2S,3R)-3-HYDROXY-4-(N-ISOBUTYLBENZO[D][1,3]DIOXOLE-5-SULFONAMIDO)-1-PHENYLBUTAN-2-YLCARBAMATE",
+"formula": "C28 H36 N2 O9 S",
+"formula_weight": 576.658,
+"parent": null
+},
+"0A0": {
+"id": "0A0",
+"type": "L-peptide linking",
+"name": "2-methyl-L-aspartic acid",
+"formula": "C5 H9 N O4",
+"formula_weight": 147.129,
+"parent": [
+"ASP"
+]
+},
+"0QS": {
+"id": "0QS",
+"type": "peptide-like",
+"name": "N~2~-[(2R)-2-benzyl-3-(tert-butylsulfonyl)propanoyl]-N-{(1R)-1-(cyclohexylmethyl)-3,3-difluoro-2,2-dihydroxy-4-[(2-morpholin-4-ylethyl)amino]-4-oxobutyl}-3-(1H-imidazol-3-ium-4-yl)-L-alaninamide",
+"formula": "C36 H56 F2 N7 O8 S",
+"formula_weight": 784.934,
+"parent": null
+},
+"0Z3": {
+"id": "0Z3",
+"type": "peptide-like",
+"name": "6-ammonio-N-(trifluoroacetyl)-L-norleucyl-N-[4-(1-methylethyl)phenyl]-L-phenylalaninamide",
+"formula": "C26 H34 F3 N4 O3",
+"formula_weight": 507.568,
+"parent": null
+},
+"111": {
+"id": "111",
+"type": "non-polymer",
+"name": "(1N)-4-N-BUTOXYPHENYLSULFONYL-(2R)-N-HYDROXYCARBOXAMIDO-(4S)-METHANESULFONYLAMINO-PYRROLIDINE",
+"formula": "C16 H25 N3 O7 S2",
+"formula_weight": 435.516,
+"parent": null
+},
+"12B": {
+"id": "12B",
+"type": "non-polymer",
+"name": "BENZO[CD]INDOL-2(1H)-ONE",
+"formula": "C11 H7 N O",
+"formula_weight": 169.179,
+"parent": null
+},
+"12M": {
+"id": "12M",
+"type": "non-polymer",
+"name": "(2-ETHYLPHENYL)METHANOL",
+"formula": "C9 H12 O",
+"formula_weight": 136.191,
+"parent": null
+},
+"144": {
+"id": "144",
+"type": "non-polymer",
+"name": "TRIS-HYDROXYMETHYL-METHYL-AMMONIUM",
+"formula": "C4 H12 N O3",
+"formula_weight": 122.143,
+"parent": null
+},
+"17H": {
+"id": "17H",
+"type": "non-polymer",
+"name": "17-HYDROXY-18A-HOMO-19-NOR-17ALPHA-PREGNA-4,9,11-TRIEN-3-ONE",
+"formula": "C21 H28 O2",
+"formula_weight": 312.446,
+"parent": null
+},
+"1DG": {
+"id": "1DG",
+"type": "non-polymer",
+"name": "(4R)-ISONICOTINIC-ACETYL-NICOTINAMIDE-ADENINE DINUCLEOTIDE",
+"formula": "C27 H33 N8 O18 P3",
+"formula_weight": 850.515,
+"parent": null
+},
+"1PG": {
+"id": "1PG",
+"type": "non-polymer",
+"name": "2-(2-{2-[2-(2-METHOXY-ETHOXY)-ETHOXY]-ETHOXY}-ETHOXY)-ETHANOL",
+"formula": "C11 H24 O6",
+"formula_weight": 252.305,
+"parent": null
+},
+"1PL": {
+"id": "1PL",
+"type": "non-polymer",
+"name": "(1S,3aS,5aR,8aS)-1,7,7-trimethyl-1,2,3,3a,5a,6,7,8-octahydrocyclopenta[c]pentalene-4-carboxylic acid",
+"formula": "C15 H22 O2",
+"formula_weight": 234.334,
+"parent": null
+},
+"23M": {
+"id": "23M",
+"type": "non-polymer",
+"name": "2-(3-METHYLPHENYL)-1H-INDOLE-5-CARBOXIMIDAMIDE",
+"formula": "C16 H15 N3",
+"formula_weight": 249.31,
+"parent": null
+},
+"271": {
+"id": "271",
+"type": "non-polymer",
+"name": "N-methyl-1-phenylmethanamine",
+"formula": "C8 H11 N",
+"formula_weight": 121.18,
+"parent": null
+},
+"284": {
+"id": "284",
+"type": "non-polymer",
+"name": "(4S)-4-methyl-1,4,5,6-tetrahydropyridin-2-amine",
+"formula": "C6 H12 N2",
+"formula_weight": 112.173,
+"parent": null
+},
+"2AN": {
+"id": "2AN",
+"type": "non-polymer",
+"name": "8-ANILINO-1-NAPHTHALENE SULFONATE",
+"formula": "C16 H13 N O3 S",
+"formula_weight": 299.344,
+"parent": null
+},
+"2CL": {
+"id": "2CL",
+"type": "non-polymer",
+"name": "(2,6-DICHLOROPHENYL)ACETIC ACID",
+"formula": "C8 H6 Cl2 O2",
+"formula_weight": 205.038,
+"parent": null
+},
+"2GP": {
+"id": "2GP",
+"type": "non-polymer",
+"name": "GUANOSINE-2'-MONOPHOSPHATE",
+"formula": "C10 H14 N5 O8 P",
+"formula_weight": 363.221,
+"parent": null
+},
+"2HA": {
+"id": "2HA",
+"type": "saccharide",
+"name": "Dihydroxyacetone",
+"formula": "C3 H6 O3",
+"formula_weight": 90.078,
+"parent": null
+},
+"2HP": {
+"id": "2HP",
+"type": "non-polymer",
+"name": "DIHYDROGENPHOSPHATE ION",
+"formula": "H2 O4 P",
+"formula_weight": 96.987,
+"parent": null
+},
+"2MV": {
+"id": "2MV",
+"type": "non-polymer",
+"name": "(1S,2S,3R,5Z,7E,14beta,17alpha)-17-[(2S,4S)-4-(2-hydroxy-2-methylpropyl)-2-methyltetrahydrofuran-2-yl]-2-methyl-9,10-secoandrosta-5,7,10-triene-1,3-diol",
+"formula": "C29 H46 O4",
+"formula_weight": 458.673,
+"parent": null
+},
+"2NC": {
+"id": "2NC",
+"type": "peptide-like",
+"name": "N-{(2S)-2-[(N-acetyl-L-threonyl-L-isoleucyl)amino]hexyl}-L-norleucyl-L-glutaminyl-N~5~-[amino(iminio)methyl]-L-ornithinamide",
+"formula": "C35 H68 N11 O8",
+"formula_weight": 770.983,
+"parent": null
+},
+"2PB": {
+"id": "2PB",
+"type": "non-polymer",
+"name": "2-[(DIOXIDOPHOSPHINO)OXY]BENZOATE",
+"formula": "C7 H5 O5 P",
+"formula_weight": 200.085,
+"parent": null
+},
+"2PR": {
+"id": "2PR",
+"type": "DNA linking",
+"name": "2-AMINO-9-[2-DEOXYRIBOFURANOSYL]-9H-PURINE-5'-MONOPHOSPHATE",
+"formula": "C10 H14 N5 O6 P",
+"formula_weight": 331.222,
+"parent": [
+"DG"
+]
+},
+"2SX": {
+"id": "2SX",
+"type": "non-polymer",
+"name": "(5-bromo-1H-indol-3-yl)acetic acid",
+"formula": "C10 H8 Br N O2",
+"formula_weight": 254.08,
+"parent": null
+},
+"2ZS": {
+"id": "2ZS",
+"type": "peptide-like",
+"name": "N-(morpholin-4-ylcarbonyl)-L-phenylalanyl-N-[(1R,2S)-1-(cyclohexylmethyl)-2-hydroxy-3-(1-methylethoxy)-3-oxopropyl]-S-methyl-L-cysteinamide",
+"formula": "C31 H48 N4 O7 S",
+"formula_weight": 620.8,
+"parent": null
+},
+"30E": {
+"id": "30E",
+"type": "non-polymer",
+"name": "(3R,4R)-1-[3-amino-6-(3,4,5-trimethoxyphenyl)pyrazin-2-yl]-3-ethylpiperidine-4-carboxylic acid",
+"formula": "C21 H28 N4 O5",
+"formula_weight": 416.471,
+"parent": null
+},
+"334": {
+"id": "334",
+"type": "non-polymer",
+"name": "2-{5-[AMINO(IMINIO)METHYL]-1H-BENZIMIDAZOL-2-YL}-6-BROMO-4-METHYLBENZENOLATE",
+"formula": "C15 H13 Br N4 O",
+"formula_weight": 345.194,
+"parent": null
+},
+"342": {
+"id": "342",
+"type": "non-polymer",
+"name": "(3S)-1-(1,3-BENZODIOXOL-5-YLMETHYL)-3-[4-(1H-IMIDAZOL-1-YL)PHENOXY]PIPERIDINE",
+"formula": "C22 H23 N3 O3",
+"formula_weight": 377.436,
+"parent": null
+},
+"344": {
+"id": "344",
+"type": "non-polymer",
+"name": "6-AMINO-3,7-DIHYDRO-IMIDAZO[4,5-G]QUINAZOLIN-8-ONE",
+"formula": "C9 H7 N5 O",
+"formula_weight": 201.185,
+"parent": null
+},
+"393": {
+"id": "393",
+"type": "non-polymer",
+"name": "(5-CHLORO-2-{[(3-NITROBENZYL)AMINO]CARBONYL}PHENOXY)ACETIC ACID",
+"formula": "C16 H13 Cl N2 O6",
+"formula_weight": 364.737,
+"parent": null
+},
+"3B4": {
+"id": "3B4",
+"type": "non-polymer",
+"name": "2-(cyclohexylamino)benzoic acid",
+"formula": "C13 H17 N O2",
+"formula_weight": 219.28,
+"parent": null
+},
+"3FZ": {
+"id": "3FZ",
+"type": "non-polymer",
+"name": "3-formylbenzenecarboximidamide",
+"formula": "C8 H8 N2 O",
+"formula_weight": 148.162,
+"parent": null
+},
+"3GP": {
+"id": "3GP",
+"type": "non-polymer",
+"name": "GUANOSINE-3'-MONOPHOSPHATE",
+"formula": "C10 H14 N5 O8 P",
+"formula_weight": 363.221,
+"parent": null
+},
+"3PD": {
+"id": "3PD",
+"type": "non-polymer",
+"name": "2-AMINO-9-(2-DEOXY-3-O-PHOSPHONOPENTOFURANOSYL)-1,9-DIHYDRO-6H-PURIN-6-ONE",
+"formula": "C10 H14 N5 O7 P",
+"formula_weight": 347.221,
+"parent": null
+},
+"3TL": {
+"id": "3TL",
+"type": "peptide-like",
+"name": "benzyl [(1S,4S,7S,8R,9R,10S,13S,16S)-7,10-dibenzyl-8,9-dihydroxy-1,16-dimethyl-4,13-bis(1-methylethyl)-2,5,12,15,18-pentaoxo-20-phenyl-19-oxa-3,6,11,14,17-pentaazaicos-1-yl]carbamate",
+"formula": "C50 H64 N6 O10",
+"formula_weight": 909.077,
+"parent": null
+},
+"424": {
+"id": "424",
+"type": "non-polymer",
+"name": "(2S,4R)-1-[1-(4-chlorophenyl)cyclopropyl]carbonyl-4-(2-chlorophenyl)sulfonyl-N-[1-(iminomethyl)cyclopropyl]pyrrolidine-2-carboxamide",
+"formula": "C25 H25 Cl2 N3 O4 S",
+"formula_weight": 534.455,
+"parent": null
+},
+"4BC": {
+"id": "4BC",
+"type": "non-polymer",
+"name": "4-(1,3-BENZODIOXOL-5-YL)-5-(5-ETHYL-2,4-DIHYDROXYPHENYL)-2H-PYRAZOLE-3-CARBOXYLIC ACID",
+"formula": "C19 H16 N2 O6",
+"formula_weight": 368.34,
+"parent": null
+},
+"4BL": {
+"id": "4BL",
+"type": "non-polymer",
+"name": "6-methyl-1H-indole-2-carboxylic acid",
+"formula": "C10 H9 N O2",
+"formula_weight": 175.184,
+"parent": null
+},
+"4PA": {
+"id": "4PA",
+"type": "non-polymer",
+"name": "PROPYL ACETATE",
+"formula": "C5 H10 O2",
+"formula_weight": 102.132,
+"parent": null
+},
+"5AH": {
+"id": "5AH",
+"type": "non-polymer",
+"name": "METHYL [(1S)-1-({2-[(3S)-3-BENZYL-3-HYDROXY-4-{[(1S,2R)-2-HYDROXY-2,3-DIHYDRO-1H-INDEN-1-YL]AMINO}-4-OXOBUTYL]-2-(4-PYRIDIN-2-YLBENZYL)HYDRAZINO}CARBONYL)-2,2-DIMETHYLPROPYL]CARBAMATE",
+"formula": "C40 H47 N5 O6",
+"formula_weight": 693.831,
+"parent": null
+},
+"5BU": {
+"id": "5BU",
+"type": "RNA linking",
+"name": "5-BROMO-URIDINE-5'-MONOPHOSPHATE",
+"formula": "C9 H12 Br N2 O9 P",
+"formula_weight": 403.077,
+"parent": [
+"U"
+]
+},
+"5CM": {
+"id": "5CM",
+"type": "DNA linking",
+"name": "5-METHYL-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE",
+"formula": "C10 H16 N3 O7 P",
+"formula_weight": 321.224,
+"parent": [
+"DC"
+]
+},
+"5GP": {
+"id": "5GP",
+"type": "non-polymer",
+"name": "GUANOSINE-5'-MONOPHOSPHATE",
+"formula": "C10 H14 N5 O8 P",
+"formula_weight": 363.221,
+"parent": null
+},
+"5ID": {
+"id": "5ID",
+"type": "non-polymer",
+"name": "(2R,3R,4S,5R)-2-(4-AMINO-5-IODO-7H-PYRROLO[2,3-D]PYRIMIDIN-7-YL)-5-(HYDROXYMETHYL)TETRAHYDROFURAN-3,4-DIOL",
+"formula": "C11 H13 I N4 O4",
+"formula_weight": 392.15,
+"parent": null
+},
+"5OP": {
+"id": "5OP",
+"type": "non-polymer",
+"name": "(5E,13E)-11-HYDROXY-9,15-DIOXOPROSTA-5,13-DIEN-1-OIC ACID",
+"formula": "C20 H30 O5",
+"formula_weight": 350.449,
+"parent": null
+},
+"60P": {
+"id": "60P",
+"type": "non-polymer",
+"name": "3-methylthiophene-2-carboxylic acid",
+"formula": "C6 H6 O2 S",
+"formula_weight": 142.176,
+"parent": null
+},
+"656": {
+"id": "656",
+"type": "non-polymer",
+"name": "2-{5-[AMINO(IMINIO)METHYL]-1H-BENZIMIDAZOL-2-YL}-6-ISOBUTOXYBENZENOLATE",
+"formula": "C18 H20 N4 O2",
+"formula_weight": 324.377,
+"parent": null
+},
+"687": {
+"id": "687",
+"type": "non-polymer",
+"name": "N-ACETYL-N-[1-(1,1'-BIPHENYL-4-YLMETHYL)-2-OXOAZEPAN-3-YL]-3-FORMYL-O-PHOSPHONOTYROSINAMIDE",
+"formula": "C31 H34 N3 O8 P",
+"formula_weight": 607.591,
+"parent": null
+},
+"6CM": {
+"id": "6CM",
+"type": "non-polymer",
+"name": "N-((E,2S,3R)-1,3-DIHYDROXYOCTADEC-4-EN-2-YL)HEXANAMIDE",
+"formula": "C24 H47 N O3",
+"formula_weight": 397.635,
+"parent": null
+},
+"702": {
+"id": "702",
+"type": "non-polymer",
+"name": "(1R)-4-[3-(2-benzylphenoxy)phenyl]-1-phosphonobutane-1-sulfonic acid",
+"formula": "C23 H25 O7 P S",
+"formula_weight": 476.479,
+"parent": null
+},
+"709": {
+"id": "709",
+"type": "non-polymer",
+"name": "N-(7-CARBAMIMIDOYL-NAPHTHALEN-1-YL)-3-HYDROXY-2-METHYL-BENZAMIDE",
+"formula": "C19 H17 N3 O2",
+"formula_weight": 319.357,
+"parent": null
+},
+"710": {
+"id": "710",
+"type": "non-polymer",
+"name": "(5-{3-[5-(PIPERIDIN-1-YLMETHYL)-1H-INDOL-2-YL]-1H-INDAZOL-6-YL}-2H-1,2,3-TRIAZOL-4-YL)METHANOL",
+"formula": "C24 H25 N7 O",
+"formula_weight": 427.502,
+"parent": null
+},
+"762": {
+"id": "762",
+"type": "non-polymer",
+"name": "3-{5-[AMINO(IMINIO)METHYL]-6-CHLORO-1H-BENZIMIDAZOL-2-YL}-1,1'-BIPHENYL-2-OLATE",
+"formula": "C20 H15 Cl N4 O",
+"formula_weight": 362.812,
+"parent": null
+},
+"780": {
+"id": "780",
+"type": "non-polymer",
+"name": "3-{5-[AMINO(IMINIO)METHYL]-1H-BENZIMIDAZOL-2-YL}-1,1'-BIPHENYL-2-OLATE",
+"formula": "C20 H16 N4 O",
+"formula_weight": 328.367,
+"parent": null
+},
+"7CP": {
+"id": "7CP",
+"type": "non-polymer",
+"name": "(4R)-7,8-dichloro-1',9-dimethyl-1-oxo-1,2,4,9-tetrahydrospiro[beta-carboline-3,4'-piperidine]-4-carbonitrile",
+"formula": "C18 H18 Cl2 N4 O",
+"formula_weight": 377.268,
+"parent": null
+},
+"7ON": {
+"id": "7ON",
+"type": "non-polymer",
+"name": "Leritrelvir bound form",
+"formula": "C31 H46 F3 N5 O6",
+"formula_weight": 641.722,
+"parent": null
+},
+"821": {
+"id": "821",
+"type": "non-polymer",
+"name": "[4-((1Z)-2-(ACETYLAMINO)-3-{[1-(1,1'-BIPHENYL-4-YLMETHYL)-2-OXOAZEPAN-3-YL]AMINO}-3-OXOPROP-1-ENYL)-2-FORMYLPHENYL]ACET\nIC ACID",
+"formula": "C33 H33 N3 O6",
+"formula_weight": 567.632,
+"parent": null
+},
+"847": {
+"id": "847",
+"type": "non-polymer",
+"name": "2-(3-{5-[AMINO(IMINIO)METHYL]-1H-BENZIMIDAZOL-2-YL}-5-BROMO-4-OXIDOPHENYL)SUCCINATE",
+"formula": "C18 H13 Br N4 O5",
+"formula_weight": 445.224,
+"parent": null
+},
+"852": {
+"id": "852",
+"type": "non-polymer",
+"name": "2-{4-[2-ACETYLAMINO-2-(1-BIPHENYL-4-YLMETHYL-2-OXO-AZEPAN-3-YLCARBAMOYL)-ETHYL]-2-CARBOXY-PHENYL}-MALONIC ACID",
+"formula": "C34 H35 N3 O9",
+"formula_weight": 629.656,
+"parent": null
+},
+"878": {
+"id": "878",
+"type": "non-polymer",
+"name": "5-IODO-2-(OXALYL-AMINO)-BENZOIC ACID",
+"formula": "C9 H6 I N O5",
+"formula_weight": 335.052,
+"parent": null
+},
+"8P7": {
+"id": "8P7",
+"type": "non-polymer",
+"name": "2-methyl-1~{H}-benzimidazole",
+"formula": "C8 H8 N2",
+"formula_weight": 132.163,
+"parent": null
+},
+"9DA": {
+"id": "9DA",
+"type": "non-polymer",
+"name": "9-DEAZAADENINE",
+"formula": "C6 H6 N4",
+"formula_weight": 134.139,
+"parent": null
+},
+"9O9": {
+"id": "9O9",
+"type": "non-polymer",
+"name": "1-deoxy-1-(7,8-dimethyl-2,4-dioxo-3,4-dihydropyrimido[4,5-b]quinolin-10(2H)-yl)-5-O-phosphono-D-ribitol",
+"formula": "C18 H22 N3 O9 P",
+"formula_weight": 455.356,
+"parent": null
+},
+"A19": {
+"id": "A19",
+"type": "non-polymer",
+"name": "5-BROMO-2-{[(4-CHLOROPHENYL)SULFONYL]AMINO}BENZOIC ACID",
+"formula": "C13 H9 Br Cl N O4 S",
+"formula_weight": 390.637,
+"parent": null
+},
+"A3P": {
+"id": "A3P",
+"type": "RNA linking",
+"name": "ADENOSINE-3'-5'-DIPHOSPHATE",
+"formula": "C10 H15 N5 O10 P2",
+"formula_weight": 427.201,
+"parent": [
+"A"
+]
+},
+"AB3": {
+"id": "AB3",
+"type": "non-polymer",
+"name": "3-(4-AMINO-1-TERT-BUTYL-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL)PHENOL",
+"formula": "C15 H17 N5 O",
+"formula_weight": 283.328,
+"parent": null
+},
+"ABA": {
+"id": "ABA",
+"type": "L-peptide linking",
+"name": "ALPHA-AMINOBUTYRIC ACID",
+"formula": "C4 H9 N O2",
+"formula_weight": 103.12,
+"parent": [
+"ALA"
+]
+},
+"ABN": {
+"id": "ABN",
+"type": "non-polymer",
+"name": "BENZYLAMINE",
+"formula": "C7 H9 N",
+"formula_weight": 107.153,
+"parent": null
+},
+"ACA": {
+"id": "ACA",
+"type": "peptide linking",
+"name": "6-AMINOHEXANOIC ACID",
+"formula": "C6 H13 N O2",
+"formula_weight": 131.173,
+"parent": null
+},
+"ACE": {
+"id": "ACE",
+"type": "non-polymer",
+"name": "ACETYL GROUP",
+"formula": "C2 H4 O",
+"formula_weight": 44.053,
+"parent": null
+},
+"ACO": {
+"id": "ACO",
+"type": "non-polymer",
+"name": "ACETYL COENZYME *A",
+"formula": "C23 H38 N7 O17 P3 S",
+"formula_weight": 809.571,
+"parent": null
+},
+"ACP": {
+"id": "ACP",
+"type": "non-polymer",
+"name": "PHOSPHOMETHYLPHOSPHONIC ACID ADENYLATE ESTER",
+"formula": "C11 H18 N5 O12 P3",
+"formula_weight": 505.208,
+"parent": null
+},
+"ACV": {
+"id": "ACV",
+"type": "non-polymer",
+"name": "L-D-(A-AMINOADIPOYL)-L-CYSTEINYL-D-VALINE",
+"formula": "C14 H25 N3 O6 S",
+"formula_weight": 363.43,
+"parent": null
+},
+"ADA": {
+"id": "ADA",
+"type": "D-saccharide, alpha linking",
+"name": "alpha-D-galactopyranuronic acid",
+"formula": "C6 H10 O7",
+"formula_weight": 194.139,
+"parent": null
+},
+"ADE": {
+"id": "ADE",
+"type": "non-polymer",
+"name": "ADENINE",
+"formula": "C5 H5 N5",
+"formula_weight": 135.127,
+"parent": null
+},
+"ADI": {
+"id": "ADI",
+"type": "non-polymer",
+"name": "2',3'-DIDEOXYADENOSINE-5'-DIPHOSPHATE",
+"formula": "C10 H15 N5 O8 P2",
+"formula_weight": 395.202,
+"parent": [
+"A"
+]
+},
+"ADN": {
+"id": "ADN",
+"type": "non-polymer",
+"name": "ADENOSINE",
+"formula": "C10 H13 N5 O4",
+"formula_weight": 267.241,
+"parent": null
+},
+"ADP": {
+"id": "ADP",
+"type": "non-polymer",
+"name": "ADENOSINE-5'-DIPHOSPHATE",
+"formula": "C10 H15 N5 O10 P2",
+"formula_weight": 427.201,
+"parent": [
+"A"
+]
+},
+"AHE": {
+"id": "AHE",
+"type": "non-polymer",
+"name": "2-AMINO-4-[1-CARBOXYMETHYL-CARBAMOYL)-2-HYDROXYMETHYLSULFANYL-ETHYLCARBAMOYL]-BUTYRIC ACID",
+"formula": "C11 H19 N3 O7 S",
+"formula_weight": 337.349,
+"parent": null
+},
+"AIB": {
+"id": "AIB",
+"type": "L-peptide linking",
+"name": "ALPHA-AMINOISOBUTYRIC ACID",
+"formula": "C4 H9 N O2",
+"formula_weight": 103.12,
+"parent": [
+"ALA"
+]
+},
+"AIQ": {
+"id": "AIQ",
+"type": "non-polymer",
+"name": "2,6-DIAMINO-8-(1H-IMIDAZOL-2-YLSULFANYLMETHYL)-3H-QUINAZOLINE-4-ONE",
+"formula": "C12 H12 N6 O S",
+"formula_weight": 288.328,
+"parent": null
+},
+"AKC": {
+"id": "AKC",
+"type": "non-polymer",
+"name": "2-ETHOXYETHYL (1S,2S)-3-{(2S)-4-[(3AS,8S,8AR)-2-OXO-3,3A,8,8A-TETRAHYDRO-2H-INDENO[1,2-D][1,3]OXAZOL-8-YL]-2-BENZYL-3-OXO-2,3-DIHYDRO-1H-PYRROL-2-YL}-1-BENZYL-2-HYDROXYPROPYLCARBAMATE",
+"formula": "C36 H39 N3 O7",
+"formula_weight": 625.711,
+"parent": null
+},
+"AKG": {
+"id": "AKG",
+"type": "non-polymer",
+"name": "2-OXOGLUTARIC ACID",
+"formula": "C5 H6 O5",
+"formula_weight": 146.098,
+"parent": null
+},
+"ALA": {
+"id": "ALA",
+"type": "L-peptide linking",
+"name": "ALANINE",
+"formula": "C3 H7 N O2",
+"formula_weight": 89.093,
+"parent": null
+},
+"ALE": {
+"id": "ALE",
+"type": "non-polymer",
+"name": "L-EPINEPHRINE",
+"formula": "C9 H13 N O3",
+"formula_weight": 183.204,
+"parent": null
+},
+"ALF": {
+"id": "ALF",
+"type": "non-polymer",
+"name": "TETRAFLUOROALUMINATE ION",
+"formula": "Al F4",
+"formula_weight": 102.975,
+"parent": null
+},
+"AMI": {
+"id": "AMI",
+"type": "non-polymer",
+"name": "ALLOSAMIZOLINE",
+"formula": "C9 H16 N2 O4",
+"formula_weight": 216.234,
+"parent": null
+},
+"AMP": {
+"id": "AMP",
+"type": "non-polymer",
+"name": "ADENOSINE MONOPHOSPHATE",
+"formula": "C10 H14 N5 O7 P",
+"formula_weight": 347.221,
+"parent": null
+},
+"ANG": {
+"id": "ANG",
+"type": "non-polymer",
+"name": "8-AMINOGUANINE",
+"formula": "C5 H6 N6 O",
+"formula_weight": 166.141,
+"parent": null
+},
+"ANL": {
+"id": "ANL",
+"type": "non-polymer",
+"name": "ANILINE",
+"formula": "C6 H7 N",
+"formula_weight": 93.126,
+"parent": null
+},
+"ANP": {
+"id": "ANP",
+"type": "non-polymer",
+"name": "PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER",
+"formula": "C10 H17 N6 O12 P3",
+"formula_weight": 506.196,
+"parent": null
+},
+"AOP": {
+"id": "AOP",
+"type": "non-polymer",
+"name": "PENTYLOXYAMINO-ACETALDEHYDE",
+"formula": "C7 H15 N O2",
+"formula_weight": 145.199,
+"parent": null
+},
+"AP0": {
+"id": "AP0",
+"type": "non-polymer",
+"name": "ACETYL PYRIDINE ADENINE DINUCLEOTIDE, REDUCED",
+"formula": "C22 H30 N6 O14 P2",
+"formula_weight": 664.453,
+"parent": null
+},
+"AP5": {
+"id": "AP5",
+"type": "non-polymer",
+"name": "BIS(ADENOSINE)-5'-PENTAPHOSPHATE",
+"formula": "C20 H29 N10 O22 P5",
+"formula_weight": 916.367,
+"parent": null
+},
+"AS4": {
+"id": "AS4",
+"type": "non-polymer",
+"name": "ALDOSTERONE",
+"formula": "C21 H28 O5",
+"formula_weight": 360.444,
+"parent": null
+},
+"ASC": {
+"id": "ASC",
+"type": "L-saccharide",
+"name": "ASCORBIC ACID",
+"formula": "C6 H8 O6",
+"formula_weight": 176.124,
+"parent": null
+},
+"ASO": {
+"id": "ASO",
+"type": "D-saccharide",
+"name": "1,5-anhydro-D-glucitol",
+"formula": "C6 H12 O5",
+"formula_weight": 164.156,
+"parent": null
+},
+"ATM": {
+"id": "ATM",
+"type": "DNA linking",
+"name": "3'-AZIDO-3'-DEOXYTHYMIDINE-5'-MONOPHOSPHATE",
+"formula": "C10 H14 N5 O7 P",
+"formula_weight": 347.221,
+"parent": [
+"DT"
+]
+},
+"ATP": {
+"id": "ATP",
+"type": "non-polymer",
+"name": "ADENOSINE-5'-TRIPHOSPHATE",
+"formula": "C10 H16 N5 O13 P3",
+"formula_weight": 507.181,
+"parent": null
+},
+"AUC": {
+"id": "AUC",
+"type": "non-polymer",
+"name": "GOLD (I) CYANIDE ION",
+"formula": "C2 Au N2",
+"formula_weight": 249.001,
+"parent": null
+},
+"AZA": {
+"id": "AZA",
+"type": "non-polymer",
+"name": "8-AZAXANTHINE",
+"formula": "C4 H3 N5 O2",
+"formula_weight": 153.099,
+"parent": null
+},
+"AZR": {
+"id": "AZR",
+"type": "non-polymer",
+"name": "2-({[(1Z)-1-(2-amino-1,3-thiazol-4-yl)-2-oxo-2-{[(2S,3S)-1-oxo-3-(sulfoamino)butan-2-yl]amino}ethylidene]amino}oxy)-2-methylpropanoic acid",
+"formula": "C13 H19 N5 O8 S2",
+"formula_weight": 437.449,
+"parent": null
+},
+"B19": {
+"id": "B19",
+"type": "non-polymer",
+"name": "N-{[(3AS,5AR,8AR,8BS)-2,2,7,7-TETRAMETHYLTETRAHYDRO-3AH-BIS[1,3]DIOXOLO[4,5-B:4',5'-D]PYRAN-3A-YL]METHYL}SULFAMIDE",
+"formula": "C12 H22 N2 O7 S",
+"formula_weight": 338.377,
+"parent": null
+},
+"B3P": {
+"id": "B3P",
+"type": "non-polymer",
+"name": "2-[3-(2-HYDROXY-1,1-DIHYDROXYMETHYL-ETHYLAMINO)-PROPYLAMINO]-2-HYDROXYMETHYL-PROPANE-1,3-DIOL",
+"formula": "C11 H26 N2 O6",
+"formula_weight": 282.334,
+"parent": null
+},
+"B7M": {
+"id": "B7M",
+"type": "non-polymer",
+"name": "(10E,12Z)-hexadeca-10,12-dienal",
+"formula": "C16 H28 O",
+"formula_weight": 236.393,
+"parent": null
+},
+"B9M": {
+"id": "B9M",
+"type": "non-polymer",
+"name": "(10E)-hexadec-10-en-12-yn-1-ol",
+"formula": "C16 H28 O",
+"formula_weight": 236.393,
+"parent": null
+},
+"BAB": {
+"id": "BAB",
+"type": "non-polymer",
+"name": "BIS(5-AMIDINO-BENZIMIDAZOLYL)METHANE",
+"formula": "C17 H19 N8",
+"formula_weight": 335.386,
+"parent": null
+},
+"BAZ": {
+"id": "BAZ",
+"type": "non-polymer",
+"name": "BIS(5-AMIDINO-BENZIMIDAZOLYL)METHANE ZINC",
+"formula": "C17 H16 N8 Zn",
+"formula_weight": 397.772,
+"parent": null
+},
+"BB2": {
+"id": "BB2",
+"type": "non-polymer",
+"name": "ACTINONIN",
+"formula": "C19 H35 N3 O5",
+"formula_weight": 385.498,
+"parent": null
+},
+"BCL": {
+"id": "BCL",
+"type": "non-polymer",
+"name": "BACTERIOCHLOROPHYLL A",
+"formula": "C55 H74 Mg N4 O6",
+"formula_weight": 911.504,
+"parent": null
+},
+"BCN": {
+"id": "BCN",
+"type": "non-polymer",
+"name": "BICINE",
+"formula": "C6 H13 N O4",
+"formula_weight": 163.172,
+"parent": null
+},
+"BCT": {
+"id": "BCT",
+"type": "non-polymer",
+"name": "BICARBONATE ION",
+"formula": "C H O3",
+"formula_weight": 61.017,
+"parent": null
+},
+"BCV": {
+"id": "BCV",
+"type": "non-polymer",
+"name": "D-(L-A-AMINOADIPOYL)-L-CYSTEINYL-D-CYCLOPROPYLGLYCINE",
+"formula": "C14 H23 N3 O6 S",
+"formula_weight": 361.414,
+"parent": null
+},
+"BEF": {
+"id": "BEF",
+"type": "non-polymer",
+"name": "BERYLLIUM TRIFLUORIDE ION",
+"formula": "Be F3",
+"formula_weight": 66.007,
+"parent": null
+},
+"BEG": {
+"id": "BEG",
+"type": "non-polymer",
+"name": "2,5-DIBENZYLOXY-3-HYDROXY-HEXANEDIOIC ACID BIS-[(2-HYDROXY-INDAN-1-YL)-AMIDE]",
+"formula": "C38 H40 N2 O7",
+"formula_weight": 636.733,
+"parent": null
+},
+"BEN": {
+"id": "BEN",
+"type": "non-polymer",
+"name": "BENZAMIDINE",
+"formula": "C7 H8 N2",
+"formula_weight": 120.152,
+"parent": null
+},
+"BG6": {
+"id": "BG6",
+"type": "D-saccharide, beta linking",
+"name": "6-O-phosphono-beta-D-glucopyranose",
+"formula": "C6 H13 O9 P",
+"formula_weight": 260.136,
+"parent": [
+"BGC"
+]
+},
+"BGC": {
+"id": "BGC",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-glucopyranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"BHE": {
+"id": "BHE",
+"type": "non-polymer",
+"name": "octyl 2-O-(6-deoxy-alpha-L-galactopyranosyl)-beta-D-galactopyranoside",
+"formula": "C20 H38 O10",
+"formula_weight": 438.51,
+"parent": null
+},
+"BIK": {
+"id": "BIK",
+"type": "non-polymer",
+"name": "3,7-DIHYDROXY-2-NAPHTHOIC ACID",
+"formula": "C11 H8 O4",
+"formula_weight": 204.179,
+"parent": null
+},
+"BMA": {
+"id": "BMA",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-mannopyranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"BMP": {
+"id": "BMP",
+"type": "RNA linking",
+"name": "6-HYDROXYURIDINE-5'-PHOSPHATE",
+"formula": "C9 H13 N2 O10 P",
+"formula_weight": 340.181,
+"parent": null
+},
+"BOS": {
+"id": "BOS",
+"type": "non-polymer",
+"name": "N-[4-(AMINOSULFONYL)PHENYL]-2-MERCAPTOBENZAMIDE",
+"formula": "C13 H12 N2 O3 S2",
+"formula_weight": 308.376,
+"parent": null
+},
+"BPM": {
+"id": "BPM",
+"type": "non-polymer",
+"name": "4-PHOSPHONOOXY-PHENYL-METHYL-[4-PHOSPHONOOXY]BENZEN",
+"formula": "C13 H14 O8 P2",
+"formula_weight": 360.193,
+"parent": null
+},
+"BPY": {
+"id": "BPY",
+"type": "non-polymer",
+"name": "BIPHENYL-2,3-DIOL",
+"formula": "C12 H10 O2",
+"formula_weight": 186.207,
+"parent": null
+},
+"BQM": {
+"id": "BQM",
+"type": "non-polymer",
+"name": "3-({4-[(1E)-3-morpholin-4-yl-3-oxoprop-1-en-1-yl]-2,3-bis(trifluoromethyl)phenyl}sulfanyl)aniline",
+"formula": "C21 H18 F6 N2 O2 S",
+"formula_weight": 476.435,
+"parent": null
+},
+"BTN": {
+"id": "BTN",
+"type": "non-polymer",
+"name": "BIOTIN",
+"formula": "C10 H16 N2 O3 S",
+"formula_weight": 244.311,
+"parent": null
+},
+"BX3": {
+"id": "BX3",
+"type": "non-polymer",
+"name": "(+)-2-[4-[(-1-ACETIMIDOYL-4-PIPERIDINYL)OXY]-3-(7-AMIDINO-2-NAPHTHYL)PROPIONIC ACID",
+"formula": "C27 H30 N4 O3",
+"formula_weight": 458.552,
+"parent": null
+},
+"BZ8": {
+"id": "BZ8",
+"type": "non-polymer",
+"name": "4-CHLORO-6-[5-(4-ETHOXYPHENYL)-1,2,3-THIADIAZOL-4-YL BENZENE-1,3-DIOL",
+"formula": "C16 H13 Cl N2 O3 S",
+"formula_weight": 348.804,
+"parent": null
+},
+"C2P": {
+"id": "C2P",
+"type": "non-polymer",
+"name": "CYTIDINE-2'-MONOPHOSPHATE",
+"formula": "C9 H14 N3 O8 P",
+"formula_weight": 323.197,
+"parent": null
+},
+"CAS": {
+"id": "CAS",
+"type": "L-peptide linking",
+"name": "S-(DIMETHYLARSENIC)CYSTEINE",
+"formula": "C5 H12 As N O2 S",
+"formula_weight": 225.141,
+"parent": [
+"CYS"
+]
+},
+"CB8": {
+"id": "CB8",
+"type": "non-polymer",
+"name": "(1R,4S,5R)-3-(BENZO[B]THIOPHEN-2-YL)METHOXY-1,4,5-TRIHYDROXY-2-(THIEN-2-YL)METHYLCYCLOHEX-2-EN-1-CARBOXYLATE",
+"formula": "C21 H20 O6 S2",
+"formula_weight": 432.51,
+"parent": null
+},
+"CDP": {
+"id": "CDP",
+"type": "non-polymer",
+"name": "CYTIDINE-5'-DIPHOSPHATE",
+"formula": "C9 H15 N3 O11 P2",
+"formula_weight": 403.176,
+"parent": null
+},
+"CEI": {
+"id": "CEI",
+"type": "non-polymer",
+"name": "N-[3-BENZYL-5-(4-HYDROXYPHENYL)PYRAZIN-2-YL]-2-(4-HYDROXYPHENYL)ACETAMIDE",
+"formula": "C25 H21 N3 O3",
+"formula_weight": 411.453,
+"parent": null
+},
+"CF2": {
+"id": "CF2",
+"type": "non-polymer",
+"name": "2'-deoxy-5'-O-{[2-(7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl)ethyl]carbamoyl}guanosine",
+"formula": "C25 H26 N10 O7",
+"formula_weight": 578.537,
+"parent": null
+},
+"CGN": {
+"id": "CGN",
+"type": "non-polymer",
+"name": "5-OXO-PYRROLIDINE-2-CARBALDEHYDE",
+"formula": "C5 H7 N O2",
+"formula_weight": 113.115,
+"parent": null
+},
+"CGU": {
+"id": "CGU",
+"type": "L-peptide linking",
+"name": "GAMMA-CARBOXY-GLUTAMIC ACID",
+"formula": "C6 H9 N O6",
+"formula_weight": 191.139,
+"parent": [
+"GLU"
+]
+},
+"CM4": {
+"id": "CM4",
+"type": "non-polymer",
+"name": "(2R,3R,4S)-3-(4-HYDROXYPHENYL)-4-METHYL-2-[4-(2-PYRROLIDIN-1-YLETHOXY)PHENYL]CHROMAN-6-OL",
+"formula": "C28 H31 N O4",
+"formula_weight": 445.55,
+"parent": null
+},
+"CM7": {
+"id": "CM7",
+"type": "non-polymer",
+"name": "N-[(1S,2R)-1-benzyl-2-hydroxy-3-{[3-(trifluoromethyl)benzyl]amino}propyl]-7-ethyl-1-methyl-3,4-dihydro-1H-[1,2,5]thiadiazepino[3,4,5-hi]indole-9-carboxamide 2,2-dioxide",
+"formula": "C32 H35 F3 N4 O4 S",
+"formula_weight": 628.705,
+"parent": null
+},
+"CMO": {
+"id": "CMO",
+"type": "non-polymer",
+"name": "CARBON MONOXIDE",
+"formula": "C O",
+"formula_weight": 28.01,
+"parent": null
+},
+"CNN": {
+"id": "CNN",
+"type": "non-polymer",
+"name": "CYANAMIDE",
+"formula": "C H2 N2",
+"formula_weight": 42.04,
+"parent": null
+},
+"COA": {
+"id": "COA",
+"type": "non-polymer",
+"name": "COENZYME A",
+"formula": "C21 H36 N7 O16 P3 S",
+"formula_weight": 767.534,
+"parent": null
+},
+"COH": {
+"id": "COH",
+"type": "non-polymer",
+"name": "PROTOPORPHYRIN IX CONTAINING CO",
+"formula": "C34 H32 Co N4 O4",
+"formula_weight": 619.575,
+"parent": null
+},
+"CP6": {
+"id": "CP6",
+"type": "non-polymer",
+"name": "5-(4-CHLORO-PHENYL)-6-ETHYL-PYRIMIDINE-2,4-DIAMINE",
+"formula": "C12 H13 Cl N4",
+"formula_weight": 248.711,
+"parent": null
+},
+"CPQ": {
+"id": "CPQ",
+"type": "non-polymer",
+"name": "N,N-BIS(3-D-GLUCONAMIDOPROPYL)DEOXYCHOLAMIDE",
+"formula": "C42 H75 N3 O15",
+"formula_weight": 862.056,
+"parent": null
+},
+"CR3": {
+"id": "CR3",
+"type": "non-polymer",
+"name": "2-{5-[AMINO(IMINIO)METHYL]-1H-INDOL-2-YL}-6-(CYCLOPENTYLOXY)BENZENOLATE",
+"formula": "C20 H21 N3 O2",
+"formula_weight": 335.4,
+"parent": null
+},
+"CRO": {
+"id": "CRO",
+"type": "L-peptide linking",
+"name": "{2-[(1R,2R)-1-amino-2-hydroxypropyl]-4-(4-hydroxybenzylidene)-5-oxo-4,5-dihydro-1H-imidazol-1-yl}acetic acid",
+"formula": "C15 H17 N3 O5",
+"formula_weight": 319.313,
+"parent": [
+"THR",
+"TYR",
+"GLY"
+]
+},
+"CSX": {
+"id": "CSX",
+"type": "L-peptide linking",
+"name": "S-OXY CYSTEINE",
+"formula": "C3 H7 N O3 S",
+"formula_weight": 137.158,
+"parent": [
+"CYS"
+]
+},
+"CTZ": {
+"id": "CTZ",
+"type": "non-polymer",
+"name": "C2-HYDROXY-COELENTERAZINE",
+"formula": "C26 H21 N3 O4",
+"formula_weight": 439.463,
+"parent": null
+},
+"CUP": {
+"id": "CUP",
+"type": "non-polymer",
+"name": "(N-SALICYLIDEN-L-PHENYLALANATO)-COPPER(II)",
+"formula": "C16 H13 Cu N O3",
+"formula_weight": 330.825,
+"parent": null
+},
+"CXS": {
+"id": "CXS",
+"type": "non-polymer",
+"name": "3-CYCLOHEXYL-1-PROPYLSULFONIC ACID",
+"formula": "C9 H19 N O3 S",
+"formula_weight": 221.317,
+"parent": null
+},
+"CYH": {
+"id": "CYH",
+"type": "non-polymer",
+"name": "CYCLOHEXANONE",
+"formula": "C6 H10 O",
+"formula_weight": 98.143,
+"parent": null
+},
+"CYS": {
+"id": "CYS",
+"type": "L-peptide linking",
+"name": "CYSTEINE",
+"formula": "C3 H7 N O2 S",
+"formula_weight": 121.158,
+"parent": null
+},
+"CZH": {
+"id": "CZH",
+"type": "non-polymer",
+"name": "C2-HYDROPEROXY-COELENTERAZINE",
+"formula": "C26 H21 N3 O5",
+"formula_weight": 455.462,
+"parent": null
+},
+"D10": {
+"id": "D10",
+"type": "non-polymer",
+"name": "DECANE",
+"formula": "C10 H22",
+"formula_weight": 142.282,
+"parent": null
+},
+"DAL": {
+"id": "DAL",
+"type": "D-peptide linking",
+"name": "D-ALANINE",
+"formula": "C3 H7 N O2",
+"formula_weight": 89.093,
+"parent": null
+},
+"DAN": {
+"id": "DAN",
+"type": "D-saccharide",
+"name": "2-DEOXY-2,3-DEHYDRO-N-ACETYL-NEURAMINIC ACID",
+"formula": "C11 H17 N O8",
+"formula_weight": 291.255,
+"parent": null
+},
+"DAT": {
+"id": "DAT",
+"type": "non-polymer",
+"name": "2'-DEOXYADENOSINE-5'-DIPHOSPHATE",
+"formula": "C10 H15 N5 O9 P2",
+"formula_weight": 411.202,
+"parent": null
+},
+"DBG": {
+"id": "DBG",
+"type": "non-polymer",
+"name": "3-AMINOBENZOPHENONE-4-YL-AMINOHYDROXYPHOSPHINYLAMINOPHOSPHONIC ACID-GUANYLATE ESTER",
+"formula": "C23 H27 N8 O13 P3",
+"formula_weight": 716.428,
+"parent": null
+},
+"DEP": {
+"id": "DEP",
+"type": "non-polymer",
+"name": "DIETHYL PHOSPHONATE",
+"formula": "C4 H11 O3 P",
+"formula_weight": 138.102,
+"parent": null
+},
+"DGA": {
+"id": "DGA",
+"type": "non-polymer",
+"name": "DIACYL GLYCEROL",
+"formula": "C39 H76 O5",
+"formula_weight": 625.018,
+"parent": null
+},
+"DGD": {
+"id": "DGD",
+"type": "saccharide",
+"name": "DIGALACTOSYL DIACYL GLYCEROL (DGDG)",
+"formula": "C51 H96 O15",
+"formula_weight": 949.299,
+"parent": null
+},
+"DHT": {
+"id": "DHT",
+"type": "non-polymer",
+"name": "5-ALPHA-DIHYDROTESTOSTERONE",
+"formula": "C19 H30 O2",
+"formula_weight": 290.44,
+"parent": null
+},
+"DMP": {
+"id": "DMP",
+"type": "non-polymer",
+"name": "[4-R-(-4-ALPHA,5-ALPHA,6-BETA,7-BETA)]-HEXAHYDRO-5,6-BIS(HYDROXY)-[1,3-BIS([4-HYDROXYMETHYL-PHENYL]METHYL)-4,7-BIS(PHEN\nYLMETHYL)]-2H-1,3-DIAZEPINONE",
+"formula": "C35 H38 N2 O5",
+"formula_weight": 566.687,
+"parent": null
+},
+"DND": {
+"id": "DND",
+"type": "non-polymer",
+"name": "NICOTINIC ACID ADENINE DINUCLEOTIDE",
+"formula": "C21 H27 N6 O15 P2",
+"formula_weight": 665.418,
+"parent": null
+},
+"DNR": {
+"id": "DNR",
+"type": "DNA linking",
+"name": "2'-DEOXY-N3-PROTONATED CYTIDINE-5'-MONOPHOSPHATE",
+"formula": "C9 H15 N3 O7 P",
+"formula_weight": 308.205,
+"parent": [
+"DC"
+]
+},
+"DPN": {
+"id": "DPN",
+"type": "D-peptide linking",
+"name": "D-PHENYLALANINE",
+"formula": "C9 H11 N O2",
+"formula_weight": 165.189,
+"parent": null
+},
+"DPO": {
+"id": "DPO",
+"type": "non-polymer",
+"name": "DIPHOSPHATE",
+"formula": "O7 P2",
+"formula_weight": 173.943,
+"parent": null
+},
+"DQU": {
+"id": "DQU",
+"type": "non-polymer",
+"name": "2,6-DIAMINO-3H-QUINAZOLIN-4-ONE",
+"formula": "C8 H8 N4 O",
+"formula_weight": 176.175,
+"parent": null
+},
+"DRZ": {
+"id": "DRZ",
+"type": "DNA linking",
+"name": "3',4'-DIHYDROXY-PENTANAL-5'-PHOSPHATE",
+"formula": "C5 H11 O7 P",
+"formula_weight": 214.11,
+"parent": null
+},
+"DSD": {
+"id": "DSD",
+"type": "non-polymer",
+"name": "7-(CARBOXYAMINO)-8-AMINO-NONANOIC ACID",
+"formula": "C10 H20 N2 O4",
+"formula_weight": 232.277,
+"parent": null
+},
+"DSS": {
+"id": "DSS",
+"type": "non-polymer",
+"name": "METHYL METHYLSULFINYLMETHYL SULFIDE",
+"formula": "C3 H8 O S2",
+"formula_weight": 124.225,
+"parent": null
+},
+"DT5": {
+"id": "DT5",
+"type": "non-polymer",
+"name": "4-{[5-(CYCLOHEXYLOXY)[1,2,4]TRIAZOLO[1,5-A]PYRIMIDIN-7-YL]AMINO}BENZENESULFONAMIDE",
+"formula": "C17 H20 N6 O3 S",
+"formula_weight": 388.444,
+"parent": null
+},
+"DTA": {
+"id": "DTA",
+"type": "non-polymer",
+"name": "(2S,3S,4R,5R,2'S,3'S,4'R,5'R)-2,2'-[DITHIOBIS(METHYLENE)]BIS[5-(6-AMINO-9H-PURIN-9-YL)TETRAHYDROFURAN-3,4-DIOL]",
+"formula": "C20 H24 N10 O6 S2",
+"formula_weight": 564.598,
+"parent": null
+},
+"DUP": {
+"id": "DUP",
+"type": "non-polymer",
+"name": "2'-DEOXYURIDINE 5'-ALPHA,BETA-IMIDO-TRIPHOSPHATE",
+"formula": "C9 H16 N3 O13 P3",
+"formula_weight": 467.157,
+"parent": null
+},
+"DUR": {
+"id": "DUR",
+"type": "non-polymer",
+"name": "2'-DEOXYURIDINE",
+"formula": "C9 H12 N2 O5",
+"formula_weight": 228.202,
+"parent": null
+},
+"DXC": {
+"id": "DXC",
+"type": "non-polymer",
+"name": "(3ALPHA,5BETA,12ALPHA)-3,12-DIHYDROXYCHOLAN-24-OIC ACID",
+"formula": "C24 H40 O4",
+"formula_weight": 392.572,
+"parent": null
+},
+"DYB": {
+"id": "DYB",
+"type": "non-polymer",
+"name": "4-(1,3,2-DIOXABOROLAN-2-YLOXY)BUTAN-1-AMINIUM",
+"formula": "C6 H15 B N O3",
+"formula_weight": 159.999,
+"parent": null
+},
+"ENM": {
+"id": "ENM",
+"type": "non-polymer",
+"name": "(5S,8R,9S,10S,13R,14S,17S)-13-{2-[(3,5-DIFLUOROBENZYL)OXY]ETHYL}-17-HYDROXY-10-METHYLHEXADECAHYDRO-3H-CYCLOPENTA[A]PHENANTHREN-3-ONE",
+"formula": "C27 H36 F2 O3",
+"formula_weight": 446.57,
+"parent": null
+},
+"EST": {
+"id": "EST",
+"type": "non-polymer",
+"name": "ESTRADIOL",
+"formula": "C18 H24 O2",
+"formula_weight": 272.382,
+"parent": null
+},
+"ET": {
+"id": "ET",
+"type": "non-polymer",
+"name": "ETHIDIUM",
+"formula": "C21 H20 N3",
+"formula_weight": 314.404,
+"parent": null
+},
+"ETM": {
+"id": "ETM",
+"type": "non-polymer",
+"name": "2-(TRIMETHYLAMMONIUM)ETHYL THIOL",
+"formula": "C5 H14 N S",
+"formula_weight": 120.236,
+"parent": null
+},
+"ETN": {
+"id": "ETN",
+"type": "non-polymer",
+"name": "METHYLETHYLAMINE",
+"formula": "C3 H9 N",
+"formula_weight": 59.11,
+"parent": null
+},
+"ETS": {
+"id": "ETS",
+"type": "non-polymer",
+"name": "(4S-TRANS)-4-(ETHYLAMINO)-5,6-DIHYDRO-6-METHYL-4H-THIENO(2,3-B)THIOPYRAN-2-SULFONAMIDE-7,7-DIOXIDE",
+"formula": "C10 H16 N2 O4 S3",
+"formula_weight": 324.44,
+"parent": null
+},
+"F2B": {
+"id": "F2B",
+"type": "non-polymer",
+"name": "N-(2,3-DIFLUORO-BENZYL)-4-SULFAMOYL-BENZAMIDE",
+"formula": "C14 H12 F2 N2 O3 S",
+"formula_weight": 326.318,
+"parent": null
+},
+"F3F": {
+"id": "F3F",
+"type": "non-polymer",
+"name": "S-[5-(TRIFLUOROMETHYL)-4H-1,2,4-TRIAZOL-3-YL] 5-(PHENYLETHYNYL)FURAN-2-CARBOTHIOATE",
+"formula": "C16 H8 F3 N3 O2 S",
+"formula_weight": 363.314,
+"parent": null
+},
+"F3S": {
+"id": "F3S",
+"type": "non-polymer",
+"name": "FE3-S4 CLUSTER",
+"formula": "Fe3 S4",
+"formula_weight": 295.795,
+"parent": null
+},
+"F6P": {
+"id": "F6P",
+"type": "D-saccharide, beta linking",
+"name": "6-O-phosphono-beta-D-fructofuranose",
+"formula": "C6 H13 O9 P",
+"formula_weight": 260.136,
+"parent": [
+"FRU"
+]
+},
+"FAD": {
+"id": "FAD",
+"type": "non-polymer",
+"name": "FLAVIN-ADENINE DINUCLEOTIDE",
+"formula": "C27 H33 N9 O15 P2",
+"formula_weight": 785.55,
+"parent": null
+},
+"FAL": {
+"id": "FAL",
+"type": "non-polymer",
+"name": "(2R)-1-[4-({4-[(2,5-DICHLOROPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENOXY]-3-(DIMETHYLAMINO)PROPAN-2-OL",
+"formula": "C21 H23 Cl2 N5 O2",
+"formula_weight": 448.346,
+"parent": null
+},
+"FB2": {
+"id": "FB2",
+"type": "non-polymer",
+"name": "benzenesulfonamide",
+"formula": "C6 H7 N O2 S",
+"formula_weight": 157.19,
+"parent": null
+},
+"FBL": {
+"id": "FBL",
+"type": "non-polymer",
+"name": "(2S)-1-[4-({4-[(2,5-DICHLOROPHENYL)AMINO]PYRIMIDIN-2-YL}AMINO)PHENOXY]-3-(DIMETHYLAMINO)PROPAN-2-OL",
+"formula": "C21 H23 Cl2 N5 O2",
+"formula_weight": 448.346,
+"parent": null
+},
+"FBW": {
+"id": "FBW",
+"type": "non-polymer",
+"name": "3-fluorobenzenesulfonamide",
+"formula": "C6 H6 F N O2 S",
+"formula_weight": 175.181,
+"parent": null
+},
+"FDD": {
+"id": "FDD",
+"type": "non-polymer",
+"name": "FE(III) 2,4-DIMETHYL DEUTEROPORPHYRIN IX",
+"formula": "C32 H32 Fe N4 O4",
+"formula_weight": 592.466,
+"parent": null
+},
+"FDE": {
+"id": "FDE",
+"type": "non-polymer",
+"name": "FE(III) DEUTEROPORPHYRIN IX",
+"formula": "C30 H28 Fe N4 O4",
+"formula_weight": 564.413,
+"parent": null
+},
+"FES": {
+"id": "FES",
+"type": "non-polymer",
+"name": "FE2/S2 (INORGANIC) CLUSTER",
+"formula": "Fe2 S2",
+"formula_weight": 175.82,
+"parent": null
+},
+"FF3": {
+"id": "FF3",
+"type": "non-polymer",
+"name": "1-(5-AMINO-1,3,4-THIADIAZOL-2-YL)-1,1-DIFLUOROMETHANESULFONAMIDE",
+"formula": "C3 H4 F2 N4 O2 S2",
+"formula_weight": 230.216,
+"parent": null
+},
+"FFB": {
+"id": "FFB",
+"type": "non-polymer",
+"name": "N-(2,3,4,5,6-PENTAFLUORO-BENZYL)-4-SULFAMOYL-BENZAMIDE",
+"formula": "C14 H9 F5 N2 O3 S",
+"formula_weight": 380.29,
+"parent": null
+},
+"FHI": {
+"id": "FHI",
+"type": "non-polymer",
+"name": "2',4'-DIFLUORO-4-HYDROXY-5-IODO-1,1'-BIPHENYL-3-CARBOXYLIC ACID",
+"formula": "C13 H7 F2 I O3",
+"formula_weight": 376.094,
+"parent": null
+},
+"FHM": {
+"id": "FHM",
+"type": "non-polymer",
+"name": "S-3-(4-FLUOROPHENOXY)-2-HYDROXY-2-METHYL-N-[4-NITRO-3-(TRIFLUOROMETHYL)PHENYL]PROPANAMIDE",
+"formula": "C17 H14 F4 N2 O5",
+"formula_weight": 402.297,
+"parent": null
+},
+"FIS": {
+"id": "FIS",
+"type": "non-polymer",
+"name": "(2S,4R)-2-AMINOFORMYL-6-FLUORO-SPIRO[CHROMAN-4,4'-IMIDAZOLIDINE]-2',5'-DIONE",
+"formula": "C12 H10 F N3 O4",
+"formula_weight": 279.224,
+"parent": null
+},
+"FMN": {
+"id": "FMN",
+"type": "non-polymer",
+"name": "FLAVIN MONONUCLEOTIDE",
+"formula": "C17 H21 N4 O9 P",
+"formula_weight": 456.344,
+"parent": null
+},
+"FRU": {
+"id": "FRU",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-fructofuranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"FSB": {
+"id": "FSB",
+"type": "non-polymer",
+"name": "N-(2-FLUORO-BENZYL)-4-SULFAMOYL-BENZAMIDE",
+"formula": "C14 H13 F N2 O3 S",
+"formula_weight": 308.328,
+"parent": null
+},
+"FUC": {
+"id": "FUC",
+"type": "L-saccharide, alpha linking",
+"name": "alpha-L-fucopyranose",
+"formula": "C6 H12 O5",
+"formula_weight": 164.156,
+"parent": null
+},
+"FWD": {
+"id": "FWD",
+"type": "non-polymer",
+"name": "2-AMINO-3-(5-FLUORO-2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-PROPIONIC ACID",
+"formula": "C7 H8 F N3 O4",
+"formula_weight": 217.155,
+"parent": null
+},
+"G1P": {
+"id": "G1P",
+"type": "D-saccharide",
+"name": "1-O-phosphono-alpha-D-glucopyranose",
+"formula": "C6 H13 O9 P",
+"formula_weight": 260.136,
+"parent": [
+"GLC"
+]
+},
+"G28": {
+"id": "G28",
+"type": "L-saccharide",
+"name": "5-N-acetyl-4-amino-6-diethyl carboxamide-4,5-dihydro-2H-pyran-2-carboxylic acid",
+"formula": "C13 H21 N3 O5",
+"formula_weight": 299.323,
+"parent": null
+},
+"G4G": {
+"id": "G4G",
+"type": "non-polymer",
+"name": "4,4'-{(3S,4S)-PYRROLIDINE-3,4-DIYLBIS[(BENZYLIMINO)SULFONYL]}DIBENZAMIDE",
+"formula": "C32 H33 N5 O6 S2",
+"formula_weight": 647.764,
+"parent": null
+},
+"G6P": {
+"id": "G6P",
+"type": "D-saccharide, alpha linking",
+"name": "6-O-phosphono-alpha-D-glucopyranose",
+"formula": "C6 H13 O9 P",
+"formula_weight": 260.136,
+"parent": [
+"GLC"
+]
+},
+"GAL": {
+"id": "GAL",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-galactopyranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"GBS": {
+"id": "GBS",
+"type": "non-polymer",
+"name": "4-carbamimidamidobenzoic acid",
+"formula": "C8 H9 N3 O2",
+"formula_weight": 179.176,
+"parent": null
+},
+"GCP": {
+"id": "GCP",
+"type": "non-polymer",
+"name": "PHOSPHOMETHYLPHOSPHONIC ACID GUANYLATE ESTER",
+"formula": "C11 H18 N5 O13 P3",
+"formula_weight": 521.208,
+"parent": null
+},
+"GDP": {
+"id": "GDP",
+"type": "RNA linking",
+"name": "GUANOSINE-5'-DIPHOSPHATE",
+"formula": "C10 H15 N5 O11 P2",
+"formula_weight": 443.201,
+"parent": [
+"G"
+]
+},
+"GGZ": {
+"id": "GGZ",
+"type": "non-polymer",
+"name": "(2S,3AR,4R,6R,6AR)-4-(6-AMINO-9H-PURIN-9-YL)-6-({[(R)-HYDROXY(SULFOOXY)PHOSPHORYL]OXY}METHYL)TETRAHYDROFURO[3,4-D][1,3,2]DIOXAPHOSPHOL-2-OL 2-OXIDE",
+"formula": "C10 H13 N5 O12 P2 S",
+"formula_weight": 489.249,
+"parent": null
+},
+"GLC": {
+"id": "GLC",
+"type": "D-saccharide, alpha linking",
+"name": "alpha-D-glucopyranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"GLL": {
+"id": "GLL",
+"type": "non-polymer",
+"name": "GLYCOLURIL",
+"formula": "C4 H6 N4 O2",
+"formula_weight": 142.116,
+"parent": null
+},
+"GLY": {
+"id": "GLY",
+"type": "peptide linking",
+"name": "GLYCINE",
+"formula": "C2 H5 N O2",
+"formula_weight": 75.067,
+"parent": null
+},
+"GNP": {
+"id": "GNP",
+"type": "non-polymer",
+"name": "PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER",
+"formula": "C10 H17 N6 O13 P3",
+"formula_weight": 522.196,
+"parent": null
+},
+"GSH": {
+"id": "GSH",
+"type": "peptide-like",
+"name": "Glutathione",
+"formula": "C10 H17 N3 O6 S",
+"formula_weight": 307.323,
+"parent": null
+},
+"GUN": {
+"id": "GUN",
+"type": "non-polymer",
+"name": "GUANINE",
+"formula": "C5 H5 N5 O",
+"formula_weight": 151.126,
+"parent": null
+},
+"GYS": {
+"id": "GYS",
+"type": "L-peptide linking",
+"name": "[(4Z)-2-(1-AMINO-2-HYDROXYETHYL)-4-(4-HYDROXYBENZYLIDENE)-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETIC ACID",
+"formula": "C14 H15 N3 O5",
+"formula_weight": 305.286,
+"parent": [
+"SER",
+"TYR",
+"GLY"
+]
+},
+"H1D": {
+"id": "H1D",
+"type": "non-polymer",
+"name": "(2S)-2-AMINO-4-[(2R,3S)-2,3-DIHYDROXY-3-N-HYDROXYCARBAMOYL-PROPYLMERCAPTO]BUTYRIC ACID",
+"formula": "C8 H16 N2 O6 S",
+"formula_weight": 268.287,
+"parent": [
+"MET"
+]
+},
+"HCG": {
+"id": "HCG",
+"type": "non-polymer",
+"name": "DELTA-(L-ALPHA-AMINOADIPOYL)-L-CYSTEINYL-GLYCINE",
+"formula": "C11 H19 N3 O6 S",
+"formula_weight": 321.35,
+"parent": null
+},
+"HCO": {
+"id": "HCO",
+"type": "non-polymer",
+"name": "2-ACETYL-PROTOPORPHYRIN IX",
+"formula": "C34 H32 Fe N4 O5",
+"formula_weight": 632.487,
+"parent": null
+},
+"HEC": {
+"id": "HEC",
+"type": "non-polymer",
+"name": "HEME C",
+"formula": "C34 H36 Fe N4 O4",
+"formula_weight": 620.519,
+"parent": null
+},
+"HED": {
+"id": "HED",
+"type": "non-polymer",
+"name": "2-HYDROXYETHYL DISULFIDE",
+"formula": "C4 H10 O2 S2",
+"formula_weight": 154.251,
+"parent": null
+},
+"HEM": {
+"id": "HEM",
+"type": "non-polymer",
+"name": "PROTOPORPHYRIN IX CONTAINING FE",
+"formula": "C34 H32 Fe N4 O4",
+"formula_weight": 616.487,
+"parent": null
+},
+"HEX": {
+"id": "HEX",
+"type": "non-polymer",
+"name": "HEXANE",
+"formula": "C6 H14",
+"formula_weight": 86.175,
+"parent": null
+},
+"HGB": {
+"id": "HGB",
+"type": "non-polymer",
+"name": "4-(HYDROXYMERCURY)BENZOIC ACID",
+"formula": "C7 H6 Hg O3",
+"formula_weight": 338.711,
+"parent": null
+},
+"HI1": {
+"id": "HI1",
+"type": "non-polymer",
+"name": "METHYL [(1S)-1-({2-[(4R)-4-BENZYL-4-HYDROXY-5-{[(1S,2R)-2-HYDROXY-2,3-DIHYDRO-1H-INDEN-1-YL]AMINO}-5-OXOPENTYL]-2-(4-BROMOBENZYL)HYDRAZINO}CARBONYL)-2,2-DIMETHYLPROPYL]CARBAMATE ",
+"formula": "C36 H45 Br N4 O6",
+"formula_weight": 709.67,
+"parent": null
+},
+"HKL": {
+"id": "HKL",
+"type": "non-polymer",
+"name": "Fe(III) pyropheophorbide-a methyl ester",
+"formula": "C34 H34 Fe N4 O3",
+"formula_weight": 602.504,
+"parent": null
+},
+"HLE": {
+"id": "HLE",
+"type": "non-polymer",
+"name": "3-FORMYL-2-HYDROXY-5-METHYL-HEXANOIC ACID HYDROXYAMIDE",
+"formula": "C8 H15 N O4",
+"formula_weight": 189.209,
+"parent": null
+},
+"HOA": {
+"id": "HOA",
+"type": "non-polymer",
+"name": "HYDROXYAMINE",
+"formula": "H3 N O",
+"formula_weight": 33.03,
+"parent": null
+},
+"HOH": {
+"id": "HOH",
+"type": "non-polymer",
+"name": "WATER",
+"formula": "H2 O",
+"formula_weight": 18.015,
+"parent": null
+},
+"HPO": {
+"id": "HPO",
+"type": "non-polymer",
+"name": "2-OXOHEPTYLPHOSPHONIC ACID",
+"formula": "C7 H15 O4 P",
+"formula_weight": 194.165,
+"parent": null
+},
+"HSM": {
+"id": "HSM",
+"type": "non-polymer",
+"name": "HISTAMINE",
+"formula": "C5 H9 N3",
+"formula_weight": 111.145,
+"parent": null
+},
+"I3S": {
+"id": "I3S",
+"type": "non-polymer",
+"name": "(1S,3S,4S)-1,3,4-TRIPHOSPHO-MYO-INOSITOL",
+"formula": "C6 H15 O15 P3",
+"formula_weight": 420.096,
+"parent": null
+},
+"I7A": {
+"id": "I7A",
+"type": "non-polymer",
+"name": "4,5-DICHLOROBENZENE-1,3-DISULFONAMIDE",
+"formula": "C6 H6 Cl2 N2 O4 S2",
+"formula_weight": 305.159,
+"parent": null
+},
+"I7C": {
+"id": "I7C",
+"type": "non-polymer",
+"name": "4-AMINO-6-(TRIFLUOROMETHYL)BENZENE-1,3-DISULFONAMIDE",
+"formula": "C7 H8 F3 N3 O4 S2",
+"formula_weight": 319.281,
+"parent": null
+},
+"IAS": {
+"id": "IAS",
+"type": "L-beta-peptide, C-gamma linking",
+"name": "BETA-L-ASPARTIC ACID",
+"formula": "C4 H7 N O4",
+"formula_weight": 133.103,
+"parent": null
+},
+"ICO": {
+"id": "ICO",
+"type": "non-polymer",
+"name": "1H-INDOLE-3-CARBOXYLIC ACID",
+"formula": "C9 H7 N O2",
+"formula_weight": 161.157,
+"parent": null
+},
+"IM2": {
+"id": "IM2",
+"type": "non-polymer",
+"name": "(5R)-5-[(1S,2R)-1-formyl-2-hydroxypropyl]-3-[(2-{[(E)-iminomethyl]amino}ethyl)sulfanyl]-4,5-dihydro-1H-pyrrole-2-carbox\nylic acid",
+"formula": "C12 H19 N3 O4 S",
+"formula_weight": 301.362,
+"parent": null
+},
+"IME": {
+"id": "IME",
+"type": "non-polymer",
+"name": "TETRA(IMIDAZOLE)DIAQUACOPPER (II)",
+"formula": "C12 H16 Cu N8 O2",
+"formula_weight": 367.854,
+"parent": null
+},
+"IMF": {
+"id": "IMF",
+"type": "non-polymer",
+"name": "TETRA(IMIDAZOLE)DIAQUACOPPER (I)",
+"formula": "C12 H20 Cu N8 O2",
+"formula_weight": 371.886,
+"parent": null
+},
+"IMI": {
+"id": "IMI",
+"type": "non-polymer",
+"name": "2-IMINOBIOTIN",
+"formula": "C10 H17 N3 O2 S",
+"formula_weight": 243.326,
+"parent": null
+},
+"IN9": {
+"id": "IN9",
+"type": "non-polymer",
+"name": "2-[3-(5-MERCAPTO-[1,3,4]THIADIAZOL-2YL)-UREIDO]-N-METHYL-3-PENTAFLUOROPHENYL-PROPIONAMIDE",
+"formula": "C13 H10 F5 N5 O2 S2",
+"formula_weight": 427.373,
+"parent": null
+},
+"IOA": {
+"id": "IOA",
+"type": "non-polymer",
+"name": "4-(AMINOSULFONYL)-N-[(2,5-DIFLUOROPHENYL)METHYL]-BENZAMIDE",
+"formula": "C14 H12 F2 N2 O3 S",
+"formula_weight": 326.318,
+"parent": null
+},
+"IPE": {
+"id": "IPE",
+"type": "non-polymer",
+"name": "3-METHYLBUT-3-ENYL TRIHYDROGEN DIPHOSPHATE",
+"formula": "C5 H12 O7 P2",
+"formula_weight": 246.092,
+"parent": null
+},
+"IYR": {
+"id": "IYR",
+"type": "L-peptide linking",
+"name": "3-IODO-TYROSINE",
+"formula": "C9 H10 I N O3",
+"formula_weight": 307.085,
+"parent": [
+"TYR"
+]
+},
+"J54": {
+"id": "J54",
+"type": "non-polymer",
+"name": "(2R)-3-{[(BENZYLAMINO)CARBONYL]AMINO}-2-HYDROXYPROPANOIC ACID",
+"formula": "C11 H14 N2 O4",
+"formula_weight": 238.24,
+"parent": null
+},
+"J60": {
+"id": "J60",
+"type": "non-polymer",
+"name": "5-[(E)-(5-CHLORO-2-OXO-1,2-DIHYDRO-3H-INDOL-3-YLIDENE)METHYL]-N-[2-(DIETHYLAMINO)ETHYL]-2,4-DIMETHYL-1H-PYRROLE-3-CARBOXAMIDE",
+"formula": "C22 H27 Cl N4 O2",
+"formula_weight": 414.928,
+"parent": null
+},
+"JGY": {
+"id": "JGY",
+"type": "non-polymer",
+"name": "1-methyl-N-{[(2S)-oxolan-2-yl]methyl}-1H-pyrazole-3-carboxamide",
+"formula": "C10 H15 N3 O2",
+"formula_weight": 209.245,
+"parent": null
+},
+"JW5": {
+"id": "JW5",
+"type": "RNA linking",
+"name": "6-(HYDROXYMETHYL)URIDINE 5'-(DIHYDROGEN PHOSPHATE)",
+"formula": "C10 H15 N2 O10 P",
+"formula_weight": 354.207,
+"parent": null
+},
+"K10": {
+"id": "K10",
+"type": "non-polymer",
+"name": "1-TERT-BUTYL-3-(2,5-DIMETHYLBENZYL)-1H-PYRAZOLO[3,4-D]PYRIMIDIN-4-AMINE",
+"formula": "C18 H23 N5",
+"formula_weight": 309.409,
+"parent": null
+},
+"KAI": {
+"id": "KAI",
+"type": "non-polymer",
+"name": "3-(CARBOXYMETHYL)-4-ISOPROPENYLPROLINE",
+"formula": "C10 H15 N O4",
+"formula_weight": 213.23,
+"parent": null
+},
+"LEU": {
+"id": "LEU",
+"type": "L-peptide linking",
+"name": "LEUCINE",
+"formula": "C6 H13 N O2",
+"formula_weight": 131.173,
+"parent": null
+},
+"LGA": {
+"id": "LGA",
+"type": "non-polymer",
+"name": "PYRIMIDIN-2-AMINE",
+"formula": "C4 H5 N3",
+"formula_weight": 95.103,
+"parent": null
+},
+"LI9": {
+"id": "LI9",
+"type": "non-polymer",
+"name": "4-(4-FLUOROPHENYL)-1-METHYL-5-(2-{[(1S)-1-PHENYLETHYL]AMINO}PYRIMIDIN-4-YL)-2-PIPERIDIN-4-YL-1,2-DIHYDRO-3H-PYRAZOL-3-ONE",
+"formula": "C27 H29 F N6 O",
+"formula_weight": 472.557,
+"parent": null
+},
+"LIT": {
+"id": "LIT",
+"type": "non-polymer",
+"name": "{[5-(5-NITRO-2-FURYL)-1,3,4-OXADIAZOL-2-YL]THIO}ACETIC ACID",
+"formula": "C8 H5 N3 O6 S",
+"formula_weight": 271.207,
+"parent": null
+},
+"LP3": {
+"id": "LP3",
+"type": "non-polymer",
+"name": "(7R)-4,7-DIHYDROXY-N,N,N-TRIMETHYL-10-OXO-3,5,9-TRIOXA-4-PHOSPHAHEPTACOSAN-1-AMINIUM 4-OXIDE",
+"formula": "C26 H55 N O7 P",
+"formula_weight": 524.691,
+"parent": null
+},
+"LTV": {
+"id": "LTV",
+"type": "non-polymer",
+"name": "2-hydroxy-3-(octadecanoyloxy)propyl pentacosanoate",
+"formula": "C46 H90 O5",
+"formula_weight": 723.204,
+"parent": null
+},
+"LVF": {
+"id": "LVF",
+"type": "non-polymer",
+"name": "2-(5-chloranyl-1H-indol-3-yl)ethanenitrile",
+"formula": "C10 H7 Cl N2",
+"formula_weight": 190.629,
+"parent": null
+},
+"LXC": {
+"id": "LXC",
+"type": "L-saccharide, beta linking",
+"name": "beta-L-xylopyranose",
+"formula": "C5 H10 O5",
+"formula_weight": 150.13,
+"parent": null
+},
+"LYS": {
+"id": "LYS",
+"type": "L-peptide linking",
+"name": "LYSINE",
+"formula": "C6 H15 N2 O2",
+"formula_weight": 147.195,
+"parent": null
+},
+"LZE": {
+"id": "LZE",
+"type": "non-polymer",
+"name": "4-{[(2,6-dichlorophenyl)carbonyl]amino}-N-piperidin-4-yl-1H-pyrazole-3-carboxamide",
+"formula": "C16 H17 Cl2 N5 O2",
+"formula_weight": 382.244,
+"parent": null
+},
+"M25": {
+"id": "M25",
+"type": "non-polymer",
+"name": "N-{2-[4-(AMINOSULFONYL)PHENYL]ETHYL}ACETAMIDE",
+"formula": "C10 H14 N2 O3 S",
+"formula_weight": 242.295,
+"parent": null
+},
+"M29": {
+"id": "M29",
+"type": "non-polymer",
+"name": "ETHYL 3-[4-(AMINOSULFONYL)PHENYL]PROPANOATE",
+"formula": "C11 H15 N O4 S",
+"formula_weight": 257.306,
+"parent": null
+},
+"M6P": {
+"id": "M6P",
+"type": "D-saccharide, alpha linking",
+"name": "6-O-phosphono-alpha-D-mannopyranose",
+"formula": "C6 H13 O9 P",
+"formula_weight": 260.136,
+"parent": [
+"MAN"
+]
+},
+"MAN": {
+"id": "MAN",
+"type": "D-saccharide, alpha linking",
+"name": "alpha-D-mannopyranose",
+"formula": "C6 H12 O6",
+"formula_weight": 180.156,
+"parent": null
+},
+"MBO": {
+"id": "MBO",
+"type": "non-polymer",
+"name": "MERCURIBENZOIC ACID",
+"formula": "C7 H5 Hg O2",
+"formula_weight": 321.703,
+"parent": null
+},
+"MCZ": {
+"id": "MCZ",
+"type": "non-polymer",
+"name": "(1S,3R,5Z,7E,14beta,17alpha,20S)-20-(3-hydroxy-3-methylbutoxy)-9,10-secopregna-5,7,10-triene-1,3-diol",
+"formula": "C26 H42 O4",
+"formula_weight": 418.609,
+"parent": null
+},
+"MEE": {
+"id": "MEE",
+"type": "non-polymer",
+"name": "METHANETHIOL",
+"formula": "C H4 S",
+"formula_weight": 48.107,
+"parent": null
+},
+"MET": {
+"id": "MET",
+"type": "L-peptide linking",
+"name": "METHIONINE",
+"formula": "C5 H11 N O2 S",
+"formula_weight": 149.211,
+"parent": null
+},
+"MFU": {
+"id": "MFU",
+"type": "L-saccharide",
+"name": "methyl alpha-L-fucopyranoside",
+"formula": "C7 H14 O5",
+"formula_weight": 178.183,
+"parent": [
+"FUC"
+]
+},
+"MHA": {
+"id": "MHA",
+"type": "non-polymer",
+"name": "(CARBAMOYLMETHYL-CARBOXYMETHYL-AMINO)-ACETIC ACID",
+"formula": "C6 H10 N2 O5",
+"formula_weight": 190.154,
+"parent": null
+},
+"MHO": {
+"id": "MHO",
+"type": "L-peptide linking",
+"name": "S-OXYMETHIONINE",
+"formula": "C5 H11 N O3 S",
+"formula_weight": 165.211,
+"parent": [
+"MET"
+]
+},
+"MIS": {
+"id": "MIS",
+"type": "L-peptide linking",
+"name": "MONOISOPROPYLPHOSPHORYLSERINE",
+"formula": "C6 H14 N O6 P",
+"formula_weight": 227.152,
+"parent": [
+"SER"
+]
+},
+"MJI": {
+"id": "MJI",
+"type": "non-polymer",
+"name": "1-HEXADECYL-3-TRIFLUOROETHYL-SN-GLYCERO-2-PHOSPHATE METHANE",
+"formula": "C22 H44 F3 O6 P",
+"formula_weight": 492.55,
+"parent": null
+},
+"MK1": {
+"id": "MK1",
+"type": "non-polymer",
+"name": "N-[2(R)-HYDROXY-1(S)-INDANYL]-5-[(2(S)-TERTIARY\nBUTYLAMINOCARBONYL)-4(3-PYRIDYLMETHYL)PIPERAZINO]-4(S)-HYDROXY-2(R)-PHENYLMETHYLPENTANAMIDE",
+"formula": "C36 H47 N5 O4",
+"formula_weight": 613.789,
+"parent": null
+},
+"MMC": {
+"id": "MMC",
+"type": "non-polymer",
+"name": "METHYL MERCURY ION",
+"formula": "C H3 Hg",
+"formula_weight": 215.625,
+"parent": null
+},
+"MNA": {
+"id": "MNA",
+"type": "D-saccharide",
+"name": "2-O-methyl-5-N-acetyl-alpha-D-neuraminic acid",
+"formula": "C12 H21 N O9",
+"formula_weight": 323.296,
+"parent": [
+"SIA"
+]
+},
+"MNR": {
+"id": "MNR",
+"type": "non-polymer",
+"name": "PROTOPORPHYRIN IX CONTAINING MN",
+"formula": "C34 H32 Mn N4 O4",
+"formula_weight": 615.58,
+"parent": null
+},
+"MNX": {
+"id": "MNX",
+"type": "non-polymer",
+"name": "1,8-DI-HYDROXY-4-NITRO-XANTHEN-9-ONE",
+"formula": "C13 H7 N O6",
+"formula_weight": 273.198,
+"parent": null
+},
+"MPJ": {
+"id": "MPJ",
+"type": "L-peptide linking",
+"name": "(1-AMINO-3-METHYLSULFANYL-PROPYL)-PHOSPHINIC ACID",
+"formula": "C4 H12 N O2 P S",
+"formula_weight": 169.182,
+"parent": null
+},
+"MPO": {
+"id": "MPO",
+"type": "non-polymer",
+"name": "3[N-MORPHOLINO]PROPANE SULFONIC ACID",
+"formula": "C7 H15 N O4 S",
+"formula_weight": 209.263,
+"parent": null
+},
+"MSC": {
+"id": "MSC",
+"type": "non-polymer",
+"name": "2,5-DIBENZYLOXY-3,4-DIHYDROXY-HEXANEDIOIC ACID 2-CHLORO-6-FLUORO-BENZYLAMIDE (2-HYDROXY-INDAN-1- YL)-AMIDE",
+"formula": "C36 H36 Cl F N2 O7",
+"formula_weight": 663.132,
+"parent": null
+},
+"MSE": {
+"id": "MSE",
+"type": "L-peptide linking",
+"name": "SELENOMETHIONINE",
+"formula": "C5 H11 N O2 Se",
+"formula_weight": 196.106,
+"parent": [
+"MET"
+]
+},
+"MT0": {
+"id": "MT0",
+"type": "non-polymer",
+"name": "1-CHLORO-4-METHYLPHTHALAZINE",
+"formula": "C9 H7 Cl N2",
+"formula_weight": 178.618,
+"parent": null
+},
+"MXE": {
+"id": "MXE",
+"type": "non-polymer",
+"name": "2-METHOXYETHANOL",
+"formula": "C3 H8 O2",
+"formula_weight": 76.094,
+"parent": null
+},
+"MYA": {
+"id": "MYA",
+"type": "non-polymer",
+"name": "TETRADECANOYL-COA",
+"formula": "C35 H62 N7 O17 P3 S",
+"formula_weight": 977.89,
+"parent": null
+},
+"MZ2": {
+"id": "MZ2",
+"type": "non-polymer",
+"name": "(2E)-N-[(1S,2R)-1-BENZYL-2-HYDROXY-3-{(2-THIENYLMETHYL)[(2,4,5-TRIFLUOROPHENYL)SULFONYL]AMINO}PROPYL]-4,4,4-TRIFLUORO-3-METHYLBUT-2-ENAMIDE",
+"formula": "C26 H24 F6 N2 O4 S2",
+"formula_weight": 606.6,
+"parent": null
+},
+"N2O": {
+"id": "N2O",
+"type": "non-polymer",
+"name": "NITROUS OXIDE",
+"formula": "N2 O",
+"formula_weight": 44.013,
+"parent": null
+},
+"N3E": {
+"id": "N3E",
+"type": "non-polymer",
+"name": "1-[3-(4-CARBOXYPIPERIDIN-1-YL)-3-DEOXY-BETA-D-ARABINOFURANOSYL]PYRIMIDINE-2,4(1H,3H)-DIONE",
+"formula": "C15 H21 N3 O7",
+"formula_weight": 355.343,
+"parent": null
+},
+"NAA": {
+"id": "NAA",
+"type": "D-saccharide, beta linking",
+"name": "2-acetamido-2-deoxy-beta-D-allopyranose",
+"formula": "C8 H15 N O6",
+"formula_weight": 221.208,
+"parent": null
+},
+"NAD": {
+"id": "NAD",
+"type": "non-polymer",
+"name": "NICOTINAMIDE-ADENINE-DINUCLEOTIDE",
+"formula": "C21 H27 N7 O14 P2",
+"formula_weight": 663.425,
+"parent": null
+},
+"NAG": {
+"id": "NAG",
+"type": "D-saccharide, beta linking",
+"name": "2-acetamido-2-deoxy-beta-D-glucopyranose",
+"formula": "C8 H15 N O6",
+"formula_weight": 221.208,
+"parent": null
+},
+"NAI": {
+"id": "NAI",
+"type": "non-polymer",
+"name": "1,4-DIHYDRONICOTINAMIDE ADENINE DINUCLEOTIDE",
+"formula": "C21 H29 N7 O14 P2",
+"formula_weight": 665.441,
+"parent": null
+},
+"NAP": {
+"id": "NAP",
+"type": "non-polymer",
+"name": "NADP NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE",
+"formula": "C21 H28 N7 O17 P3",
+"formula_weight": 743.405,
+"parent": null
+},
+"NCA": {
+"id": "NCA",
+"type": "non-polymer",
+"name": "NICOTINAMIDE",
+"formula": "C6 H6 N2 O",
+"formula_weight": 122.125,
+"parent": null
+},
+"NDC": {
+"id": "NDC",
+"type": "non-polymer",
+"name": "NICOTINAMIDE ADENINE DINUCLEOTIDE CYCLOHEXANONE",
+"formula": "C27 H35 N7 O15 P2",
+"formula_weight": 759.552,
+"parent": null
+},
+"NDG": {
+"id": "NDG",
+"type": "D-saccharide, alpha linking",
+"name": "2-acetamido-2-deoxy-alpha-D-glucopyranose",
+"formula": "C8 H15 N O6",
+"formula_weight": 221.208,
+"parent": null
+},
+"NDP": {
+"id": "NDP",
+"type": "non-polymer",
+"name": "NADPH DIHYDRO-NICOTINAMIDE-ADENINE-DINUCLEOTIDE PHOSPHATE",
+"formula": "C21 H30 N7 O17 P3",
+"formula_weight": 745.421,
+"parent": null
+},
+"NDZ": {
+"id": "NDZ",
+"type": "non-polymer",
+"name": "(2R,3aR,6R,7R,7aR)-2-[(2S)-2-amino-2-carboxyethyl]-6,7-dihydroxyhexahydro-2H-furo[3,2-b]pyran-2-carboxylic acid",
+"formula": "C11 H17 N O8",
+"formula_weight": 291.255,
+"parent": null
+},
+"NFL": {
+"id": "NFL",
+"type": "non-polymer",
+"name": "2-{[3-(TRIFLUOROMETHYL)PHENYL]AMINO}NICOTINIC ACID",
+"formula": "C13 H9 F3 N2 O2",
+"formula_weight": 282.218,
+"parent": null
+},
+"NGV": {
+"id": "NGV",
+"type": "non-polymer",
+"name": "METHYL 5,7-DIHYDROXY-2-METHYL-4,6,11-TRIOXO-3,4,6,11-TETRAHYDROTETRACENE-1-CARBOXYLATE",
+"formula": "C21 H14 O7",
+"formula_weight": 378.332,
+"parent": null
+},
+"NLG": {
+"id": "NLG",
+"type": "non-polymer",
+"name": "N-ACETYL-L-GLUTAMATE",
+"formula": "C7 H11 N O5",
+"formula_weight": 189.166,
+"parent": null
+},
+"NNR": {
+"id": "NNR",
+"type": "non-polymer",
+"name": "Nicotinamide riboside",
+"formula": "C11 H15 N2 O5",
+"formula_weight": 255.247,
+"parent": null
+},
+"NO": {
+"id": "NO",
+"type": "non-polymer",
+"name": "NITRIC OXIDE",
+"formula": "N O",
+"formula_weight": 30.006,
+"parent": null
+},
+"NPO": {
+"id": "NPO",
+"type": "non-polymer",
+"name": "P-NITROPHENOL",
+"formula": "C6 H5 N O3",
+"formula_weight": 139.109,
+"parent": null
+},
+"O04": {
+"id": "O04",
+"type": "non-polymer",
+"name": "(E)-4-((tetrahydro-2H-pyran-2-yloxyimino)methyl)benzimidamide",
+"formula": "C13 H17 N3 O2",
+"formula_weight": 247.293,
+"parent": null
+},
+"O15": {
+"id": "O15",
+"type": "non-polymer",
+"name": "(E)-2-(4-carbamimidoylbenzylideneaminooxy)-2-methylpropanoic acid",
+"formula": "C12 H15 N3 O3",
+"formula_weight": 249.266,
+"parent": null
+},
+"OAA": {
+"id": "OAA",
+"type": "non-polymer",
+"name": "OXALOACETATE ION",
+"formula": "C4 H3 O5",
+"formula_weight": 131.064,
+"parent": null
+},
+"OCV": {
+"id": "OCV",
+"type": "non-polymer",
+"name": "N6-[(1R)-2-{[(1R)-1-CARBOXY-2-METHYLPROPYL]OXY}-1-(MERCAPTOMETHYL)-2-OXOETHYL]-6-OXO-D-LYSINE",
+"formula": "C14 H24 N2 O7 S",
+"formula_weight": 364.415,
+"parent": null
+},
+"OFL": {
+"id": "OFL",
+"type": "non-polymer",
+"name": "O-TRIFLUOROMETHYLPHENYL ANTHRANILIC ACID",
+"formula": "C14 H10 F3 N O2",
+"formula_weight": 281.23,
+"parent": null
+},
+"OVA": {
+"id": "OVA",
+"type": "non-polymer",
+"name": "3,4-DIHYDROXY-2-METHOXY-4-METHYL-3-[2-METHYL-3-(3-METHYL-BUT-2-ENYL) -OXIRANYL]-CYCLOHEXANONE",
+"formula": "C16 H26 O5",
+"formula_weight": 298.375,
+"parent": null
+},
+"OXC": {
+"id": "OXC",
+"type": "non-polymer",
+"name": "OXONIC ACID",
+"formula": "C4 H5 N3 O4",
+"formula_weight": 159.1,
+"parent": null
+},
+"P2C": {
+"id": "P2C",
+"type": "non-polymer",
+"name": "2-[(3,5-DICHLORO-4-TRIOXIDANYLPHENYL)AMINO]BENZOIC ACID",
+"formula": "C13 H9 Cl2 N O5",
+"formula_weight": 330.12,
+"parent": null
+},
+"P2G": {
+"id": "P2G",
+"type": "non-polymer",
+"name": "(2S,4R,6R,6AS)-4-(2-AMINO-6-OXO-1,6-DIHYDROPURIN-9-YL)-6-(HYDROXYMETHYL)-TETRAHYDROFURO[3,4-D][1,3]DIOXOL-2-YLPHOSPHONI\nC ACID",
+"formula": "C11 H14 N5 O8 P",
+"formula_weight": 375.231,
+"parent": null
+},
+"PB5": {
+"id": "PB5",
+"type": "non-polymer",
+"name": "N,N'-BIS(PYRIDIN-3-YLMETHYL)PYRIMIDINE-4,6-DICARBOXAMIDE",
+"formula": "C18 H16 N6 O2",
+"formula_weight": 348.359,
+"parent": null
+},
+"PBN": {
+"id": "PBN",
+"type": "non-polymer",
+"name": "4-PHENYLBUTYLAMINE",
+"formula": "C10 H15 N",
+"formula_weight": 149.233,
+"parent": null
+},
+"PC4": {
+"id": "PC4",
+"type": "non-polymer",
+"name": "TETRACHLOROPLATINATE(II)",
+"formula": "Cl4 Pt",
+"formula_weight": 336.89,
+"parent": null
+},
+"PDC": {
+"id": "PDC",
+"type": "non-polymer",
+"name": "PYRIDINE-2,6-DICARBOXYLIC ACID",
+"formula": "C7 H5 N O4",
+"formula_weight": 167.119,
+"parent": null
+},
+"PEA": {
+"id": "PEA",
+"type": "non-polymer",
+"name": "2-PHENYLETHYLAMINE",
+"formula": "C8 H12 N",
+"formula_weight": 122.188,
+"parent": null
+},
+"PEE": {
+"id": "PEE",
+"type": "non-polymer",
+"name": "1,2-dioleoyl-sn-glycero-3-phosphoethanolamine",
+"formula": "C41 H78 N O8 P",
+"formula_weight": 744.034,
+"parent": [
+"PEE"
+]
+},
+"PEO": {
+"id": "PEO",
+"type": "non-polymer",
+"name": "HYDROGEN PEROXIDE",
+"formula": "H2 O2",
+"formula_weight": 34.015,
+"parent": null
+},
+"PHB": {
+"id": "PHB",
+"type": "non-polymer",
+"name": "P-HYDROXYBENZOIC ACID",
+"formula": "C7 H6 O3",
+"formula_weight": 138.121,
+"parent": null
+},
+"PHL": {
+"id": "PHL",
+"type": "L-peptide linking",
+"name": "L-PHENYLALANINOL",
+"formula": "C9 H13 N O",
+"formula_weight": 151.206,
+"parent": [
+"PHE"
+]
+},
+"PHS": {
+"id": "PHS",
+"type": "non-polymer",
+"name": "PHOSPHONIC ACID",
+"formula": "H3 O3 P",
+"formula_weight": 81.996,
+"parent": null
+},
+"PI8": {
+"id": "PI8",
+"type": "non-polymer",
+"name": "N-13-[(10S,13S)-9,12-DIOXO-10-(2-BUTYL)-2-OXA-8,11-DIAZABICYCLO [13.2.2] NONADECA-15,17,18-TRIENE] (2R)-BENZYL-(4S)-HYDROXY-5-AMINOPENTANOIC (1R)-HYDROXY-(2S)-INDANEAMIDE",
+"formula": "C41 H54 N4 O6",
+"formula_weight": 698.891,
+"parent": null
+},
+"PI9": {
+"id": "PI9",
+"type": "non-polymer",
+"name": "(10S,13S,1'R)-13-[1'-HYDROXY-2'-(N-P-AMINOBENZENESULFONYL-1''-AMINO-3''-METHYLBUTYL)ETHYL]-8,11-DIOXO-10-ISOPROPYL-2-OXA-9,12-DIAZABICYCLO [13.2.2]NONADECA-15,17,18-TRIENE",
+"formula": "C32 H48 N4 O6 S",
+"formula_weight": 616.812,
+"parent": null
+},
+"PID": {
+"id": "PID",
+"type": "non-polymer",
+"name": "PERIDININ",
+"formula": "C39 H50 O7",
+"formula_weight": 630.81,
+"parent": null
+},
+"PIE": {
+"id": "PIE",
+"type": "non-polymer",
+"name": "1-palmitoyl-2-oleoyl-sn-glycero-3-phosphoinositol",
+"formula": "C43 H80 O13 P",
+"formula_weight": 836.061,
+"parent": null
+},
+"PLL": {
+"id": "PLL",
+"type": "non-polymer",
+"name": "Palladium(II) allyl complex",
+"formula": "C3 H5 Pd",
+"formula_weight": 147.492,
+"parent": null
+},
+"PLP": {
+"id": "PLP",
+"type": "non-polymer",
+"name": "PYRIDOXAL-5'-PHOSPHATE",
+"formula": "C8 H10 N O6 P",
+"formula_weight": 247.142,
+"parent": null
+},
+"PMP": {
+"id": "PMP",
+"type": "non-polymer",
+"name": "4'-DEOXY-4'-AMINOPYRIDOXAL-5'-PHOSPHATE",
+"formula": "C8 H13 N2 O5 P",
+"formula_weight": 248.173,
+"parent": null
+},
+"PNN": {
+"id": "PNN",
+"type": "non-polymer",
+"name": "PENICILLIN G",
+"formula": "C16 H18 N2 O4 S",
+"formula_weight": 334.39,
+"parent": null
+},
+"PRA": {
+"id": "PRA",
+"type": "non-polymer",
+"name": "3-PHENYLPROPYLAMINE",
+"formula": "C9 H13 N",
+"formula_weight": 135.206,
+"parent": null
+},
+"PRO": {
+"id": "PRO",
+"type": "L-peptide linking",
+"name": "PROLINE",
+"formula": "C5 H9 N O2",
+"formula_weight": 115.13,
+"parent": null
+},
+"PU4": {
+"id": "PU4",
+"type": "non-polymer",
+"name": "9-BUTYL-8-(4-METHOXYBENZYL)-9H-PURIN-6-AMINE",
+"formula": "C17 H21 N5 O",
+"formula_weight": 311.382,
+"parent": null
+},
+"PUA": {
+"id": "PUA",
+"type": "non-polymer",
+"name": "ADENYLATE-3'-PHOSPHATE-[[2'-DEOXY-URIDINE-5'-PHOSPHATE]-3'-PHOSPHATE]",
+"formula": "C19 H27 N7 O20 P4",
+"formula_weight": 797.348,
+"parent": null
+},
+"PXY": {
+"id": "PXY",
+"type": "non-polymer",
+"name": "PARA-XYLENE",
+"formula": "C8 H10",
+"formula_weight": 106.165,
+"parent": null
+},
+"PYQ": {
+"id": "PYQ",
+"type": "non-polymer",
+"name": "PYROQUILON",
+"formula": "C11 H11 N O",
+"formula_weight": 173.211,
+"parent": null
+},
+"RAM": {
+"id": "RAM",
+"type": "L-saccharide, alpha linking",
+"name": "alpha-L-rhamnopyranose",
+"formula": "C6 H12 O5",
+"formula_weight": 164.156,
+"parent": null
+},
+"RB3": {
+"id": "RB3",
+"type": "non-polymer",
+"name": "(1R)-3-{[(1R)-3-METHOXY-1-METHYL-3-OXOPROPYL]OXY}-1-METHYL-3-OXOPROPYL (3R)-3-HYDROXYBUTANOATE",
+"formula": "C13 H22 O7",
+"formula_weight": 290.31,
+"parent": null
+},
+"RBF": {
+"id": "RBF",
+"type": "non-polymer",
+"name": "RIBOFLAVIN",
+"formula": "C17 H20 N4 O6",
+"formula_weight": 376.364,
+"parent": null
+},
+"RED": {
+"id": "RED",
+"type": "non-polymer",
+"name": "DIHYDROLIPOIC ACID",
+"formula": "C8 H16 O2 S2",
+"formula_weight": 208.341,
+"parent": null
+},
+"REP": {
+"id": "REP",
+"type": "non-polymer",
+"name": "(1,10 PHENANTHROLINE)-(TRI-CARBON MONOXIDE) RHENIUM (I)",
+"formula": "C15 H8 N2 O3 Re",
+"formula_weight": 450.443,
+"parent": null
+},
+"RET": {
+"id": "RET",
+"type": "non-polymer",
+"name": "RETINAL",
+"formula": "C20 H28 O",
+"formula_weight": 284.436,
+"parent": null
+},
+"RIN": {
+"id": "RIN",
+"type": "non-polymer",
+"name": "3-AMINO-AZACYCLOTRIDECAN-2-ONE",
+"formula": "C12 H24 N2 O",
+"formula_weight": 212.332,
+"parent": null
+},
+"RIP": {
+"id": "RIP",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-ribopyranose",
+"formula": "C5 H10 O5",
+"formula_weight": 150.13,
+"parent": null
+},
+"RIS": {
+"id": "RIS",
+"type": "non-polymer",
+"name": "1-HYDROXY-2-(3-PYRIDINYL)ETHYLIDENE BIS-PHOSPHONIC ACID",
+"formula": "C7 H11 N O7 P2",
+"formula_weight": 283.112,
+"parent": null
+},
+"RPR": {
+"id": "RPR",
+"type": "non-polymer",
+"name": "3-[(3'-AMINOMETHYL-BIPHENYL-4-CARBONYL)-AMINO]-2-(3-CARBAMIMIDOYL-BENZYL)-BUTYRIC ACID METHYL ESTER",
+"formula": "C27 H30 N4 O3",
+"formula_weight": 458.552,
+"parent": null
+},
+"RR1": {
+"id": "RR1",
+"type": "non-polymer",
+"name": "5-(4,6-DIAMINO-[1,3,5]TRIAZIN-2-YLAMINO)-4-HYDROXY-3-(2-SULFO-PHENYLAZO)-NAPHTHALENE-2,7-DISULFONIC ACID",
+"formula": "C19 H16 N8 O10 S3",
+"formula_weight": 612.573,
+"parent": null
+},
+"RRT": {
+"id": "RRT",
+"type": "non-polymer",
+"name": "(R)-RETRO-THIORPHAN",
+"formula": "C12 H15 N O3 S",
+"formula_weight": 253.317,
+"parent": null
+},
+"RTB": {
+"id": "RTB",
+"type": "non-polymer",
+"name": "(2,2':6',2'-TERPYRIDINE)-(1,10-PHENANTHROLINE) RUTHENIUM (II)",
+"formula": "C27 H19 N5 Ru",
+"formula_weight": 514.543,
+"parent": null
+},
+"RWJ": {
+"id": "RWJ",
+"type": "non-polymer",
+"name": "CYCLOPENTANECARBOXYLIC ACID [1-(BENZOTHIAZOLE-2-CARBONYL)-4-GUANIDINO-BUTYL]-AMIDE",
+"formula": "C19 H25 N5 O2 S",
+"formula_weight": 387.499,
+"parent": null
+},
+"S6P": {
+"id": "S6P",
+"type": "D-saccharide",
+"name": "D-SORBITOL-6-PHOSPHATE",
+"formula": "C6 H15 O9 P",
+"formula_weight": 262.152,
+"parent": null
+},
+"SAC": {
+"id": "SAC",
+"type": "L-peptide linking",
+"name": "N-ACETYL-SERINE",
+"formula": "C5 H9 N O4",
+"formula_weight": 147.129,
+"parent": [
+"SER"
+]
+},
+"SAH": {
+"id": "SAH",
+"type": "non-polymer",
+"name": "S-ADENOSYL-L-HOMOCYSTEINE",
+"formula": "C14 H20 N6 O5 S",
+"formula_weight": 384.411,
+"parent": null
+},
+"SAM": {
+"id": "SAM",
+"type": "non-polymer",
+"name": "S-ADENOSYLMETHIONINE",
+"formula": "C15 H22 N6 O5 S",
+"formula_weight": 398.437,
+"parent": null
+},
+"SBR": {
+"id": "SBR",
+"type": "non-polymer",
+"name": "(R)-N-(3-INDOL-1-YL-2-METHYL-PROPYL)-4-SULFAMOYL-BENZAMIDE",
+"formula": "C19 H21 N3 O3 S",
+"formula_weight": 371.453,
+"parent": null
+},
+"SCE": {
+"id": "SCE",
+"type": "non-polymer",
+"name": "3-methyl-N-(pyridin-4-ylmethyl)imidazo[1,2-a]pyrazin-8-amine",
+"formula": "C13 H13 N5",
+"formula_weight": 239.276,
+"parent": null
+},
+"SCW": {
+"id": "SCW",
+"type": "non-polymer",
+"name": "3-bromo-6-phenyl-N-(pyrimidin-5-ylmethyl)imidazo[1,2-a]pyridin-8-amine",
+"formula": "C18 H14 Br N5",
+"formula_weight": 380.241,
+"parent": null
+},
+"SER": {
+"id": "SER",
+"type": "L-peptide linking",
+"name": "SERINE",
+"formula": "C3 H7 N O3",
+"formula_weight": 105.093,
+"parent": null
+},
+"SF4": {
+"id": "SF4",
+"type": "non-polymer",
+"name": "IRON/SULFUR CLUSTER",
+"formula": "Fe4 S4",
+"formula_weight": 351.64,
+"parent": null
+},
+"SFG": {
+"id": "SFG",
+"type": "non-polymer",
+"name": "SINEFUNGIN",
+"formula": "C15 H23 N7 O5",
+"formula_weight": 381.387,
+"parent": null
+},
+"SHA": {
+"id": "SHA",
+"type": "non-polymer",
+"name": "SALICYLHYDROXAMIC ACID",
+"formula": "C7 H7 N O3",
+"formula_weight": 153.135,
+"parent": null
+},
+"SIR": {
+"id": "SIR",
+"type": "non-polymer",
+"name": "COBALT SIROHYDROCHLORIN",
+"formula": "C42 H44 Co N4 O16",
+"formula_weight": 919.749,
+"parent": null
+},
+"SLB": {
+"id": "SLB",
+"type": "D-saccharide, beta linking",
+"name": "N-acetyl-beta-neuraminic acid",
+"formula": "C11 H19 N O9",
+"formula_weight": 309.27,
+"parent": null
+},
+"SME": {
+"id": "SME",
+"type": "L-peptide linking",
+"name": "METHIONINE SULFOXIDE",
+"formula": "C5 H11 N O3 S",
+"formula_weight": 165.211,
+"parent": [
+"MET"
+]
+},
+"SNC": {
+"id": "SNC",
+"type": "L-peptide linking",
+"name": "S-NITROSO-CYSTEINE",
+"formula": "C3 H6 N2 O3 S",
+"formula_weight": 150.156,
+"parent": [
+"CYS"
+]
+},
+"SNJ": {
+"id": "SNJ",
+"type": "non-polymer",
+"name": "2,5-diphenyl-4~{H}-pyrazol-3-one",
+"formula": "C15 H12 N2 O",
+"formula_weight": 236.269,
+"parent": null
+},
+"SNN": {
+"id": "SNN",
+"type": "L-peptide linking",
+"name": "L-3-AMINOSUCCINIMIDE",
+"formula": "C4 H6 N2 O2",
+"formula_weight": 114.103,
+"parent": [
+"ASN"
+]
+},
+"SO4": {
+"id": "SO4",
+"type": "non-polymer",
+"name": "SULFATE ION",
+"formula": "O4 S",
+"formula_weight": 96.063,
+"parent": null
+},
+"SQU": {
+"id": "SQU",
+"type": "non-polymer",
+"name": "2,10,23-TRIMETHYL-TETRACOSANE",
+"formula": "C27 H56",
+"formula_weight": 380.734,
+"parent": null
+},
+"SRT": {
+"id": "SRT",
+"type": "non-polymer",
+"name": "S,R MESO-TARTARIC ACID",
+"formula": "C4 H6 O6",
+"formula_weight": 150.087,
+"parent": null
+},
+"STU": {
+"id": "STU",
+"type": "non-polymer",
+"name": "STAUROSPORINE",
+"formula": "C28 H26 N4 O3",
+"formula_weight": 466.531,
+"parent": null
+},
+"SUA": {
+"id": "SUA",
+"type": "non-polymer",
+"name": "(4-SULFAMOYL-PHENYL)-THIOCARBAMIC ACID O-(2-THIOPHEN-3-YL-ETHYL) ESTER",
+"formula": "C13 H14 N2 O3 S3",
+"formula_weight": 342.457,
+"parent": null
+},
+"SUI": {
+"id": "SUI",
+"type": "L-peptide linking",
+"name": "(3-AMINO-2,5-DIOXO-1-PYRROLIDINYL)ACETIC ACID",
+"formula": "C6 H8 N2 O4",
+"formula_weight": 172.139,
+"parent": [
+"ASP",
+"GLY"
+]
+},
+"SZ4": {
+"id": "SZ4",
+"type": "non-polymer",
+"name": "1-(3-methoxyphenyl)methanamine",
+"formula": "C8 H11 N O",
+"formula_weight": 137.179,
+"parent": null
+},
+"TES": {
+"id": "TES",
+"type": "non-polymer",
+"name": "TESTOSTERONE",
+"formula": "C19 H28 O2",
+"formula_weight": 288.424,
+"parent": null
+},
+"TFS": {
+"id": "TFS",
+"type": "non-polymer",
+"name": "trifluoromethanesulfonic acid",
+"formula": "C H F3 O3 S",
+"formula_weight": 150.077,
+"parent": null
+},
+"TH2": {
+"id": "TH2",
+"type": "non-polymer",
+"name": "TESTOSTERONE HEMISUCCINATE",
+"formula": "C23 H32 O5",
+"formula_weight": 388.497,
+"parent": null
+},
+"THP": {
+"id": "THP",
+"type": "DNA linking",
+"name": "THYMIDINE-3',5'-DIPHOSPHATE",
+"formula": "C10 H16 N2 O11 P2",
+"formula_weight": 402.188,
+"parent": null
+},
+"TMP": {
+"id": "TMP",
+"type": "non-polymer",
+"name": "THYMIDINE-5'-PHOSPHATE",
+"formula": "C10 H15 N2 O8 P",
+"formula_weight": 322.208,
+"parent": null
+},
+"TOL": {
+"id": "TOL",
+"type": "non-polymer",
+"name": "TOLRESTAT",
+"formula": "C16 H14 F3 N O3 S",
+"formula_weight": 357.347,
+"parent": null
+},
+"TQ6": {
+"id": "TQ6",
+"type": "non-polymer",
+"name": "5-(4-MORPHOLIN-4-YL-PHENYLSULFANYL)-2,4-QUINAZOLINEDIAMINE",
+"formula": "C18 H19 N5 O S",
+"formula_weight": 353.441,
+"parent": null
+},
+"TSU": {
+"id": "TSU",
+"type": "non-polymer",
+"name": "PARA-TOLUENE SULFONATE",
+"formula": "C7 H8 O3 S",
+"formula_weight": 172.202,
+"parent": null
+},
+"TYC": {
+"id": "TYC",
+"type": "L-peptide COOH carboxy terminus",
+"name": "L-TYROSINAMIDE",
+"formula": "C9 H12 N2 O2",
+"formula_weight": 180.204,
+"parent": [
+"TYR"
+]
+},
+"TYD": {
+"id": "TYD",
+"type": "non-polymer",
+"name": "THYMIDINE-5'-DIPHOSPHATE",
+"formula": "C10 H16 N2 O11 P2",
+"formula_weight": 402.188,
+"parent": null
+},
+"U15": {
+"id": "U15",
+"type": "non-polymer",
+"name": "METHYL N-[(2S,3R)-3-AMINO-2-HYDROXY-3-(4-METHYLPHENYL)PROPANOYL]-D-ALANYL-D-LEUCINATE",
+"formula": "C20 H31 N3 O5",
+"formula_weight": 393.477,
+"parent": null
+},
+"U2F": {
+"id": "U2F",
+"type": "non-polymer",
+"name": "URIDINE-5'-DIPHOSPHATE-2-DEOXY-2-FLUORO-ALPHA-D-GLUCOSE",
+"formula": "C15 H23 F N2 O16 P2",
+"formula_weight": 568.293,
+"parent": null
+},
+"U3P": {
+"id": "U3P",
+"type": "non-polymer",
+"name": "3'-URIDINEMONOPHOSPHATE",
+"formula": "C9 H13 N2 O9 P",
+"formula_weight": 324.181,
+"parent": null
+},
+"U5P": {
+"id": "U5P",
+"type": "non-polymer",
+"name": "URIDINE-5'-MONOPHOSPHATE",
+"formula": "C9 H13 N2 O9 P",
+"formula_weight": 324.181,
+"parent": null
+},
+"UDP": {
+"id": "UDP",
+"type": "RNA linking",
+"name": "URIDINE-5'-DIPHOSPHATE",
+"formula": "C9 H14 N2 O12 P2",
+"formula_weight": 404.161,
+"parent": null
+},
+"UIQ": {
+"id": "UIQ",
+"type": "non-polymer",
+"name": "(1R,3AS,4R,8AS,8BR)-4-(2-BENZO[1,3]DIOXOL-5-YLMETHYL-1-ISOPROPYL-3-OXO-DECAHYDRO-PYRROLO[3,4-A]PYRROLIZIN-4-YL)-BENZAMIDINE",
+"formula": "C27 H32 N4 O3",
+"formula_weight": 460.568,
+"parent": null
+},
+"UM3": {
+"id": "UM3",
+"type": "non-polymer",
+"name": "2'-DEOXYURIDINE 3'-MONOPHOSPHATE",
+"formula": "C9 H13 N2 O8 P",
+"formula_weight": 308.182,
+"parent": null
+},
+"UN4": {
+"id": "UN4",
+"type": "non-polymer",
+"name": "5-{[(2-AMINO-9H-PURIN-6-YL)OXY]METHYL}-2-PYRROLIDINONE",
+"formula": "C10 H12 N6 O2",
+"formula_weight": 248.241,
+"parent": null
+},
+"V15": {
+"id": "V15",
+"type": "non-polymer",
+"name": "2-AMINO-6-(2-PHENYLETHYL)PYRIMIDIN-4(3H)-ONE",
+"formula": "C12 H13 N3 O",
+"formula_weight": 215.251,
+"parent": null
+},
+"VAL": {
+"id": "VAL",
+"type": "L-peptide linking",
+"name": "VALINE",
+"formula": "C5 H11 N O2",
+"formula_weight": 117.146,
+"parent": null
+},
+"VDX": {
+"id": "VDX",
+"type": "non-polymer",
+"name": "Calcitriol",
+"formula": "C27 H44 O3",
+"formula_weight": 416.636,
+"parent": null
+},
+"VG9": {
+"id": "VG9",
+"type": "non-polymer",
+"name": "6-{[(2,5-DIETHOXYPHENYL)AMINO]METHYL}-5-METHYLPYRIDO[2,3-D]PYRIMIDINE-2,4-DIAMINE",
+"formula": "C19 H24 N6 O2",
+"formula_weight": 368.433,
+"parent": null
+},
+"VIT": {
+"id": "VIT",
+"type": "non-polymer",
+"name": "VITAMIN E",
+"formula": "C29 H50 O2",
+"formula_weight": 430.706,
+"parent": null
+},
+"W77": {
+"id": "W77",
+"type": "non-polymer",
+"name": "2,4-dichloro-N-(pyridin-3-yl)benzamide",
+"formula": "C12 H8 Cl2 N2 O",
+"formula_weight": 267.111,
+"parent": null
+},
+"WGZ": {
+"id": "WGZ",
+"type": "non-polymer",
+"name": "5-{6-[(1-METHYLPIPERIDIN-4-YL)OXY]-1H-BENZIMIDAZOL-1-YL}-3-{(1R)-1-[2-(TRIFLUOROMETHYL)PHENYL]ETHOXY}THIOPHENE-2-CARBOXAMIDE",
+"formula": "C27 H27 F3 N4 O3 S",
+"formula_weight": 544.588,
+"parent": null
+},
+"WO4": {
+"id": "WO4",
+"type": "non-polymer",
+"name": "TUNGSTATE(VI)ION",
+"formula": "O4 W",
+"formula_weight": 247.838,
+"parent": null
+},
+"XE": {
+"id": "XE",
+"type": "non-polymer",
+"name": "XENON",
+"formula": "Xe",
+"formula_weight": 131.293,
+"parent": null
+},
+"XYP": {
+"id": "XYP",
+"type": "D-saccharide, beta linking",
+"name": "beta-D-xylopyranose",
+"formula": "C5 H10 O5",
+"formula_weight": 150.13,
+"parent": null
+},
+"XYS": {
+"id": "XYS",
+"type": "D-saccharide, alpha linking",
+"name": "alpha-D-xylopyranose",
+"formula": "C5 H10 O5",
+"formula_weight": 150.13,
+"parent": null
+},
+"YCF": {
+"id": "YCF",
+"type": "non-polymer",
+"name": "(2E)-N-hydroxy-2-[1-(4-{[(4-{(1E)-1-[2-(N'-hydroxycarbamimidoyl)hydrazinylidene]ethyl}phenyl)carbamoyl]amino}phenyl)ethylidene]hydrazinecarboximidamide",
+"formula": "C19 H24 N10 O3",
+"formula_weight": 440.459,
+"parent": null
+},
+"YI0": {
+"id": "YI0",
+"type": "non-polymer",
+"name": "4-CHLORO-6-[5-(4-METHOXYPHENYL)-1,2,3-THIADIAZOL-4-YL]BENZENE-1,3-DIOL",
+"formula": "C15 H11 Cl N2 O3 S",
+"formula_weight": 334.777,
+"parent": null
+},
+"YOF": {
+"id": "YOF",
+"type": "L-peptide linking",
+"name": "3-FLUOROTYROSINE",
+"formula": "C9 H10 F N O3",
+"formula_weight": 199.179,
+"parent": [
+"TYR"
+]
+},
+"ZMR": {
+"id": "ZMR",
+"type": "D-saccharide",
+"name": "ZANAMIVIR",
+"formula": "C12 H20 N4 O7",
+"formula_weight": 332.31,
+"parent": null
+},
+"ZNT": {
+"id": "ZNT",
+"type": "non-polymer",
+"name": "2'3'-cUA",
+"formula": "C19 H23 N7 O14 P2",
+"formula_weight": 635.372,
+"parent": null
+},
+"ZST": {
+"id": "ZST",
+"type": "non-polymer",
+"name": "3,4-DIHYDRO-4-OXO-3-((5-TRIFLUOROMETHYL-2-BENZOTHIAZOLYL)METHYL)-1-PHTHALAZINE ACETIC ACID",
+"formula": "C19 H12 F3 N3 O3 S",
+"formula_weight": 419.377,
+"parent": null
+},
+"ZU3": {
+"id": "ZU3",
+"type": "peptide-like",
+"name": "N-[(benzyloxy)carbonyl]-3-[(2,2-dimethylpropanoyl)amino]-L-alanyl-N-[(1R)-4-oxo-1-{[(3S)-2-oxopyrrolidin-3-yl]methyl}pentyl]-L-leucinamide",
+"formula": "C32 H49 N5 O7",
+"formula_weight": 615.761,
+"parent": null
+},
+"ZY4": {
+"id": "ZY4",
+"type": "non-polymer",
+"name": "N-[(1S)-1-BENZYL-2,2-DIHYDROXY-3-(TETRAHYDRO-2H-PYRAN-4-YLAMINO)PROPYL]-6-ETHYL-1-METHYL-1,3,4,6-TETRAHYDRO[1,2]THIAZEPINO[5,4,3-CD]INDOLE-8-CARBOXAMIDE 2,2-DIOXIDE",
+"formula": "C29 H38 N4 O6 S",
+"formula_weight": 570.7,
+"parent": null
+}
+}

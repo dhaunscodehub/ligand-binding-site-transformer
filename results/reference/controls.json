@@ -1,0 +1,140 @@
+{
+  "seed": 0,
+  "n_checks": 7,
+  "n_passed": 7,
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "positive control: label is a known function of the features",
+      "expectation": "AUPRC lift over chance >= 2.0",
+      "passed": true,
+      "split_strategy": "synthetic",
+      "auroc": 0.9969195746306673,
+      "auprc": 0.9705225483812799,
+      "auprc_lift": 12.24351522573307,
+      "positive_rate": 0.07926829268292683,
+      "best_f1": 0.9090909090909091,
+      "n_test_residues": 1312,
+      "n_train_residues": 4317
+    },
+    {
+      "name": "AUROC overstates a mediocre predictor under class imbalance",
+      "expectation": "AUROC well above 0.5 while AUPRC and precision stay modest, demonstrating why AUROC is not reported alone",
+      "passed": true,
+      "auroc": 0.7952252977354473,
+      "auprc": 0.3506269899050595,
+      "auprc_chance": 0.1017,
+      "auprc_lift": 3.447659684415531,
+      "best_f1": 0.3995647442872688,
+      "precision_at_best_f1": 0.35845372901210465,
+      "interpretation": "AUROC 0.795 looks strong, but the best achievable F1 is 0.400 with precision 0.358. The ROC false-positive-rate denominator is the large negative class, so many false positives barely move it."
+    },
+    {
+      "name": "label shuffle (negative control): features carry no signal",
+      "expectation": "mean AUROC within 0.03 of 0.5 and mean AUPRC near the positive rate",
+      "passed": true,
+      "auroc": 0.5106431826181403,
+      "auroc_sd": 0.011222490643424994,
+      "auroc_excess_over_chance": 0.010643182618140345,
+      "auprc": 0.07718762922884445,
+      "auprc_lift": 1.0267855579118497,
+      "positive_rate": 0.07086223984142716,
+      "n_test_residues": 18162,
+      "n_train_residues": 73530,
+      "n_replicates": 5,
+      "seeds": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "per_seed_auroc": [
+        0.5124,
+        0.5042,
+        0.5011,
+        0.5318,
+        0.5037
+      ],
+      "split_strategy": "homology_cluster"
+    },
+    {
+      "name": "leakage by split level: residue vs protein vs homology cluster",
+      "model": "random_forest",
+      "expectation": "a residue-level split scores highest, a homology-separated split lowest; the differences quantify the leak",
+      "passed": true,
+      "arms": {
+        "random_residue": {
+          "auroc": 0.8705531157471124,
+          "auprc": 0.5082685615328316,
+          "auprc_lift": 6.586229641615093,
+          "positive_rate": 0.07717139990402652
+        },
+        "random_protein": {
+          "auroc": 0.8779283314059935,
+          "auprc": 0.540477002162623,
+          "auprc_lift": 6.626284320138064,
+          "positive_rate": 0.08156562200629533,
+          "shared_clusters_train_test": 39
+        },
+        "homology_cluster": {
+          "auroc": 0.7879252467696911,
+          "auprc": 0.2434636954192831,
+          "auprc_lift": 3.435732429063729,
+          "positive_rate": 0.07086223984142716,
+          "shared_clusters_train_test": 0
+        }
+      },
+      "residue_split_auprc_inflation": 0.26480486611354853,
+      "protein_split_auprc_inflation": 0.29701330674333987
+    },
+    {
+      "name": "leakage guard rejects a corrupted homology split",
+      "expectation": "raises LeakageError when a cluster spans train and test",
+      "passed": true,
+      "message": "homology cluster(s) [1] appear in both train and test. Example members: [['121P', '1JAI', '1N6O', '1RVD']]. A test protein from a cluster the model trained on is not an unseen family, and every metric computed on this split would be optimistic."
+    },
+    {
+      "name": "homology split verified directly against the sequences",
+      "expectation": "maximum train-test identity at or below the 30% threshold",
+      "passed": true,
+      "max_train_test_identity": 0.26717557251908397,
+      "threshold": 0.3,
+      "worst_pair": [
+        "2VBU",
+        "1FW0"
+      ],
+      "n_train": 344,
+      "n_test": 72
+    },
+    {
+      "name": "features are identical with and without the ligand present",
+      "expectation": "no ligand coordinate influences any feature",
+      "passed": true,
+      "n_residues": 182,
+      "n_binding_with_ligand": 11,
+      "n_binding_without_ligand": 0,
+      "max_geometric_difference": 0.0
+    }
+  ],
+  "skipped": {},
+  "headline": {
+    "residue_split_auprc_inflation": 0.26480486611354853,
+    "protein_split_auprc_inflation": 0.29701330674333987,
+    "homology_separated_auprc": 0.2434636954192831
+  },
+  "provenance": {
+    "timestamp_utc": "2026-09-17T15:11:27+00:00",
+    "python": "3.14.6",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "git_commit": null,
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.18.1",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "torch": "2.14.0",
+      "biopython": "1.88"
+    }
+  }
+}

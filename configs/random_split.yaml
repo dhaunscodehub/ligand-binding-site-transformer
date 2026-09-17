@@ -1,0 +1,73 @@
+# COMPARISON ARM ONLY -- this configuration leaks by design.
+#
+# Identical to configs/homology_split.yaml except for split.strategy. Proteins
+# are assigned to folds at random, so a protein and its close homolog can land
+# on opposite sides. Because the PDB is highly redundant -- 72% of this sample
+# is redundant at 30% identity -- the test set is then largely made up of
+# families the model has already seen.
+#
+# The numbers this produces are NOT an estimate of generalisation. They exist
+# so the inflation can be measured against the homology-separated run, and the
+# pipeline attaches that caveat to its own output.
+name: random_split
+output_dir: ../results/random_split
+
+data:
+  source: manifest
+  manifest: ../data/dataset_manifest.json
+  cache_dir: ../data/pdb
+  # 4.0 A from any ligand heavy atom to any residue heavy atom. The positive
+  # rate — and therefore every metric — depends on this, so it is recorded in
+  # every output rather than assumed.
+  contact_cutoff: 4.0
+  min_ligand_heavy_atoms: 6
+  min_binding_residues: 3
+  min_length: 60
+  max_length: 400
+  max_proteins: 500
+
+homology:
+  # 30% identity is the conventional "different family" boundary in this
+  # literature. Note that it sits close to the background identity of
+  # unrelated sequences under global alignment (~23% measured here), which is
+  # why the coverage requirement and the coherence diagnostic both matter.
+  identity_threshold: 0.30
+  coverage_threshold: 0.50
+  backend: auto          # MMseqs2 when available, else the exact greedy fallback
+  cache: ../data/clusters.json
+
+split:
+  strategy: random_protein
+  test_fraction: 0.20
+  val_fraction: 0.15
+  seed: 0
+  # Verify the split against the sequences themselves rather than trusting
+  # the clustering. O(n_train x n_test) alignments, and worth it.
+  verify_identity: true
+
+models:
+  baselines: [prevalence, burial, logistic, random_forest]
+  transformer: true
+
+architecture:
+  sequence_dim: 30
+  structure_dim: 8
+  d_model: 128
+  n_heads: 4
+  n_layers: 3
+  dropout: 0.15
+  max_length: 400
+  use_distance_bias: true
+  use_sequence: true
+  use_structure: true
+
+training:
+  epochs: 60
+  batch_size: 8
+  learning_rate: 0.0003
+  weight_decay: 0.01
+  patience: 12
+  class_weighting: true
+  max_pos_weight: 20.0
+  seed: 0
+  device: auto

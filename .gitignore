@@ -1,0 +1,60 @@
+# Byte-compiled and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials and secrets: never commit these
+.env
+.env.*
+*.pem
+*.key
+*_rsa
+*_rsa.pub
+.netrc
+credentials.json
+token.json
+
+# Downloaded structures. Fetched on demand from RCSB and not vendored;
+# data/README.md states exactly what is downloaded and from where.
+data/pdb/
+data/clustering/
+data/mmseqs_tmp/
+
+# Derived, regenerable artifacts. The identity matrix is 700 KB of floats and
+# is reproducible from the sequences; the manifest and cluster assignment are
+# small and ARE committed so a run is auditable without network access.
+data/identity_matrix.npz
+data/clusters_*.json
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Run outputs, except the reference results the documentation quotes.
+# `results/*` rather than `results/`: git does not descend into an excluded
+# directory, so a negation below one never matches.
+results/*
+!results/reference/
+outputs/
+logs/
+*.log
+slurm-*.out
+
+# Notebooks
+.ipynb_checkpoints/

@@ -1,0 +1,3494 @@
+{
+  "name": "homology_split",
+  "dataset": {
+    "n_proteins": 416,
+    "n_residues": 91692,
+    "n_binding_residues": 7153,
+    "positive_rate": 0.07801116782271081,
+    "median_length": 223.0,
+    "length_range": [
+      62,
+      396
+    ],
+    "median_binding_per_protein": 16.0,
+    "n_distinct_ligands": 307,
+    "most_common_ligands": [
+      [
+        "HEM",
+        74
+      ],
+      [
+        "FMN",
+        20
+      ],
+      [
+        "NAP",
+        14
+      ],
+      [
+        "AMP",
+        13
+      ],
+      [
+        "ADP",
+        10
+      ],
+      [
+        "SF4",
+        10
+      ],
+      [
+        "HEC",
+        9
+      ],
+      [
+        "FAD",
+        9
+      ],
+      [
+        "PDC",
+        9
+      ],
+      [
+        "NAD",
+        7
+      ]
+    ],
+    "contact_cutoff": 4.0,
+    "curation": "chemical component dictionary + curated exclusion lists",
+    "exclude_saccharides": true,
+    "component_cache": {
+      "cache_path": "/Users/dhanus/claudeGithubWork/ligand-binding-site-transformer/data/chemcomp_cache.json",
+      "n_cached_components": 422,
+      "n_lookup_failures": 0,
+      "lookup_failures": [],
+      "offline": false,
+      "fallback_used": false
+    },
+    "n_attempted": 416,
+    "n_rejected": 0,
+    "rejection_reasons": {},
+    "filters": {
+      "polymer_entity_count_protein": 1,
+      "nonpolymer_entity_count": "> 0",
+      "max_resolution_angstrom": 2.0,
+      "polymer_monomer_count": [
+        60,
+        400
+      ],
+      "experimental_only": true,
+      "requested_limit": 900,
+      "pool_size": 9000,
+      "sampling": "uniform without replacement from the pool",
+      "sampling_seed": 0,
+      "total_matching_in_pdb": 42019,
+      "pool_returned": 9000,
+      "n_sampled": 900
+    }
+  },
+  "clustering": {
+    "backend": "connected_components",
+    "exact": true,
+    "linkage": "single (transitive closure), local alignment",
+    "n_similarity_edges": 1216,
+    "identity_threshold": 0.3,
+    "coverage_threshold": 0.5,
+    "n_sequences": 416,
+    "n_clusters": 199,
+    "largest_cluster": 32,
+    "largest_cluster_fraction": 0.07692307692307693,
+    "n_singletons": 137,
+    "redundancy": 0.5216346153846154,
+    "coherence": {
+      "n_multi_member_clusters": 62,
+      "min_within_cluster_identity": 0.0707070707070707,
+      "mean_within_cluster_min_identity": 0.7398095963403389,
+      "n_clusters_showing_chaining": 4,
+      "fraction_clusters_chained": 0.06451612903225806,
+      "identity_threshold": 0.3,
+      "interpretation": "members within a cluster can fall below the identity threshold to each other because centroid linkage compares only to the representative. This over-merges, which is conservative for leakage control but coarsens the split.",
+      "per_cluster": {
+        "1": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.3125,
+          "mean_identity": 0.6554216867469879
+        },
+        "2": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "4": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "6": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.98989898989899,
+          "mean_identity": 0.98989898989899
+        },
+        "7": {
+          "size": 19,
+          "n_pairs_sampled": 40,
+          "min_identity": 0.4,
+          "mean_identity": 0.9029553126315697
+        },
+        "8": {
+          "size": 7,
+          "n_pairs_sampled": 21,
+          "min_identity": 0.21739130434782608,
+          "mean_identity": 0.5211260413216747
+        },
+        "9": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.4375,
+          "mean_identity": 0.625
+        },
+        "13": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9971830985915493,
+          "mean_identity": 0.9971830985915493
+        },
+        "14": {
+          "size": 6,
+          "n_pairs_sampled": 15,
+          "min_identity": 0.39357429718875503,
+          "mean_identity": 0.6711602423439461
+        },
+        "15": {
+          "size": 32,
+          "n_pairs_sampled": 40,
+          "min_identity": 0.37668161434977576,
+          "mean_identity": 0.8491031390134529
+        },
+        "16": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9954954954954955,
+          "mean_identity": 0.9954954954954955
+        },
+        "17": {
+          "size": 17,
+          "n_pairs_sampled": 40,
+          "min_identity": 0.99609375,
+          "mean_identity": 0.999027982596786
+        },
+        "18": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.5728155339805825,
+          "mean_identity": 0.73754944264653
+        },
+        "20": {
+          "size": 16,
+          "n_pairs_sampled": 40,
+          "min_identity": 0.0707070707070707,
+          "mean_identity": 0.7326668749349161
+        },
+        "26": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.991304347826087,
+          "mean_identity": 0.9942028985507246
+        },
+        "27": {
+          "size": 5,
+          "n_pairs_sampled": 10,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "28": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9853658536585366,
+          "mean_identity": 0.9853658536585366
+        },
+        "29": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.4881889763779528,
+          "mean_identity": 0.7427404907719869
+        },
+        "30": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.3048780487804878,
+          "mean_identity": 0.532520325203252
+        },
+        "31": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.31835205992509363,
+          "mean_identity": 0.31835205992509363
+        },
+        "32": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "33": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.16049382716049382,
+          "mean_identity": 0.3374485596707819
+        },
+        "34": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.4915254237288136,
+          "mean_identity": 0.6576271186440678
+        },
+        "35": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.5294117647058824,
+          "mean_identity": 0.6875816993464051
+        },
+        "36": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.9753086419753086,
+          "mean_identity": 0.9794238683127571
+        },
+        "37": {
+          "size": 16,
+          "n_pairs_sampled": 40,
+          "min_identity": 0.19377162629757785,
+          "mean_identity": 0.4010823056453595
+        },
+        "38": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "39": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.996875,
+          "mean_identity": 0.9994791666666667
+        },
+        "41": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.4462809917355372,
+          "mean_identity": 0.4462809917355372
+        },
+        "42": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9788359788359788,
+          "mean_identity": 0.9788359788359788
+        },
+        "44": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9807692307692307,
+          "mean_identity": 0.9807692307692307
+        },
+        "47": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.9960629921259843,
+          "mean_identity": 0.9973753280839895
+        },
+        "54": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.367816091954023,
+          "mean_identity": 0.367816091954023
+        },
+        "56": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "57": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 0.9888268156424581,
+          "mean_identity": 0.9958177935282193
+        },
+        "59": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.5548780487804879,
+          "mean_identity": 0.5902069475240207
+        },
+        "61": {
+          "size": 7,
+          "n_pairs_sampled": 21,
+          "min_identity": 0.4666666666666667,
+          "mean_identity": 0.7471129514607775
+        },
+        "62": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.3541666666666667,
+          "mean_identity": 0.5694444444444445
+        },
+        "68": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9838709677419355,
+          "mean_identity": 0.9838709677419355
+        },
+        "73": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "75": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.37677053824362605,
+          "mean_identity": 0.37677053824362605
+        },
+        "83": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "84": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9837837837837838,
+          "mean_identity": 0.9837837837837838
+        },
+        "85": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "90": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.9967320261437909,
+          "mean_identity": 0.9978213507625272
+        },
+        "94": {
+          "size": 5,
+          "n_pairs_sampled": 10,
+          "min_identity": 0.9951923076923077,
+          "mean_identity": 0.9980838240706662
+        },
+        "100": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "111": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.96,
+          "mean_identity": 0.96
+        },
+        "112": {
+          "size": 3,
+          "n_pairs_sampled": 3,
+          "min_identity": 0.9937888198757764,
+          "mean_identity": 0.9958624181938222
+        },
+        "113": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.31343283582089554,
+          "mean_identity": 0.31343283582089554
+        },
+        "114": {
+          "size": 7,
+          "n_pairs_sampled": 21,
+          "min_identity": 0.508,
+          "mean_identity": 0.8610693414737682
+        },
+        "115": {
+          "size": 9,
+          "n_pairs_sampled": 36,
+          "min_identity": 0.38311688311688313,
+          "mean_identity": 0.8592191628159069
+        },
+        "123": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.7044025157232704,
+          "mean_identity": 0.7044025157232704
+        },
+        "133": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "146": {
+          "size": 4,
+          "n_pairs_sampled": 6,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "152": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9951690821256038,
+          "mean_identity": 0.9951690821256038
+        },
+        "170": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "172": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9932432432432432,
+          "mean_identity": 0.9932432432432432
+        },
+        "173": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        },
+        "179": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.36486486486486486,
+          "mean_identity": 0.36486486486486486
+        },
+        "185": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 0.9862068965517241,
+          "mean_identity": 0.9862068965517241
+        },
+        "186": {
+          "size": 2,
+          "n_pairs_sampled": 1,
+          "min_identity": 1.0,
+          "mean_identity": 1.0
+        }
+      }
+    },
+    "pairwise_identity_distribution": {
+      "mode": "local",
+      "n_pairs": 86320,
+      "mean": 0.06713212470441662,
+      "p50": 0.04827586206896552,
+      "p75": 0.0707070707070707,
+      "p90": 0.10101010101010101,
+      "p95": 0.13043478260869565,
+      "p99": 0.9278350515463918,
+      "max": 1.0
+    }
+  },
+  "split": {
+    "name": "homology",
+    "strategy": "homology_cluster",
+    "n_train": 298,
+    "n_val": 62,
+    "n_test": 56,
+    "n_train_clusters": 129,
+    "n_val_clusters": 30,
+    "n_test_clusters": 40,
+    "identity_threshold": 0.3,
+    "clustering_backend": "connected_components",
+    "requested_test_fraction": 0.2,
+    "realised_test_fraction": 0.1346153846153846,
+    "realised_val_fraction": 0.14903846153846154,
+    "shared_clusters_train_test": 0
+  },
+  "label_balance": {
+    "train_n_proteins": 298,
+    "train_n_residues": 61996,
+    "train_n_binding": 5144,
+    "train_positive_rate": 0.08297309503838958,
+    "val_n_proteins": 62,
+    "val_n_residues": 15389,
+    "val_n_binding": 1009,
+    "val_positive_rate": 0.06556631360062382,
+    "test_n_proteins": 56,
+    "test_n_residues": 14307,
+    "test_n_binding": 1000,
+    "test_positive_rate": 0.06989585517578807
+  },
+  "leakage_verification": {
+    "strategy": "homology_cluster",
+    "checks": [
+      {
+        "check": "cluster disjointness",
+        "passed": true,
+        "n_clusters": 199
+      },
+      {
+        "check": "max train-test identity",
+        "passed": true,
+        "max_identity": 0.26492537313432835,
+        "threshold": 0.3,
+        "worst_pair": [
+          "3BHY",
+          "2XIR"
+        ],
+        "source": "precomputed matrix",
+        "n_pairs_checked": 16688
+      }
+    ],
+    "passed": true
+  },
+  "evaluations": [
+    {
+      "model": "prevalence",
+      "split_strategy": "homology_cluster",
+      "residue_level": {
+        "level": "residue_pooled",
+        "n_residues": 14307,
+        "n_positive": 1000,
+        "positive_rate": 0.06989585517578807,
+        "auroc": 0.5,
+        "auprc": 0.06989585517578807,
+        "auprc_chance": 0.06989585517578807,
+        "auprc_lift_over_chance": 1.0,
+        "best_f1": 0.13065917554060233,
+        "best_f1_threshold": 0.08297309503838958,
+        "precision_at_best_f1": 0.06989585517578807,
+        "recall_at_best_f1": 1.0,
+        "mcc_at_best_f1": 0.0,
+        "precision_at_top_L10": 0.06433566433566433,
+        "recall_at_top_L10": 0.092
+      },
+      "protein_level": {
+        "level": "per_protein",
+        "n_proteins": 56,
+        "mean_auroc": 0.5,
+        "std_auroc": 0.0,
+        "mean_auprc": 0.07855499146295523,
+        "std_auprc": 0.052303061908838926,
+        "median_auprc": 0.06230733519034355,
+        "mean_precision_at_top_L10": 0.1312890408431557,
+        "n_excluded": 0,
+        "excluded": {},
+        "min_residues_per_protein": 20,
+        "per_protein": {
+          "11GL": {
+            "n_residues": 182,
+            "n_positive": 11,
+            "positive_rate": 0.06043956043956044,
+            "auroc": 0.5,
+            "auprc": 0.06043956043956044,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1A27": {
+            "n_residues": 285,
+            "n_positive": 38,
+            "positive_rate": 0.13333333333333333,
+            "auroc": 0.5,
+            "auprc": 0.13333333333333333,
+            "precision_at_top_L10": 0.2857142857142857,
+            "recall_at_top_L10": 0.21052631578947367
+          },
+          "1AAX": {
+            "n_residues": 297,
+            "n_positive": 16,
+            "positive_rate": 0.05387205387205387,
+            "auroc": 0.5,
+            "auprc": 0.05387205387205387,
+            "precision_at_top_L10": 0.2413793103448276,
+            "recall_at_top_L10": 0.4375
+          },
+          "1ECV": {
+            "n_residues": 297,
+            "n_positive": 12,
+            "positive_rate": 0.04040404040404041,
+            "auroc": 0.5,
+            "auprc": 0.04040404040404041,
+            "precision_at_top_L10": 0.20689655172413793,
+            "recall_at_top_L10": 0.5
+          },
+          "1HB1": {
+            "n_residues": 328,
+            "n_positive": 17,
+            "positive_rate": 0.051829268292682924,
+            "auroc": 0.5,
+            "auprc": 0.051829268292682924,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.23529411764705882
+          },
+          "1JVJ": {
+            "n_residues": 263,
+            "n_positive": 12,
+            "positive_rate": 0.045627376425855515,
+            "auroc": 0.5,
+            "auprc": 0.045627376425855515,
+            "precision_at_top_L10": 0.038461538461538464,
+            "recall_at_top_L10": 0.08333333333333333
+          },
+          "1LS6": {
+            "n_residues": 288,
+            "n_positive": 14,
+            "positive_rate": 0.04861111111111111,
+            "auroc": 0.5,
+            "auprc": 0.04861111111111111,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1MOG": {
+            "n_residues": 67,
+            "n_positive": 5,
+            "positive_rate": 0.07462686567164178,
+            "auroc": 0.5,
+            "auprc": 0.07462686567164178,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.4
+          },
+          "1MX3": {
+            "n_residues": 326,
+            "n_positive": 27,
+            "positive_rate": 0.08282208588957055,
+            "auroc": 0.5,
+            "auprc": 0.08282208588957055,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.2962962962962963
+          },
+          "1P4C": {
+            "n_residues": 353,
+            "n_positive": 20,
+            "positive_rate": 0.056657223796033995,
+            "auroc": 0.5,
+            "auprc": 0.056657223796033995,
+            "precision_at_top_L10": 0.08571428571428572,
+            "recall_at_top_L10": 0.15
+          },
+          "1QUS": {
+            "n_residues": 312,
+            "n_positive": 7,
+            "positive_rate": 0.022435897435897436,
+            "auroc": 0.5,
+            "auprc": 0.022435897435897436,
+            "precision_at_top_L10": 0.03225806451612903,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "1R4U": {
+            "n_residues": 294,
+            "n_positive": 6,
+            "positive_rate": 0.02040816326530612,
+            "auroc": 0.5,
+            "auprc": 0.02040816326530612,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1S36": {
+            "n_residues": 185,
+            "n_positive": 19,
+            "positive_rate": 0.10270270270270271,
+            "auroc": 0.5,
+            "auprc": 0.10270270270270271,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.15789473684210525
+          },
+          "1SDE": {
+            "n_residues": 345,
+            "n_positive": 10,
+            "positive_rate": 0.028985507246376812,
+            "auroc": 0.5,
+            "auprc": 0.028985507246376812,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1SL9": {
+            "n_residues": 186,
+            "n_positive": 19,
+            "positive_rate": 0.10215053763440861,
+            "auroc": 0.5,
+            "auprc": 0.10215053763440861,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.15789473684210525
+          },
+          "1W04": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.5,
+            "auprc": 0.05167173252279635,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.23529411764705882
+          },
+          "1W92": {
+            "n_residues": 146,
+            "n_positive": 18,
+            "positive_rate": 0.1232876712328767,
+            "auroc": 0.5,
+            "auprc": 0.1232876712328767,
+            "precision_at_top_L10": 0.42857142857142855,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "1WTC": {
+            "n_residues": 318,
+            "n_positive": 25,
+            "positive_rate": 0.07861635220125786,
+            "auroc": 0.5,
+            "auprc": 0.07861635220125786,
+            "precision_at_top_L10": 0.03225806451612903,
+            "recall_at_top_L10": 0.04
+          },
+          "1X46": {
+            "n_residues": 150,
+            "n_positive": 18,
+            "positive_rate": 0.12,
+            "auroc": 0.5,
+            "auprc": 0.12,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.2777777777777778
+          },
+          "1Y1J": {
+            "n_residues": 275,
+            "n_positive": 8,
+            "positive_rate": 0.02909090909090909,
+            "auroc": 0.5,
+            "auprc": 0.02909090909090909,
+            "precision_at_top_L10": 0.037037037037037035,
+            "recall_at_top_L10": 0.125
+          },
+          "1YIM": {
+            "n_residues": 245,
+            "n_positive": 20,
+            "positive_rate": 0.08163265306122448,
+            "auroc": 0.5,
+            "auprc": 0.08163265306122448,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1Z4R": {
+            "n_residues": 163,
+            "n_positive": 24,
+            "positive_rate": 0.147239263803681,
+            "auroc": 0.5,
+            "auprc": 0.147239263803681,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.08333333333333333
+          },
+          "23LX": {
+            "n_residues": 300,
+            "n_positive": 19,
+            "positive_rate": 0.06333333333333334,
+            "auroc": 0.5,
+            "auprc": 0.06333333333333334,
+            "precision_at_top_L10": 0.03333333333333333,
+            "recall_at_top_L10": 0.05263157894736842
+          },
+          "2AI3": {
+            "n_residues": 272,
+            "n_positive": 21,
+            "positive_rate": 0.07720588235294118,
+            "auroc": 0.5,
+            "auprc": 0.07720588235294118,
+            "precision_at_top_L10": 0.1111111111111111,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2BJS": {
+            "n_residues": 320,
+            "n_positive": 19,
+            "positive_rate": 0.059375,
+            "auroc": 0.5,
+            "auprc": 0.059375,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.21052631578947367
+          },
+          "2BL9": {
+            "n_residues": 216,
+            "n_positive": 35,
+            "positive_rate": 0.16203703703703703,
+            "auroc": 0.5,
+            "auprc": 0.16203703703703703,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.2
+          },
+          "2D81": {
+            "n_residues": 318,
+            "n_positive": 14,
+            "positive_rate": 0.0440251572327044,
+            "auroc": 0.5,
+            "auprc": 0.0440251572327044,
+            "precision_at_top_L10": 0.03225806451612903,
+            "recall_at_top_L10": 0.07142857142857142
+          },
+          "2E3N": {
+            "n_residues": 231,
+            "n_positive": 21,
+            "positive_rate": 0.09090909090909091,
+            "auroc": 0.5,
+            "auprc": 0.09090909090909091,
+            "precision_at_top_L10": 0.08695652173913043,
+            "recall_at_top_L10": 0.09523809523809523
+          },
+          "2GG8": {
+            "n_residues": 263,
+            "n_positive": 15,
+            "positive_rate": 0.057034220532319393,
+            "auroc": 0.5,
+            "auprc": 0.057034220532319393,
+            "precision_at_top_L10": 0.19230769230769232,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "2GZ8": {
+            "n_residues": 306,
+            "n_positive": 14,
+            "positive_rate": 0.0457516339869281,
+            "auroc": 0.5,
+            "auprc": 0.0457516339869281,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2HBG": {
+            "n_residues": 147,
+            "n_positive": 17,
+            "positive_rate": 0.11564625850340136,
+            "auroc": 0.5,
+            "auprc": 0.11564625850340136,
+            "precision_at_top_L10": 0.21428571428571427,
+            "recall_at_top_L10": 0.17647058823529413
+          },
+          "2ICQ": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.5,
+            "auprc": 0.023728813559322035,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IGB": {
+            "n_residues": 172,
+            "n_positive": 12,
+            "positive_rate": 0.06976744186046512,
+            "auroc": 0.5,
+            "auprc": 0.06976744186046512,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IVJ": {
+            "n_residues": 329,
+            "n_positive": 18,
+            "positive_rate": 0.0547112462006079,
+            "auroc": 0.5,
+            "auprc": 0.0547112462006079,
+            "precision_at_top_L10": 0.15625,
+            "recall_at_top_L10": 0.2777777777777778
+          },
+          "2ORT": {
+            "n_residues": 298,
+            "n_positive": 22,
+            "positive_rate": 0.0738255033557047,
+            "auroc": 0.5,
+            "auprc": 0.0738255033557047,
+            "precision_at_top_L10": 0.06896551724137931,
+            "recall_at_top_L10": 0.09090909090909091
+          },
+          "2PE7": {
+            "n_residues": 207,
+            "n_positive": 5,
+            "positive_rate": 0.024154589371980676,
+            "auroc": 0.5,
+            "auprc": 0.024154589371980676,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2PES": {
+            "n_residues": 295,
+            "n_positive": 17,
+            "positive_rate": 0.0576271186440678,
+            "auroc": 0.5,
+            "auprc": 0.0576271186440678,
+            "precision_at_top_L10": 0.13793103448275862,
+            "recall_at_top_L10": 0.23529411764705882
+          },
+          "2PEZ": {
+            "n_residues": 176,
+            "n_positive": 29,
+            "positive_rate": 0.16477272727272727,
+            "auroc": 0.5,
+            "auprc": 0.16477272727272727,
+            "precision_at_top_L10": 0.23529411764705882,
+            "recall_at_top_L10": 0.13793103448275862
+          },
+          "2RDW": {
+            "n_residues": 359,
+            "n_positive": 22,
+            "positive_rate": 0.06128133704735376,
+            "auroc": 0.5,
+            "auprc": 0.06128133704735376,
+            "precision_at_top_L10": 0.11428571428571428,
+            "recall_at_top_L10": 0.18181818181818182
+          },
+          "2RFM": {
+            "n_residues": 183,
+            "n_positive": 6,
+            "positive_rate": 0.03278688524590164,
+            "auroc": 0.5,
+            "auprc": 0.03278688524590164,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2V00": {
+            "n_residues": 330,
+            "n_positive": 13,
+            "positive_rate": 0.03939393939393939,
+            "auroc": 0.5,
+            "auprc": 0.03939393939393939,
+            "precision_at_top_L10": 0.09090909090909091,
+            "recall_at_top_L10": 0.23076923076923078
+          },
+          "2VKF": {
+            "n_residues": 62,
+            "n_positive": 7,
+            "positive_rate": 0.11290322580645161,
+            "auroc": 0.5,
+            "auprc": 0.11290322580645161,
+            "precision_at_top_L10": 0.6666666666666666,
+            "recall_at_top_L10": 0.5714285714285714
+          },
+          "2VNN": {
+            "n_residues": 375,
+            "n_positive": 26,
+            "positive_rate": 0.06933333333333333,
+            "auroc": 0.5,
+            "auprc": 0.06933333333333333,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VU7": {
+            "n_residues": 207,
+            "n_positive": 8,
+            "positive_rate": 0.03864734299516908,
+            "auroc": 0.5,
+            "auprc": 0.03864734299516908,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VUW": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.5,
+            "auprc": 0.05167173252279635,
+            "precision_at_top_L10": 0.03125,
+            "recall_at_top_L10": 0.058823529411764705
+          },
+          "2WF4": {
+            "n_residues": 373,
+            "n_positive": 24,
+            "positive_rate": 0.064343163538874,
+            "auroc": 0.5,
+            "auprc": 0.064343163538874,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2X21": {
+            "n_residues": 151,
+            "n_positive": 50,
+            "positive_rate": 0.33112582781456956,
+            "auroc": 0.5,
+            "auprc": 0.33112582781456956,
+            "precision_at_top_L10": 0.4,
+            "recall_at_top_L10": 0.12
+          },
+          "2XIR": {
+            "n_residues": 296,
+            "n_positive": 19,
+            "positive_rate": 0.06418918918918919,
+            "auroc": 0.5,
+            "auprc": 0.06418918918918919,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2Z85": {
+            "n_residues": 145,
+            "n_positive": 18,
+            "positive_rate": 0.12413793103448276,
+            "auroc": 0.5,
+            "auprc": 0.12413793103448276,
+            "precision_at_top_L10": 0.35714285714285715,
+            "recall_at_top_L10": 0.2777777777777778
+          },
+          "2Z8A": {
+            "n_residues": 145,
+            "n_positive": 17,
+            "positive_rate": 0.11724137931034483,
+            "auroc": 0.5,
+            "auprc": 0.11724137931034483,
+            "precision_at_top_L10": 0.35714285714285715,
+            "recall_at_top_L10": 0.29411764705882354
+          },
+          "2ZDP": {
+            "n_residues": 110,
+            "n_positive": 20,
+            "positive_rate": 0.18181818181818182,
+            "auroc": 0.5,
+            "auprc": 0.18181818181818182,
+            "precision_at_top_L10": 0.2727272727272727,
+            "recall_at_top_L10": 0.15
+          },
+          "2ZKB": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.5,
+            "auprc": 0.023728813559322035,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZQC": {
+            "n_residues": 261,
+            "n_positive": 14,
+            "positive_rate": 0.05363984674329502,
+            "auroc": 0.5,
+            "auprc": 0.05363984674329502,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "37BV": {
+            "n_residues": 260,
+            "n_positive": 22,
+            "positive_rate": 0.08461538461538462,
+            "auroc": 0.5,
+            "auprc": 0.08461538461538462,
+            "precision_at_top_L10": 0.038461538461538464,
+            "recall_at_top_L10": 0.045454545454545456
+          },
+          "3BHM": {
+            "n_residues": 274,
+            "n_positive": 43,
+            "positive_rate": 0.15693430656934307,
+            "auroc": 0.5,
+            "auprc": 0.15693430656934307,
+            "precision_at_top_L10": 0.14814814814814814,
+            "recall_at_top_L10": 0.09302325581395349
+          },
+          "3BKB": {
+            "n_residues": 373,
+            "n_positive": 19,
+            "positive_rate": 0.05093833780160858,
+            "auroc": 0.5,
+            "auprc": 0.05093833780160858,
+            "precision_at_top_L10": 0.13513513513513514,
+            "recall_at_top_L10": 0.2631578947368421
+          }
+        }
+      },
+      "pooled_minus_per_protein_auprc": -0.008659136287167163,
+      "caveats": [
+        "AUROC is reported for comparability with the literature, but at a 7.0% positive rate it is not a sufficient summary: the false-positive-rate denominator is the large negative class, so a high AUROC is compatible with low precision. AUPRC (chance = 0.070) and precision in the top L/10 are the metrics that reflect usable output."
+      ]
+    },
+    {
+      "model": "burial",
+      "split_strategy": "homology_cluster",
+      "residue_level": {
+        "level": "residue_pooled",
+        "n_residues": 14307,
+        "n_positive": 1000,
+        "positive_rate": 0.06989585517578807,
+        "auroc": 0.6168481250469677,
+        "auprc": 0.08985794625319049,
+        "auprc_chance": 0.06989585517578807,
+        "auprc_lift_over_chance": 1.2855976370443964,
+        "best_f1": 0.17140862279629954,
+        "best_f1_threshold": 0.6153846979141235,
+        "precision_at_best_f1": 0.10382744766335378,
+        "recall_at_best_f1": 0.491,
+        "mcc_at_best_f1": 0.09351041446724404,
+        "precision_at_top_L10": 0.07482517482517483,
+        "recall_at_top_L10": 0.107
+      },
+      "protein_level": {
+        "level": "per_protein",
+        "n_proteins": 56,
+        "mean_auroc": 0.6171675673419088,
+        "std_auroc": 0.114566955141729,
+        "mean_auprc": 0.11428165459958203,
+        "std_auprc": 0.07111757873669038,
+        "median_auprc": 0.09263796458469487,
+        "mean_precision_at_top_L10": 0.08134510733136471,
+        "n_excluded": 0,
+        "excluded": {},
+        "min_residues_per_protein": 20,
+        "per_protein": {
+          "11GL": {
+            "n_residues": 182,
+            "n_positive": 11,
+            "positive_rate": 0.06043956043956044,
+            "auroc": 0.44125465178096757,
+            "auprc": 0.060110735948257804,
+            "precision_at_top_L10": 0.05555555555555555,
+            "recall_at_top_L10": 0.09090909090909091
+          },
+          "1A27": {
+            "n_residues": 285,
+            "n_positive": 38,
+            "positive_rate": 0.13333333333333333,
+            "auroc": 0.7223524398039634,
+            "auprc": 0.2530812180097264,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.18421052631578946
+          },
+          "1AAX": {
+            "n_residues": 297,
+            "n_positive": 16,
+            "positive_rate": 0.05387205387205387,
+            "auroc": 0.6341192170818506,
+            "auprc": 0.09263569858028553,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.1875
+          },
+          "1ECV": {
+            "n_residues": 297,
+            "n_positive": 12,
+            "positive_rate": 0.04040404040404041,
+            "auroc": 0.697953216374269,
+            "auprc": 0.08815643424968113,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.25
+          },
+          "1HB1": {
+            "n_residues": 328,
+            "n_positive": 17,
+            "positive_rate": 0.051829268292682924,
+            "auroc": 0.7094760733875545,
+            "auprc": 0.08868010366743898,
+            "precision_at_top_L10": 0.03125,
+            "recall_at_top_L10": 0.058823529411764705
+          },
+          "1JVJ": {
+            "n_residues": 263,
+            "n_positive": 12,
+            "positive_rate": 0.045627376425855515,
+            "auroc": 0.7438579017264276,
+            "auprc": 0.0926402305891042,
+            "precision_at_top_L10": 0.15384615384615385,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "1LS6": {
+            "n_residues": 288,
+            "n_positive": 14,
+            "positive_rate": 0.04861111111111111,
+            "auroc": 0.697992700729927,
+            "auprc": 0.08331997909691566,
+            "precision_at_top_L10": 0.07142857142857142,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "1MOG": {
+            "n_residues": 67,
+            "n_positive": 5,
+            "positive_rate": 0.07462686567164178,
+            "auroc": 0.3774193548387097,
+            "auprc": 0.07719723782524227,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1MX3": {
+            "n_residues": 326,
+            "n_positive": 27,
+            "positive_rate": 0.08282208588957055,
+            "auroc": 0.6739130434782608,
+            "auprc": 0.143720171756466,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.14814814814814814
+          },
+          "1P4C": {
+            "n_residues": 353,
+            "n_positive": 20,
+            "positive_rate": 0.056657223796033995,
+            "auroc": 0.7487237237237238,
+            "auprc": 0.10809061615635805,
+            "precision_at_top_L10": 0.05714285714285714,
+            "recall_at_top_L10": 0.1
+          },
+          "1QUS": {
+            "n_residues": 312,
+            "n_positive": 7,
+            "positive_rate": 0.022435897435897436,
+            "auroc": 0.7831381733021078,
+            "auprc": 0.05263389818146455,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1R4U": {
+            "n_residues": 294,
+            "n_positive": 6,
+            "positive_rate": 0.02040816326530612,
+            "auroc": 0.7138310185185186,
+            "auprc": 0.03877041495886997,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1S36": {
+            "n_residues": 185,
+            "n_positive": 19,
+            "positive_rate": 0.10270270270270271,
+            "auroc": 0.8375079264426125,
+            "auprc": 0.3054739300309084,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.3157894736842105
+          },
+          "1SDE": {
+            "n_residues": 345,
+            "n_positive": 10,
+            "positive_rate": 0.028985507246376812,
+            "auroc": 0.6114925373134329,
+            "auprc": 0.037837288078226415,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1SL9": {
+            "n_residues": 186,
+            "n_positive": 19,
+            "positive_rate": 0.10215053763440861,
+            "auroc": 0.7686731799558777,
+            "auprc": 0.2243237953941412,
+            "precision_at_top_L10": 0.2222222222222222,
+            "recall_at_top_L10": 0.21052631578947367
+          },
+          "1W04": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.7148378582202111,
+            "auprc": 0.08829744376624156,
+            "precision_at_top_L10": 0.03125,
+            "recall_at_top_L10": 0.058823529411764705
+          },
+          "1W92": {
+            "n_residues": 146,
+            "n_positive": 18,
+            "positive_rate": 0.1232876712328767,
+            "auroc": 0.5874565972222222,
+            "auprc": 0.15303211476353418,
+            "precision_at_top_L10": 0.14285714285714285,
+            "recall_at_top_L10": 0.1111111111111111
+          },
+          "1WTC": {
+            "n_residues": 318,
+            "n_positive": 25,
+            "positive_rate": 0.07861635220125786,
+            "auroc": 0.739863481228669,
+            "auprc": 0.21220807814877785,
+            "precision_at_top_L10": 0.16129032258064516,
+            "recall_at_top_L10": 0.2
+          },
+          "1X46": {
+            "n_residues": 150,
+            "n_positive": 18,
+            "positive_rate": 0.12,
+            "auroc": 0.5500841750841751,
+            "auprc": 0.13365607747565558,
+            "precision_at_top_L10": 0.06666666666666667,
+            "recall_at_top_L10": 0.05555555555555555
+          },
+          "1Y1J": {
+            "n_residues": 275,
+            "n_positive": 8,
+            "positive_rate": 0.02909090909090909,
+            "auroc": 0.34573970037453183,
+            "auprc": 0.022843310891125665,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1YIM": {
+            "n_residues": 245,
+            "n_positive": 20,
+            "positive_rate": 0.08163265306122448,
+            "auroc": 0.6374444444444445,
+            "auprc": 0.1058975282841504,
+            "precision_at_top_L10": 0.041666666666666664,
+            "recall_at_top_L10": 0.05
+          },
+          "1Z4R": {
+            "n_residues": 163,
+            "n_positive": 24,
+            "positive_rate": 0.147239263803681,
+            "auroc": 0.5677458033573142,
+            "auprc": 0.18168552325206258,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.08333333333333333
+          },
+          "23LX": {
+            "n_residues": 300,
+            "n_positive": 19,
+            "positive_rate": 0.06333333333333334,
+            "auroc": 0.553006180932759,
+            "auprc": 0.07258169539693671,
+            "precision_at_top_L10": 0.06666666666666667,
+            "recall_at_top_L10": 0.10526315789473684
+          },
+          "2AI3": {
+            "n_residues": 272,
+            "n_positive": 21,
+            "positive_rate": 0.07720588235294118,
+            "auroc": 0.6885790172642763,
+            "auprc": 0.1706324069451235,
+            "precision_at_top_L10": 0.1111111111111111,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2BJS": {
+            "n_residues": 320,
+            "n_positive": 19,
+            "positive_rate": 0.059375,
+            "auroc": 0.6646266829865362,
+            "auprc": 0.09092817462670484,
+            "precision_at_top_L10": 0.0625,
+            "recall_at_top_L10": 0.10526315789473684
+          },
+          "2BL9": {
+            "n_residues": 216,
+            "n_positive": 35,
+            "positive_rate": 0.16203703703703703,
+            "auroc": 0.6636148382004736,
+            "auprc": 0.24773987135803455,
+            "precision_at_top_L10": 0.2857142857142857,
+            "recall_at_top_L10": 0.17142857142857143
+          },
+          "2D81": {
+            "n_residues": 318,
+            "n_positive": 14,
+            "positive_rate": 0.0440251572327044,
+            "auroc": 0.5102208646616542,
+            "auprc": 0.048333930991304466,
+            "precision_at_top_L10": 0.03225806451612903,
+            "recall_at_top_L10": 0.07142857142857142
+          },
+          "2E3N": {
+            "n_residues": 231,
+            "n_positive": 21,
+            "positive_rate": 0.09090909090909091,
+            "auroc": 0.7086167800453514,
+            "auprc": 0.15368976791177186,
+            "precision_at_top_L10": 0.13043478260869565,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2GG8": {
+            "n_residues": 263,
+            "n_positive": 15,
+            "positive_rate": 0.057034220532319393,
+            "auroc": 0.5579301075268818,
+            "auprc": 0.0647789234154746,
+            "precision_at_top_L10": 0.038461538461538464,
+            "recall_at_top_L10": 0.06666666666666667
+          },
+          "2GZ8": {
+            "n_residues": 306,
+            "n_positive": 14,
+            "positive_rate": 0.0457516339869281,
+            "auroc": 0.4268590998043053,
+            "auprc": 0.03917288233718639,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2HBG": {
+            "n_residues": 147,
+            "n_positive": 17,
+            "positive_rate": 0.11564625850340136,
+            "auroc": 0.5843891402714932,
+            "auprc": 0.15275881107490258,
+            "precision_at_top_L10": 0.21428571428571427,
+            "recall_at_top_L10": 0.17647058823529413
+          },
+          "2ICQ": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.6138392857142857,
+            "auprc": 0.03510991049996162,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IGB": {
+            "n_residues": 172,
+            "n_positive": 12,
+            "positive_rate": 0.06976744186046512,
+            "auroc": 0.6921875000000001,
+            "auprc": 0.11162665637087266,
+            "precision_at_top_L10": 0.058823529411764705,
+            "recall_at_top_L10": 0.08333333333333333
+          },
+          "2IVJ": {
+            "n_residues": 329,
+            "n_positive": 18,
+            "positive_rate": 0.0547112462006079,
+            "auroc": 0.7121293319042514,
+            "auprc": 0.09234248262183212,
+            "precision_at_top_L10": 0.0625,
+            "recall_at_top_L10": 0.1111111111111111
+          },
+          "2ORT": {
+            "n_residues": 298,
+            "n_positive": 22,
+            "positive_rate": 0.0738255033557047,
+            "auroc": 0.6083662714097496,
+            "auprc": 0.10048757419106856,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.13636363636363635
+          },
+          "2PE7": {
+            "n_residues": 207,
+            "n_positive": 5,
+            "positive_rate": 0.024154589371980676,
+            "auroc": 0.7024752475247524,
+            "auprc": 0.04511811989280235,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2PES": {
+            "n_residues": 295,
+            "n_positive": 17,
+            "positive_rate": 0.0576271186440678,
+            "auroc": 0.41927634363097754,
+            "auprc": 0.05007523675363975,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2PEZ": {
+            "n_residues": 176,
+            "n_positive": 29,
+            "positive_rate": 0.16477272727272727,
+            "auroc": 0.6520056298381421,
+            "auprc": 0.22968690630369507,
+            "precision_at_top_L10": 0.17647058823529413,
+            "recall_at_top_L10": 0.10344827586206896
+          },
+          "2RDW": {
+            "n_residues": 359,
+            "n_positive": 22,
+            "positive_rate": 0.06128133704735376,
+            "auroc": 0.7377259239277043,
+            "auprc": 0.11945043564428326,
+            "precision_at_top_L10": 0.05714285714285714,
+            "recall_at_top_L10": 0.09090909090909091
+          },
+          "2RFM": {
+            "n_residues": 183,
+            "n_positive": 6,
+            "positive_rate": 0.03278688524590164,
+            "auroc": 0.5621468926553672,
+            "auprc": 0.039685339576998574,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2V00": {
+            "n_residues": 330,
+            "n_positive": 13,
+            "positive_rate": 0.03939393939393939,
+            "auroc": 0.6168405726765348,
+            "auprc": 0.05480850395678673,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VKF": {
+            "n_residues": 62,
+            "n_positive": 7,
+            "positive_rate": 0.11290322580645161,
+            "auroc": 0.35844155844155845,
+            "auprc": 0.11667444755680048,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VNN": {
+            "n_residues": 375,
+            "n_positive": 26,
+            "positive_rate": 0.06933333333333333,
+            "auroc": 0.6436521930791271,
+            "auprc": 0.10531961510505529,
+            "precision_at_top_L10": 0.10810810810810811,
+            "recall_at_top_L10": 0.15384615384615385
+          },
+          "2VU7": {
+            "n_residues": 207,
+            "n_positive": 8,
+            "positive_rate": 0.03864734299516908,
+            "auroc": 0.4265075376884422,
+            "auprc": 0.03564890782151901,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VUW": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.6751508295625943,
+            "auprc": 0.07696589798115429,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2WF4": {
+            "n_residues": 373,
+            "n_positive": 24,
+            "positive_rate": 0.064343163538874,
+            "auroc": 0.6917979942693411,
+            "auprc": 0.11153607310423327,
+            "precision_at_top_L10": 0.08108108108108109,
+            "recall_at_top_L10": 0.125
+          },
+          "2X21": {
+            "n_residues": 151,
+            "n_positive": 50,
+            "positive_rate": 0.33112582781456956,
+            "auroc": 0.5342574257425743,
+            "auprc": 0.3421628007094532,
+            "precision_at_top_L10": 0.2,
+            "recall_at_top_L10": 0.06
+          },
+          "2XIR": {
+            "n_residues": 296,
+            "n_positive": 19,
+            "positive_rate": 0.06418918918918919,
+            "auroc": 0.7162264867946038,
+            "auprc": 0.11067357303595748,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.15789473684210525
+          },
+          "2Z85": {
+            "n_residues": 145,
+            "n_positive": 18,
+            "positive_rate": 0.12413793103448276,
+            "auroc": 0.45603674540682415,
+            "auprc": 0.11832502382468835,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2Z8A": {
+            "n_residues": 145,
+            "n_positive": 17,
+            "positive_rate": 0.11724137931034483,
+            "auroc": 0.4809283088235294,
+            "auprc": 0.11635004506935627,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZDP": {
+            "n_residues": 110,
+            "n_positive": 20,
+            "positive_rate": 0.18181818181818182,
+            "auroc": 0.6147222222222222,
+            "auprc": 0.22775684505278632,
+            "precision_at_top_L10": 0.2727272727272727,
+            "recall_at_top_L10": 0.15
+          },
+          "2ZKB": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.6185515873015872,
+            "auprc": 0.035481304733114366,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZQC": {
+            "n_residues": 261,
+            "n_positive": 14,
+            "positive_rate": 0.05363984674329502,
+            "auroc": 0.6560150375939849,
+            "auprc": 0.08004270678956313,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "37BV": {
+            "n_residues": 260,
+            "n_positive": 22,
+            "positive_rate": 0.08461538461538462,
+            "auroc": 0.44824293353705114,
+            "auprc": 0.07525171201213719,
+            "precision_at_top_L10": 0.038461538461538464,
+            "recall_at_top_L10": 0.045454545454545456
+          },
+          "3BHM": {
+            "n_residues": 274,
+            "n_positive": 43,
+            "positive_rate": 0.15693430656934307,
+            "auroc": 0.5890466123024262,
+            "auprc": 0.198624206970046,
+            "precision_at_top_L10": 0.2222222222222222,
+            "recall_at_top_L10": 0.13953488372093023
+          },
+          "3BKB": {
+            "n_residues": 373,
+            "n_positive": 19,
+            "positive_rate": 0.05093833780160858,
+            "auroc": 0.6720933690157598,
+            "auprc": 0.08566003883671444,
+            "precision_at_top_L10": 0.05405405405405406,
+            "recall_at_top_L10": 0.10526315789473684
+          }
+        }
+      },
+      "pooled_minus_per_protein_auprc": -0.024423708346391543,
+      "caveats": [
+        "AUROC is reported for comparability with the literature, but at a 7.0% positive rate it is not a sufficient summary: the false-positive-rate denominator is the large negative class, so a high AUROC is compatible with low precision. AUPRC (chance = 0.070) and precision in the top L/10 are the metrics that reflect usable output."
+      ]
+    },
+    {
+      "model": "logistic",
+      "split_strategy": "homology_cluster",
+      "residue_level": {
+        "level": "residue_pooled",
+        "n_residues": 14307,
+        "n_positive": 1000,
+        "positive_rate": 0.06989585517578807,
+        "auroc": 0.7649973698053656,
+        "auprc": 0.19274725356144326,
+        "auprc_chance": 0.06989585517578807,
+        "auprc_lift_over_chance": 2.7576349567035687,
+        "best_f1": 0.275797373358349,
+        "best_f1_threshold": 0.68967204481968,
+        "precision_at_best_f1": 0.20063694267515925,
+        "recall_at_best_f1": 0.441,
+        "mcc_at_best_f1": 0.218464208797745,
+        "precision_at_top_L10": 0.21748251748251748,
+        "recall_at_top_L10": 0.311
+      },
+      "protein_level": {
+        "level": "per_protein",
+        "n_proteins": 56,
+        "mean_auroc": 0.7743631197030313,
+        "std_auroc": 0.15804556415069684,
+        "mean_auprc": 0.3147709134579281,
+        "std_auprc": 0.201621218057465,
+        "median_auprc": 0.29987511042369996,
+        "mean_precision_at_top_L10": 0.27791802251692094,
+        "n_excluded": 0,
+        "excluded": {},
+        "min_residues_per_protein": 20,
+        "per_protein": {
+          "11GL": {
+            "n_residues": 182,
+            "n_positive": 11,
+            "positive_rate": 0.06043956043956044,
+            "auroc": 0.7405635300372143,
+            "auprc": 0.14180768709007482,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.2727272727272727
+          },
+          "1A27": {
+            "n_residues": 285,
+            "n_positive": 38,
+            "positive_rate": 0.13333333333333333,
+            "auroc": 0.8545706371191135,
+            "auprc": 0.5498461629715173,
+            "precision_at_top_L10": 0.5357142857142857,
+            "recall_at_top_L10": 0.39473684210526316
+          },
+          "1AAX": {
+            "n_residues": 297,
+            "n_positive": 16,
+            "positive_rate": 0.05387205387205387,
+            "auroc": 0.7355427046263345,
+            "auprc": 0.1020135263231608,
+            "precision_at_top_L10": 0.06896551724137931,
+            "recall_at_top_L10": 0.125
+          },
+          "1ECV": {
+            "n_residues": 297,
+            "n_positive": 12,
+            "positive_rate": 0.04040404040404041,
+            "auroc": 0.7777777777777778,
+            "auprc": 0.1021961757357613,
+            "precision_at_top_L10": 0.06896551724137931,
+            "recall_at_top_L10": 0.16666666666666666
+          },
+          "1HB1": {
+            "n_residues": 328,
+            "n_positive": 17,
+            "positive_rate": 0.051829268292682924,
+            "auroc": 0.9491204842065444,
+            "auprc": 0.5005866052792536,
+            "precision_at_top_L10": 0.40625,
+            "recall_at_top_L10": 0.7647058823529411
+          },
+          "1JVJ": {
+            "n_residues": 263,
+            "n_positive": 12,
+            "positive_rate": 0.045627376425855515,
+            "auroc": 0.8303452855245683,
+            "auprc": 0.20243538569528044,
+            "precision_at_top_L10": 0.19230769230769232,
+            "recall_at_top_L10": 0.4166666666666667
+          },
+          "1LS6": {
+            "n_residues": 288,
+            "n_positive": 14,
+            "positive_rate": 0.04861111111111111,
+            "auroc": 0.8540145985401459,
+            "auprc": 0.2396432790921334,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.5
+          },
+          "1MOG": {
+            "n_residues": 67,
+            "n_positive": 5,
+            "positive_rate": 0.07462686567164178,
+            "auroc": 0.5838709677419355,
+            "auprc": 0.11359698018736922,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1MX3": {
+            "n_residues": 326,
+            "n_positive": 27,
+            "positive_rate": 0.08282208588957055,
+            "auroc": 0.9088319088319088,
+            "auprc": 0.5059520578275486,
+            "precision_at_top_L10": 0.4375,
+            "recall_at_top_L10": 0.5185185185185185
+          },
+          "1P4C": {
+            "n_residues": 353,
+            "n_positive": 20,
+            "positive_rate": 0.056657223796033995,
+            "auroc": 0.9135135135135135,
+            "auprc": 0.4540321251718762,
+            "precision_at_top_L10": 0.4,
+            "recall_at_top_L10": 0.7
+          },
+          "1QUS": {
+            "n_residues": 312,
+            "n_positive": 7,
+            "positive_rate": 0.022435897435897436,
+            "auroc": 0.9676814988290398,
+            "auprc": 0.27963585434173666,
+            "precision_at_top_L10": 0.22580645161290322,
+            "recall_at_top_L10": 1.0
+          },
+          "1R4U": {
+            "n_residues": 294,
+            "n_positive": 6,
+            "positive_rate": 0.02040816326530612,
+            "auroc": 0.4826388888888889,
+            "auprc": 0.0217222222301877,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1S36": {
+            "n_residues": 185,
+            "n_positive": 19,
+            "positive_rate": 0.10270270270270271,
+            "auroc": 0.932149651236525,
+            "auprc": 0.60061703730831,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.47368421052631576
+          },
+          "1SDE": {
+            "n_residues": 345,
+            "n_positive": 10,
+            "positive_rate": 0.028985507246376812,
+            "auroc": 0.9743283582089552,
+            "auprc": 0.7298388648388647,
+            "precision_at_top_L10": 0.2647058823529412,
+            "recall_at_top_L10": 0.9
+          },
+          "1SL9": {
+            "n_residues": 186,
+            "n_positive": 19,
+            "positive_rate": 0.10215053763440861,
+            "auroc": 0.9300346675070911,
+            "auprc": 0.5658729982870501,
+            "precision_at_top_L10": 0.5555555555555556,
+            "recall_at_top_L10": 0.5263157894736842
+          },
+          "1W04": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.95079185520362,
+            "auprc": 0.49618182697410035,
+            "precision_at_top_L10": 0.375,
+            "recall_at_top_L10": 0.7058823529411765
+          },
+          "1W92": {
+            "n_residues": 146,
+            "n_positive": 18,
+            "positive_rate": 0.1232876712328767,
+            "auroc": 0.8697916666666666,
+            "auprc": 0.44052558327760144,
+            "precision_at_top_L10": 0.42857142857142855,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "1WTC": {
+            "n_residues": 318,
+            "n_positive": 25,
+            "positive_rate": 0.07861635220125786,
+            "auroc": 0.8655290102389078,
+            "auprc": 0.5379880399289884,
+            "precision_at_top_L10": 0.45161290322580644,
+            "recall_at_top_L10": 0.56
+          },
+          "1X46": {
+            "n_residues": 150,
+            "n_positive": 18,
+            "positive_rate": 0.12,
+            "auroc": 0.8893097643097644,
+            "auprc": 0.5847126825191186,
+            "precision_at_top_L10": 0.5333333333333333,
+            "recall_at_top_L10": 0.4444444444444444
+          },
+          "1Y1J": {
+            "n_residues": 275,
+            "n_positive": 8,
+            "positive_rate": 0.02909090909090909,
+            "auroc": 0.33661048689138573,
+            "auprc": 0.023049391895080415,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1YIM": {
+            "n_residues": 245,
+            "n_positive": 20,
+            "positive_rate": 0.08163265306122448,
+            "auroc": 0.742,
+            "auprc": 0.14931016246857834,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.15
+          },
+          "1Z4R": {
+            "n_residues": 163,
+            "n_positive": 24,
+            "positive_rate": 0.147239263803681,
+            "auroc": 0.7014388489208634,
+            "auprc": 0.267760047484338,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.16666666666666666
+          },
+          "23LX": {
+            "n_residues": 300,
+            "n_positive": 19,
+            "positive_rate": 0.06333333333333334,
+            "auroc": 0.7036898295560967,
+            "auprc": 0.12517647436794838,
+            "precision_at_top_L10": 0.1,
+            "recall_at_top_L10": 0.15789473684210525
+          },
+          "2AI3": {
+            "n_residues": 272,
+            "n_positive": 21,
+            "positive_rate": 0.07720588235294118,
+            "auroc": 0.6406753936634415,
+            "auprc": 0.21717979309350655,
+            "precision_at_top_L10": 0.2222222222222222,
+            "recall_at_top_L10": 0.2857142857142857
+          },
+          "2BJS": {
+            "n_residues": 320,
+            "n_positive": 19,
+            "positive_rate": 0.059375,
+            "auroc": 0.9075013114180801,
+            "auprc": 0.5135836504963809,
+            "precision_at_top_L10": 0.40625,
+            "recall_at_top_L10": 0.6842105263157895
+          },
+          "2BL9": {
+            "n_residues": 216,
+            "n_positive": 35,
+            "positive_rate": 0.16203703703703703,
+            "auroc": 0.7297553275453827,
+            "auprc": 0.33685020898939355,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.2
+          },
+          "2D81": {
+            "n_residues": 318,
+            "n_positive": 14,
+            "positive_rate": 0.0440251572327044,
+            "auroc": 0.6557800751879699,
+            "auprc": 0.07374577789461773,
+            "precision_at_top_L10": 0.0967741935483871,
+            "recall_at_top_L10": 0.21428571428571427
+          },
+          "2E3N": {
+            "n_residues": 231,
+            "n_positive": 21,
+            "positive_rate": 0.09090909090909091,
+            "auroc": 0.7766439909297052,
+            "auprc": 0.5122424807762536,
+            "precision_at_top_L10": 0.391304347826087,
+            "recall_at_top_L10": 0.42857142857142855
+          },
+          "2GG8": {
+            "n_residues": 263,
+            "n_positive": 15,
+            "positive_rate": 0.057034220532319393,
+            "auroc": 0.9333333333333333,
+            "auprc": 0.46608637848983486,
+            "precision_at_top_L10": 0.34615384615384615,
+            "recall_at_top_L10": 0.6
+          },
+          "2GZ8": {
+            "n_residues": 306,
+            "n_positive": 14,
+            "positive_rate": 0.0457516339869281,
+            "auroc": 0.6073874755381605,
+            "auprc": 0.0563345097059685,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2HBG": {
+            "n_residues": 147,
+            "n_positive": 17,
+            "positive_rate": 0.11564625850340136,
+            "auroc": 0.8705882352941177,
+            "auprc": 0.408179782400578,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.4117647058823529
+          },
+          "2ICQ": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.503968253968254,
+            "auprc": 0.025765986952401378,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IGB": {
+            "n_residues": 172,
+            "n_positive": 12,
+            "positive_rate": 0.06976744186046512,
+            "auroc": 0.7203125,
+            "auprc": 0.2276700213993003,
+            "precision_at_top_L10": 0.17647058823529413,
+            "recall_at_top_L10": 0.25
+          },
+          "2IVJ": {
+            "n_residues": 329,
+            "n_positive": 18,
+            "positive_rate": 0.0547112462006079,
+            "auroc": 0.953554841014648,
+            "auprc": 0.5113261434294015,
+            "precision_at_top_L10": 0.4375,
+            "recall_at_top_L10": 0.7777777777777778
+          },
+          "2ORT": {
+            "n_residues": 298,
+            "n_positive": 22,
+            "positive_rate": 0.0738255033557047,
+            "auroc": 0.8646245059288538,
+            "auprc": 0.39291768396664606,
+            "precision_at_top_L10": 0.3793103448275862,
+            "recall_at_top_L10": 0.5
+          },
+          "2PE7": {
+            "n_residues": 207,
+            "n_positive": 5,
+            "positive_rate": 0.024154589371980676,
+            "auroc": 0.7663366336633664,
+            "auprc": 0.12281853281853282,
+            "precision_at_top_L10": 0.1,
+            "recall_at_top_L10": 0.4
+          },
+          "2PES": {
+            "n_residues": 295,
+            "n_positive": 17,
+            "positive_rate": 0.0576271186440678,
+            "auroc": 0.4614896318239526,
+            "auprc": 0.05402229165571649,
+            "precision_at_top_L10": 0.034482758620689655,
+            "recall_at_top_L10": 0.058823529411764705
+          },
+          "2PEZ": {
+            "n_residues": 176,
+            "n_positive": 29,
+            "positive_rate": 0.16477272727272727,
+            "auroc": 0.6945812807881774,
+            "auprc": 0.2940512247020976,
+            "precision_at_top_L10": 0.17647058823529413,
+            "recall_at_top_L10": 0.10344827586206896
+          },
+          "2RDW": {
+            "n_residues": 359,
+            "n_positive": 22,
+            "positive_rate": 0.06128133704735376,
+            "auroc": 0.9289182627461559,
+            "auprc": 0.3896930015124361,
+            "precision_at_top_L10": 0.4,
+            "recall_at_top_L10": 0.6363636363636364
+          },
+          "2RFM": {
+            "n_residues": 183,
+            "n_positive": 6,
+            "positive_rate": 0.03278688524590164,
+            "auroc": 0.5404896421845574,
+            "auprc": 0.038811358740281646,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2V00": {
+            "n_residues": 330,
+            "n_positive": 13,
+            "positive_rate": 0.03939393939393939,
+            "auroc": 0.9594758553749091,
+            "auprc": 0.6099006931674398,
+            "precision_at_top_L10": 0.3333333333333333,
+            "recall_at_top_L10": 0.8461538461538461
+          },
+          "2VKF": {
+            "n_residues": 62,
+            "n_positive": 7,
+            "positive_rate": 0.11290322580645161,
+            "auroc": 0.4155844155844156,
+            "auprc": 0.12406387865023401,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2VNN": {
+            "n_residues": 375,
+            "n_positive": 26,
+            "positive_rate": 0.06933333333333333,
+            "auroc": 0.8750275512453163,
+            "auprc": 0.30274621757059883,
+            "precision_at_top_L10": 0.32432432432432434,
+            "recall_at_top_L10": 0.46153846153846156
+          },
+          "2VU7": {
+            "n_residues": 207,
+            "n_positive": 8,
+            "positive_rate": 0.03864734299516908,
+            "auroc": 0.5910804020100502,
+            "auprc": 0.06893887054942963,
+            "precision_at_top_L10": 0.1,
+            "recall_at_top_L10": 0.25
+          },
+          "2VUW": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.8996983408748115,
+            "auprc": 0.33870665677315825,
+            "precision_at_top_L10": 0.34375,
+            "recall_at_top_L10": 0.6470588235294118
+          },
+          "2WF4": {
+            "n_residues": 373,
+            "n_positive": 24,
+            "positive_rate": 0.064343163538874,
+            "auroc": 0.9010267430754537,
+            "auprc": 0.3131729433736771,
+            "precision_at_top_L10": 0.35135135135135137,
+            "recall_at_top_L10": 0.5416666666666666
+          },
+          "2X21": {
+            "n_residues": 151,
+            "n_positive": 50,
+            "positive_rate": 0.33112582781456956,
+            "auroc": 0.7675247524752475,
+            "auprc": 0.6836688342112471,
+            "precision_at_top_L10": 0.9333333333333333,
+            "recall_at_top_L10": 0.28
+          },
+          "2XIR": {
+            "n_residues": 296,
+            "n_positive": 19,
+            "positive_rate": 0.06418918918918919,
+            "auroc": 0.8301349040471215,
+            "auprc": 0.23749632187592598,
+            "precision_at_top_L10": 0.1724137931034483,
+            "recall_at_top_L10": 0.2631578947368421
+          },
+          "2Z85": {
+            "n_residues": 145,
+            "n_positive": 18,
+            "positive_rate": 0.12413793103448276,
+            "auroc": 0.8171478565179352,
+            "auprc": 0.4330599948197464,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.3888888888888889
+          },
+          "2Z8A": {
+            "n_residues": 145,
+            "n_positive": 17,
+            "positive_rate": 0.11724137931034483,
+            "auroc": 0.8552389705882353,
+            "auprc": 0.4488834410602145,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.4117647058823529
+          },
+          "2ZDP": {
+            "n_residues": 110,
+            "n_positive": 20,
+            "positive_rate": 0.18181818181818182,
+            "auroc": 0.9083333333333333,
+            "auprc": 0.7184748990423802,
+            "precision_at_top_L10": 0.7272727272727273,
+            "recall_at_top_L10": 0.4
+          },
+          "2ZKB": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.49950396825396826,
+            "auprc": 0.02558801938802816,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZQC": {
+            "n_residues": 261,
+            "n_positive": 14,
+            "positive_rate": 0.05363984674329502,
+            "auroc": 0.8366107576633892,
+            "auprc": 0.3196962365763013,
+            "precision_at_top_L10": 0.2692307692307692,
+            "recall_at_top_L10": 0.5
+          },
+          "37BV": {
+            "n_residues": 260,
+            "n_positive": 22,
+            "positive_rate": 0.08461538461538462,
+            "auroc": 0.6098166539343011,
+            "auprc": 0.1057072966324484,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "3BHM": {
+            "n_residues": 274,
+            "n_positive": 43,
+            "positive_rate": 0.15693430656934307,
+            "auroc": 0.6968690224504178,
+            "auprc": 0.29700400327680104,
+            "precision_at_top_L10": 0.37037037037037035,
+            "recall_at_top_L10": 0.23255813953488372
+          },
+          "3BKB": {
+            "n_residues": 373,
+            "n_positive": 19,
+            "positive_rate": 0.05093833780160858,
+            "auroc": 0.8511745465358311,
+            "auprc": 0.2242828483571185,
+            "precision_at_top_L10": 0.13513513513513514,
+            "recall_at_top_L10": 0.2631578947368421
+          }
+        }
+      },
+      "pooled_minus_per_protein_auprc": -0.12202365989648487,
+      "caveats": [
+        "AUROC is reported for comparability with the literature, but at a 7.0% positive rate it is not a sufficient summary: the false-positive-rate denominator is the large negative class, so a high AUROC is compatible with low precision. AUPRC (chance = 0.070) and precision in the top L/10 are the metrics that reflect usable output."
+      ]
+    },
+    {
+      "model": "random_forest",
+      "split_strategy": "homology_cluster",
+      "residue_level": {
+        "level": "residue_pooled",
+        "n_residues": 14307,
+        "n_positive": 1000,
+        "positive_rate": 0.06989585517578807,
+        "auroc": 0.7769528819418351,
+        "auprc": 0.22126816617654613,
+        "auprc_chance": 0.06989585517578807,
+        "auprc_lift_over_chance": 3.1656836534878456,
+        "best_f1": 0.2920616113744076,
+        "best_f1_threshold": 0.4627959215571195,
+        "precision_at_best_f1": 0.2074915824915825,
+        "recall_at_best_f1": 0.493,
+        "mcc_at_best_f1": 0.2408231552625578,
+        "precision_at_top_L10": 0.24405594405594405,
+        "recall_at_top_L10": 0.349
+      },
+      "protein_level": {
+        "level": "per_protein",
+        "n_proteins": 56,
+        "mean_auroc": 0.7761922000734732,
+        "std_auroc": 0.14752441200549626,
+        "mean_auprc": 0.30843768228086166,
+        "std_auprc": 0.2010565934596572,
+        "median_auprc": 0.2882954270681637,
+        "mean_precision_at_top_L10": 0.29019362314049346,
+        "n_excluded": 0,
+        "excluded": {},
+        "min_residues_per_protein": 20,
+        "per_protein": {
+          "11GL": {
+            "n_residues": 182,
+            "n_positive": 11,
+            "positive_rate": 0.06043956043956044,
+            "auroc": 0.7692716640085061,
+            "auprc": 0.1357421682195305,
+            "precision_at_top_L10": 0.1111111111111111,
+            "recall_at_top_L10": 0.18181818181818182
+          },
+          "1A27": {
+            "n_residues": 285,
+            "n_positive": 38,
+            "positive_rate": 0.13333333333333333,
+            "auroc": 0.8506285957809504,
+            "auprc": 0.4627214464902802,
+            "precision_at_top_L10": 0.39285714285714285,
+            "recall_at_top_L10": 0.2894736842105263
+          },
+          "1AAX": {
+            "n_residues": 297,
+            "n_positive": 16,
+            "positive_rate": 0.05387205387205387,
+            "auroc": 0.7442170818505338,
+            "auprc": 0.11581115101801902,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.1875
+          },
+          "1ECV": {
+            "n_residues": 297,
+            "n_positive": 12,
+            "positive_rate": 0.04040404040404041,
+            "auroc": 0.7809941520467837,
+            "auprc": 0.10864462880253956,
+            "precision_at_top_L10": 0.10344827586206896,
+            "recall_at_top_L10": 0.25
+          },
+          "1HB1": {
+            "n_residues": 328,
+            "n_positive": 17,
+            "positive_rate": 0.051829268292682924,
+            "auroc": 0.9235861547191223,
+            "auprc": 0.370805611579679,
+            "precision_at_top_L10": 0.34375,
+            "recall_at_top_L10": 0.6470588235294118
+          },
+          "1JVJ": {
+            "n_residues": 263,
+            "n_positive": 12,
+            "positive_rate": 0.045627376425855515,
+            "auroc": 0.8937583001328021,
+            "auprc": 0.34680538418633655,
+            "precision_at_top_L10": 0.3076923076923077,
+            "recall_at_top_L10": 0.6666666666666666
+          },
+          "1LS6": {
+            "n_residues": 288,
+            "n_positive": 14,
+            "positive_rate": 0.04861111111111111,
+            "auroc": 0.8735662148070906,
+            "auprc": 0.26824583538204644,
+            "precision_at_top_L10": 0.21428571428571427,
+            "recall_at_top_L10": 0.42857142857142855
+          },
+          "1MOG": {
+            "n_residues": 67,
+            "n_positive": 5,
+            "positive_rate": 0.07462686567164178,
+            "auroc": 0.596774193548387,
+            "auprc": 0.11369244554728426,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1MX3": {
+            "n_residues": 326,
+            "n_positive": 27,
+            "positive_rate": 0.08282208588957055,
+            "auroc": 0.8862876254180603,
+            "auprc": 0.4091252513147419,
+            "precision_at_top_L10": 0.4375,
+            "recall_at_top_L10": 0.5185185185185185
+          },
+          "1P4C": {
+            "n_residues": 353,
+            "n_positive": 20,
+            "positive_rate": 0.056657223796033995,
+            "auroc": 0.9024024024024023,
+            "auprc": 0.48953779341206266,
+            "precision_at_top_L10": 0.37142857142857144,
+            "recall_at_top_L10": 0.65
+          },
+          "1QUS": {
+            "n_residues": 312,
+            "n_positive": 7,
+            "positive_rate": 0.022435897435897436,
+            "auroc": 0.8866510538641686,
+            "auprc": 0.17627708617693652,
+            "precision_at_top_L10": 0.16129032258064516,
+            "recall_at_top_L10": 0.7142857142857143
+          },
+          "1R4U": {
+            "n_residues": 294,
+            "n_positive": 6,
+            "positive_rate": 0.02040816326530612,
+            "auroc": 0.556712962962963,
+            "auprc": 0.025144195808101778,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1S36": {
+            "n_residues": 185,
+            "n_positive": 19,
+            "positive_rate": 0.10270270270270271,
+            "auroc": 0.885859226379201,
+            "auprc": 0.4408979696805382,
+            "precision_at_top_L10": 0.3888888888888889,
+            "recall_at_top_L10": 0.3684210526315789
+          },
+          "1SDE": {
+            "n_residues": 345,
+            "n_positive": 10,
+            "positive_rate": 0.028985507246376812,
+            "auroc": 0.9543283582089552,
+            "auprc": 0.6045889665889665,
+            "precision_at_top_L10": 0.2647058823529412,
+            "recall_at_top_L10": 0.9
+          },
+          "1SL9": {
+            "n_residues": 186,
+            "n_positive": 19,
+            "positive_rate": 0.10215053763440861,
+            "auroc": 0.9180586196028995,
+            "auprc": 0.5487408988608238,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.47368421052631576
+          },
+          "1W04": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.9287330316742082,
+            "auprc": 0.3977361997546542,
+            "precision_at_top_L10": 0.28125,
+            "recall_at_top_L10": 0.5294117647058824
+          },
+          "1W92": {
+            "n_residues": 146,
+            "n_positive": 18,
+            "positive_rate": 0.1232876712328767,
+            "auroc": 0.8880208333333334,
+            "auprc": 0.5524309706120852,
+            "precision_at_top_L10": 0.6428571428571429,
+            "recall_at_top_L10": 0.5
+          },
+          "1WTC": {
+            "n_residues": 318,
+            "n_positive": 25,
+            "positive_rate": 0.07861635220125786,
+            "auroc": 0.8371331058020478,
+            "auprc": 0.3278937669471701,
+            "precision_at_top_L10": 0.3225806451612903,
+            "recall_at_top_L10": 0.4
+          },
+          "1X46": {
+            "n_residues": 150,
+            "n_positive": 18,
+            "positive_rate": 0.12,
+            "auroc": 0.9187710437710438,
+            "auprc": 0.7928840331364561,
+            "precision_at_top_L10": 0.8,
+            "recall_at_top_L10": 0.6666666666666666
+          },
+          "1Y1J": {
+            "n_residues": 275,
+            "n_positive": 8,
+            "positive_rate": 0.02909090909090909,
+            "auroc": 0.3441011235955056,
+            "auprc": 0.02319607685632786,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1YIM": {
+            "n_residues": 245,
+            "n_positive": 20,
+            "positive_rate": 0.08163265306122448,
+            "auroc": 0.7582222222222221,
+            "auprc": 0.1912815897061729,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.3
+          },
+          "1Z4R": {
+            "n_residues": 163,
+            "n_positive": 24,
+            "positive_rate": 0.147239263803681,
+            "auroc": 0.6414868105515588,
+            "auprc": 0.206308206053754,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.16666666666666666
+          },
+          "23LX": {
+            "n_residues": 300,
+            "n_positive": 19,
+            "positive_rate": 0.06333333333333334,
+            "auroc": 0.6997565087094962,
+            "auprc": 0.17478301639374852,
+            "precision_at_top_L10": 0.2,
+            "recall_at_top_L10": 0.3157894736842105
+          },
+          "2AI3": {
+            "n_residues": 272,
+            "n_positive": 21,
+            "positive_rate": 0.07720588235294118,
+            "auroc": 0.7101119332195029,
+            "auprc": 0.23343132937837532,
+            "precision_at_top_L10": 0.25925925925925924,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "2BJS": {
+            "n_residues": 320,
+            "n_positive": 19,
+            "positive_rate": 0.059375,
+            "auroc": 0.9048784752579122,
+            "auprc": 0.3559881679069776,
+            "precision_at_top_L10": 0.3125,
+            "recall_at_top_L10": 0.5263157894736842
+          },
+          "2BL9": {
+            "n_residues": 216,
+            "n_positive": 35,
+            "positive_rate": 0.16203703703703703,
+            "auroc": 0.6926598263614838,
+            "auprc": 0.26987107493193196,
+            "precision_at_top_L10": 0.2857142857142857,
+            "recall_at_top_L10": 0.17142857142857143
+          },
+          "2D81": {
+            "n_residues": 318,
+            "n_positive": 14,
+            "positive_rate": 0.0440251572327044,
+            "auroc": 0.625234962406015,
+            "auprc": 0.10068322555353104,
+            "precision_at_top_L10": 0.0967741935483871,
+            "recall_at_top_L10": 0.21428571428571427
+          },
+          "2E3N": {
+            "n_residues": 231,
+            "n_positive": 21,
+            "positive_rate": 0.09090909090909091,
+            "auroc": 0.7975056689342404,
+            "auprc": 0.370236701099687,
+            "precision_at_top_L10": 0.43478260869565216,
+            "recall_at_top_L10": 0.47619047619047616
+          },
+          "2GG8": {
+            "n_residues": 263,
+            "n_positive": 15,
+            "positive_rate": 0.057034220532319393,
+            "auroc": 0.9268817204301075,
+            "auprc": 0.5913301273889509,
+            "precision_at_top_L10": 0.4230769230769231,
+            "recall_at_top_L10": 0.7333333333333333
+          },
+          "2GZ8": {
+            "n_residues": 306,
+            "n_positive": 14,
+            "positive_rate": 0.0457516339869281,
+            "auroc": 0.6183953033268101,
+            "auprc": 0.0764250010296395,
+            "precision_at_top_L10": 0.03333333333333333,
+            "recall_at_top_L10": 0.07142857142857142
+          },
+          "2HBG": {
+            "n_residues": 147,
+            "n_positive": 17,
+            "positive_rate": 0.11564625850340136,
+            "auroc": 0.8656108597285068,
+            "auprc": 0.5378776542464901,
+            "precision_at_top_L10": 0.5714285714285714,
+            "recall_at_top_L10": 0.47058823529411764
+          },
+          "2ICQ": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.6031746031746033,
+            "auprc": 0.03300091820187723,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IGB": {
+            "n_residues": 172,
+            "n_positive": 12,
+            "positive_rate": 0.06976744186046512,
+            "auroc": 0.740625,
+            "auprc": 0.21369971333949977,
+            "precision_at_top_L10": 0.29411764705882354,
+            "recall_at_top_L10": 0.4166666666666667
+          },
+          "2IVJ": {
+            "n_residues": 329,
+            "n_positive": 18,
+            "positive_rate": 0.0547112462006079,
+            "auroc": 0.9221150410861022,
+            "auprc": 0.3634045213416101,
+            "precision_at_top_L10": 0.34375,
+            "recall_at_top_L10": 0.6111111111111112
+          },
+          "2ORT": {
+            "n_residues": 298,
+            "n_positive": 22,
+            "positive_rate": 0.0738255033557047,
+            "auroc": 0.8491436100131752,
+            "auprc": 0.3672823606757135,
+            "precision_at_top_L10": 0.3793103448275862,
+            "recall_at_top_L10": 0.5
+          },
+          "2PE7": {
+            "n_residues": 207,
+            "n_positive": 5,
+            "positive_rate": 0.024154589371980676,
+            "auroc": 0.7891089108910891,
+            "auprc": 0.06882996632996634,
+            "precision_at_top_L10": 0.05,
+            "recall_at_top_L10": 0.2
+          },
+          "2PES": {
+            "n_residues": 295,
+            "n_positive": 17,
+            "positive_rate": 0.0576271186440678,
+            "auroc": 0.48116800677105376,
+            "auprc": 0.05731636613781117,
+            "precision_at_top_L10": 0.06896551724137931,
+            "recall_at_top_L10": 0.11764705882352941
+          },
+          "2PEZ": {
+            "n_residues": 176,
+            "n_positive": 29,
+            "positive_rate": 0.16477272727272727,
+            "auroc": 0.8043631245601689,
+            "auprc": 0.44878230276887476,
+            "precision_at_top_L10": 0.47058823529411764,
+            "recall_at_top_L10": 0.27586206896551724
+          },
+          "2RDW": {
+            "n_residues": 359,
+            "n_positive": 22,
+            "positive_rate": 0.06128133704735376,
+            "auroc": 0.9152953871054761,
+            "auprc": 0.5513177563753809,
+            "precision_at_top_L10": 0.42857142857142855,
+            "recall_at_top_L10": 0.6818181818181818
+          },
+          "2RFM": {
+            "n_residues": 183,
+            "n_positive": 6,
+            "positive_rate": 0.03278688524590164,
+            "auroc": 0.5112994350282486,
+            "auprc": 0.03757699958849274,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2V00": {
+            "n_residues": 330,
+            "n_positive": 13,
+            "positive_rate": 0.03939393939393939,
+            "auroc": 0.9262314972094152,
+            "auprc": 0.36745708299177515,
+            "precision_at_top_L10": 0.21212121212121213,
+            "recall_at_top_L10": 0.5384615384615384
+          },
+          "2VKF": {
+            "n_residues": 62,
+            "n_positive": 7,
+            "positive_rate": 0.11290322580645161,
+            "auroc": 0.3662337662337662,
+            "auprc": 0.11642939629641501,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2VNN": {
+            "n_residues": 375,
+            "n_positive": 26,
+            "positive_rate": 0.06933333333333333,
+            "auroc": 0.8070310778047167,
+            "auprc": 0.23262876829166698,
+            "precision_at_top_L10": 0.24324324324324326,
+            "recall_at_top_L10": 0.34615384615384615
+          },
+          "2VU7": {
+            "n_residues": 207,
+            "n_positive": 8,
+            "positive_rate": 0.03864734299516908,
+            "auroc": 0.5571608040201006,
+            "auprc": 0.07388218284968831,
+            "precision_at_top_L10": 0.1,
+            "recall_at_top_L10": 0.25
+          },
+          "2VUW": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.8880090497737556,
+            "auprc": 0.29383188306317376,
+            "precision_at_top_L10": 0.28125,
+            "recall_at_top_L10": 0.5294117647058824
+          },
+          "2WF4": {
+            "n_residues": 373,
+            "n_positive": 24,
+            "positive_rate": 0.064343163538874,
+            "auroc": 0.8350047755491882,
+            "auprc": 0.23972203111468385,
+            "precision_at_top_L10": 0.24324324324324326,
+            "recall_at_top_L10": 0.375
+          },
+          "2X21": {
+            "n_residues": 151,
+            "n_positive": 50,
+            "positive_rate": 0.33112582781456956,
+            "auroc": 0.8035643564356436,
+            "auprc": 0.7253093093361996,
+            "precision_at_top_L10": 0.9333333333333333,
+            "recall_at_top_L10": 0.28
+          },
+          "2XIR": {
+            "n_residues": 296,
+            "n_positive": 19,
+            "positive_rate": 0.06418918918918919,
+            "auroc": 0.8451453543606309,
+            "auprc": 0.2827589710731536,
+            "precision_at_top_L10": 0.13793103448275862,
+            "recall_at_top_L10": 0.21052631578947367
+          },
+          "2Z85": {
+            "n_residues": 145,
+            "n_positive": 18,
+            "positive_rate": 0.12413793103448276,
+            "auroc": 0.8499562554680664,
+            "auprc": 0.5112272173335392,
+            "precision_at_top_L10": 0.6428571428571429,
+            "recall_at_top_L10": 0.5
+          },
+          "2Z8A": {
+            "n_residues": 145,
+            "n_positive": 17,
+            "positive_rate": 0.11724137931034483,
+            "auroc": 0.8841911764705882,
+            "auprc": 0.6871450720302029,
+            "precision_at_top_L10": 0.6428571428571429,
+            "recall_at_top_L10": 0.5294117647058824
+          },
+          "2ZDP": {
+            "n_residues": 110,
+            "n_positive": 20,
+            "positive_rate": 0.18181818181818182,
+            "auroc": 0.8772222222222222,
+            "auprc": 0.706351972832236,
+            "precision_at_top_L10": 0.8181818181818182,
+            "recall_at_top_L10": 0.45
+          },
+          "2ZKB": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.5892857142857143,
+            "auprc": 0.030908711774577206,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZQC": {
+            "n_residues": 261,
+            "n_positive": 14,
+            "positive_rate": 0.05363984674329502,
+            "auroc": 0.862058993637941,
+            "auprc": 0.37061667419893674,
+            "precision_at_top_L10": 0.19230769230769232,
+            "recall_at_top_L10": 0.35714285714285715
+          },
+          "37BV": {
+            "n_residues": 260,
+            "n_positive": 22,
+            "positive_rate": 0.08461538461538462,
+            "auroc": 0.6021772345301757,
+            "auprc": 0.11444785519352638,
+            "precision_at_top_L10": 0.07692307692307693,
+            "recall_at_top_L10": 0.09090909090909091
+          },
+          "3BHM": {
+            "n_residues": 274,
+            "n_positive": 43,
+            "positive_rate": 0.15693430656934307,
+            "auroc": 0.7230443974630021,
+            "auprc": 0.34422680401850386,
+            "precision_at_top_L10": 0.4444444444444444,
+            "recall_at_top_L10": 0.27906976744186046
+          },
+          "3BKB": {
+            "n_residues": 373,
+            "n_positive": 19,
+            "positive_rate": 0.05093833780160858,
+            "auroc": 0.8535533749628308,
+            "auprc": 0.2152173965069121,
+            "precision_at_top_L10": 0.21621621621621623,
+            "recall_at_top_L10": 0.42105263157894735
+          }
+        }
+      },
+      "pooled_minus_per_protein_auprc": -0.08716951610431553,
+      "caveats": [
+        "AUROC is reported for comparability with the literature, but at a 7.0% positive rate it is not a sufficient summary: the false-positive-rate denominator is the large negative class, so a high AUROC is compatible with low precision. AUPRC (chance = 0.070) and precision in the top L/10 are the metrics that reflect usable output."
+      ]
+    },
+    {
+      "model": "transformer",
+      "split_strategy": "homology_cluster",
+      "residue_level": {
+        "level": "residue_pooled",
+        "n_residues": 14307,
+        "n_positive": 1000,
+        "positive_rate": 0.06989585517578807,
+        "auroc": 0.7808545126625085,
+        "auprc": 0.2510532485142371,
+        "auprc_chance": 0.06989585517578807,
+        "auprc_lift_over_chance": 3.5918188264931903,
+        "best_f1": 0.31076388888888895,
+        "best_f1_threshold": 0.6869379878044128,
+        "precision_at_best_f1": 0.2745398773006135,
+        "recall_at_best_f1": 0.358,
+        "mcc_at_best_f1": 0.2541701680606699,
+        "precision_at_top_L10": 0.26153846153846155,
+        "recall_at_top_L10": 0.374
+      },
+      "protein_level": {
+        "level": "per_protein",
+        "n_proteins": 56,
+        "mean_auroc": 0.7544922843477123,
+        "std_auroc": 0.16230558461951802,
+        "mean_auprc": 0.31187977210094175,
+        "std_auprc": 0.1989439046540587,
+        "median_auprc": 0.32301419905276585,
+        "mean_precision_at_top_L10": 0.27258320989541274,
+        "n_excluded": 0,
+        "excluded": {},
+        "min_residues_per_protein": 20,
+        "per_protein": {
+          "11GL": {
+            "n_residues": 182,
+            "n_positive": 11,
+            "positive_rate": 0.06043956043956044,
+            "auroc": 0.732589048378522,
+            "auprc": 0.130906564871609,
+            "precision_at_top_L10": 0.16666666666666666,
+            "recall_at_top_L10": 0.2727272727272727
+          },
+          "1A27": {
+            "n_residues": 285,
+            "n_positive": 38,
+            "positive_rate": 0.13333333333333333,
+            "auroc": 0.8358193053483911,
+            "auprc": 0.5925552213722962,
+            "precision_at_top_L10": 0.5714285714285714,
+            "recall_at_top_L10": 0.42105263157894735
+          },
+          "1AAX": {
+            "n_residues": 297,
+            "n_positive": 16,
+            "positive_rate": 0.05387205387205387,
+            "auroc": 0.7471085409252669,
+            "auprc": 0.1246500003084688,
+            "precision_at_top_L10": 0.1724137931034483,
+            "recall_at_top_L10": 0.3125
+          },
+          "1ECV": {
+            "n_residues": 297,
+            "n_positive": 12,
+            "positive_rate": 0.04040404040404041,
+            "auroc": 0.8429824561403509,
+            "auprc": 0.1343108197135583,
+            "precision_at_top_L10": 0.1724137931034483,
+            "recall_at_top_L10": 0.4166666666666667
+          },
+          "1HB1": {
+            "n_residues": 328,
+            "n_positive": 17,
+            "positive_rate": 0.051829268292682924,
+            "auroc": 0.9169661433705315,
+            "auprc": 0.3961254745619552,
+            "precision_at_top_L10": 0.28125,
+            "recall_at_top_L10": 0.5294117647058824
+          },
+          "1JVJ": {
+            "n_residues": 263,
+            "n_positive": 12,
+            "positive_rate": 0.045627376425855515,
+            "auroc": 0.9110225763612219,
+            "auprc": 0.45239441930618396,
+            "precision_at_top_L10": 0.3076923076923077,
+            "recall_at_top_L10": 0.6666666666666666
+          },
+          "1LS6": {
+            "n_residues": 288,
+            "n_positive": 14,
+            "positive_rate": 0.04861111111111111,
+            "auroc": 0.7572992700729927,
+            "auprc": 0.14454442923512606,
+            "precision_at_top_L10": 0.21428571428571427,
+            "recall_at_top_L10": 0.42857142857142855
+          },
+          "1MOG": {
+            "n_residues": 67,
+            "n_positive": 5,
+            "positive_rate": 0.07462686567164178,
+            "auroc": 0.5483870967741935,
+            "auprc": 0.09582960084481691,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1MX3": {
+            "n_residues": 326,
+            "n_positive": 27,
+            "positive_rate": 0.08282208588957055,
+            "auroc": 0.9017713365539453,
+            "auprc": 0.49663475128837686,
+            "precision_at_top_L10": 0.4375,
+            "recall_at_top_L10": 0.5185185185185185
+          },
+          "1P4C": {
+            "n_residues": 353,
+            "n_positive": 20,
+            "positive_rate": 0.056657223796033995,
+            "auroc": 0.8249249249249249,
+            "auprc": 0.32402907370463085,
+            "precision_at_top_L10": 0.22857142857142856,
+            "recall_at_top_L10": 0.4
+          },
+          "1QUS": {
+            "n_residues": 312,
+            "n_positive": 7,
+            "positive_rate": 0.022435897435897436,
+            "auroc": 0.9850117096018736,
+            "auprc": 0.6706582633053222,
+            "precision_at_top_L10": 0.22580645161290322,
+            "recall_at_top_L10": 1.0
+          },
+          "1R4U": {
+            "n_residues": 294,
+            "n_positive": 6,
+            "positive_rate": 0.02040816326530612,
+            "auroc": 0.47337962962962965,
+            "auprc": 0.02115783891756334,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1S36": {
+            "n_residues": 185,
+            "n_positive": 19,
+            "positive_rate": 0.10270270270270271,
+            "auroc": 0.9181991122384273,
+            "auprc": 0.5848735802136575,
+            "precision_at_top_L10": 0.5,
+            "recall_at_top_L10": 0.47368421052631576
+          },
+          "1SDE": {
+            "n_residues": 345,
+            "n_positive": 10,
+            "positive_rate": 0.028985507246376812,
+            "auroc": 0.9146268656716419,
+            "auprc": 0.43773890736806337,
+            "precision_at_top_L10": 0.23529411764705882,
+            "recall_at_top_L10": 0.8
+          },
+          "1SL9": {
+            "n_residues": 186,
+            "n_positive": 19,
+            "positive_rate": 0.10215053763440861,
+            "auroc": 0.9063977308540814,
+            "auprc": 0.5388478967265674,
+            "precision_at_top_L10": 0.5555555555555556,
+            "recall_at_top_L10": 0.5263157894736842
+          },
+          "1W04": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.84973604826546,
+            "auprc": 0.3219993244009009,
+            "precision_at_top_L10": 0.21875,
+            "recall_at_top_L10": 0.4117647058823529
+          },
+          "1W92": {
+            "n_residues": 146,
+            "n_positive": 18,
+            "positive_rate": 0.1232876712328767,
+            "auroc": 0.9205729166666666,
+            "auprc": 0.54065335888057,
+            "precision_at_top_L10": 0.5714285714285714,
+            "recall_at_top_L10": 0.4444444444444444
+          },
+          "1WTC": {
+            "n_residues": 318,
+            "n_positive": 25,
+            "positive_rate": 0.07861635220125786,
+            "auroc": 0.8365870307167236,
+            "auprc": 0.4347900230028617,
+            "precision_at_top_L10": 0.3870967741935484,
+            "recall_at_top_L10": 0.48
+          },
+          "1X46": {
+            "n_residues": 150,
+            "n_positive": 18,
+            "positive_rate": 0.12,
+            "auroc": 0.9612794612794613,
+            "auprc": 0.7641115929159409,
+            "precision_at_top_L10": 0.7333333333333333,
+            "recall_at_top_L10": 0.6111111111111112
+          },
+          "1Y1J": {
+            "n_residues": 275,
+            "n_positive": 8,
+            "positive_rate": 0.02909090909090909,
+            "auroc": 0.24250936329588016,
+            "auprc": 0.020299479810000146,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "1YIM": {
+            "n_residues": 245,
+            "n_positive": 20,
+            "positive_rate": 0.08163265306122448,
+            "auroc": 0.724,
+            "auprc": 0.15355556299167183,
+            "precision_at_top_L10": 0.125,
+            "recall_at_top_L10": 0.15
+          },
+          "1Z4R": {
+            "n_residues": 163,
+            "n_positive": 24,
+            "positive_rate": 0.147239263803681,
+            "auroc": 0.6930455635491607,
+            "auprc": 0.365911170906289,
+            "precision_at_top_L10": 0.375,
+            "recall_at_top_L10": 0.25
+          },
+          "23LX": {
+            "n_residues": 300,
+            "n_positive": 19,
+            "positive_rate": 0.06333333333333334,
+            "auroc": 0.7471436598613972,
+            "auprc": 0.2092750763550224,
+            "precision_at_top_L10": 0.13333333333333333,
+            "recall_at_top_L10": 0.21052631578947367
+          },
+          "2AI3": {
+            "n_residues": 272,
+            "n_positive": 21,
+            "positive_rate": 0.07720588235294118,
+            "auroc": 0.6996774805539746,
+            "auprc": 0.33332331369420115,
+            "precision_at_top_L10": 0.2222222222222222,
+            "recall_at_top_L10": 0.2857142857142857
+          },
+          "2BJS": {
+            "n_residues": 320,
+            "n_positive": 19,
+            "positive_rate": 0.059375,
+            "auroc": 0.8083581045637349,
+            "auprc": 0.33695003547433944,
+            "precision_at_top_L10": 0.28125,
+            "recall_at_top_L10": 0.47368421052631576
+          },
+          "2BL9": {
+            "n_residues": 216,
+            "n_positive": 35,
+            "positive_rate": 0.16203703703703703,
+            "auroc": 0.6601420678768745,
+            "auprc": 0.29576899444209526,
+            "precision_at_top_L10": 0.2857142857142857,
+            "recall_at_top_L10": 0.17142857142857143
+          },
+          "2D81": {
+            "n_residues": 318,
+            "n_positive": 14,
+            "positive_rate": 0.0440251572327044,
+            "auroc": 0.49295112781954886,
+            "auprc": 0.054058500375777634,
+            "precision_at_top_L10": 0.06451612903225806,
+            "recall_at_top_L10": 0.14285714285714285
+          },
+          "2E3N": {
+            "n_residues": 231,
+            "n_positive": 21,
+            "positive_rate": 0.09090909090909091,
+            "auroc": 0.7852607709750566,
+            "auprc": 0.31684651080386617,
+            "precision_at_top_L10": 0.34782608695652173,
+            "recall_at_top_L10": 0.38095238095238093
+          },
+          "2GG8": {
+            "n_residues": 263,
+            "n_positive": 15,
+            "positive_rate": 0.057034220532319393,
+            "auroc": 0.9198924731182795,
+            "auprc": 0.4687052307280948,
+            "precision_at_top_L10": 0.38461538461538464,
+            "recall_at_top_L10": 0.6666666666666666
+          },
+          "2GZ8": {
+            "n_residues": 306,
+            "n_positive": 14,
+            "positive_rate": 0.0457516339869281,
+            "auroc": 0.6223091976516634,
+            "auprc": 0.06080968429566697,
+            "precision_at_top_L10": 0.03333333333333333,
+            "recall_at_top_L10": 0.07142857142857142
+          },
+          "2HBG": {
+            "n_residues": 147,
+            "n_positive": 17,
+            "positive_rate": 0.11564625850340136,
+            "auroc": 0.9158371040723982,
+            "auprc": 0.6185698604415827,
+            "precision_at_top_L10": 0.6428571428571429,
+            "recall_at_top_L10": 0.5294117647058824
+          },
+          "2ICQ": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.49156746031746035,
+            "auprc": 0.025144821503301898,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2IGB": {
+            "n_residues": 172,
+            "n_positive": 12,
+            "positive_rate": 0.06976744186046512,
+            "auroc": 0.6145833333333334,
+            "auprc": 0.15710366444271395,
+            "precision_at_top_L10": 0.23529411764705882,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "2IVJ": {
+            "n_residues": 329,
+            "n_positive": 18,
+            "positive_rate": 0.0547112462006079,
+            "auroc": 0.8594140764558771,
+            "auprc": 0.37802612880591374,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.4444444444444444
+          },
+          "2ORT": {
+            "n_residues": 298,
+            "n_positive": 22,
+            "positive_rate": 0.0738255033557047,
+            "auroc": 0.8394268774703557,
+            "auprc": 0.28425929691497437,
+            "precision_at_top_L10": 0.3448275862068966,
+            "recall_at_top_L10": 0.45454545454545453
+          },
+          "2PE7": {
+            "n_residues": 207,
+            "n_positive": 5,
+            "positive_rate": 0.024154589371980676,
+            "auroc": 0.8277227722772278,
+            "auprc": 0.1748111658456486,
+            "precision_at_top_L10": 0.15,
+            "recall_at_top_L10": 0.6
+          },
+          "2PES": {
+            "n_residues": 295,
+            "n_positive": 17,
+            "positive_rate": 0.0576271186440678,
+            "auroc": 0.44858231062209053,
+            "auprc": 0.05113165719438139,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2PEZ": {
+            "n_residues": 176,
+            "n_positive": 29,
+            "positive_rate": 0.16477272727272727,
+            "auroc": 0.7412620220501993,
+            "auprc": 0.3484934623517682,
+            "precision_at_top_L10": 0.35294117647058826,
+            "recall_at_top_L10": 0.20689655172413793
+          },
+          "2RDW": {
+            "n_residues": 359,
+            "n_positive": 22,
+            "positive_rate": 0.06128133704735376,
+            "auroc": 0.8199352576207175,
+            "auprc": 0.35643034640768256,
+            "precision_at_top_L10": 0.4,
+            "recall_at_top_L10": 0.6363636363636364
+          },
+          "2RFM": {
+            "n_residues": 183,
+            "n_positive": 6,
+            "positive_rate": 0.03278688524590164,
+            "auroc": 0.5254237288135593,
+            "auprc": 0.037498248848318136,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2V00": {
+            "n_residues": 330,
+            "n_positive": 13,
+            "positive_rate": 0.03939393939393939,
+            "auroc": 0.9437029847124485,
+            "auprc": 0.5582171653297031,
+            "precision_at_top_L10": 0.2727272727272727,
+            "recall_at_top_L10": 0.6923076923076923
+          },
+          "2VKF": {
+            "n_residues": 62,
+            "n_positive": 7,
+            "positive_rate": 0.11290322580645161,
+            "auroc": 0.38181818181818183,
+            "auprc": 0.10118377133985483,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2VNN": {
+            "n_residues": 375,
+            "n_positive": 26,
+            "positive_rate": 0.06933333333333333,
+            "auroc": 0.8279700242450958,
+            "auprc": 0.32001432595369395,
+            "precision_at_top_L10": 0.2702702702702703,
+            "recall_at_top_L10": 0.38461538461538464
+          },
+          "2VU7": {
+            "n_residues": 207,
+            "n_positive": 8,
+            "positive_rate": 0.03864734299516908,
+            "auroc": 0.6457286432160804,
+            "auprc": 0.0738272170710637,
+            "precision_at_top_L10": 0.05,
+            "recall_at_top_L10": 0.125
+          },
+          "2VUW": {
+            "n_residues": 329,
+            "n_positive": 17,
+            "positive_rate": 0.05167173252279635,
+            "auroc": 0.8880090497737556,
+            "auprc": 0.24799810701307912,
+            "precision_at_top_L10": 0.25,
+            "recall_at_top_L10": 0.47058823529411764
+          },
+          "2WF4": {
+            "n_residues": 373,
+            "n_positive": 24,
+            "positive_rate": 0.064343163538874,
+            "auroc": 0.8568529130850049,
+            "auprc": 0.3332738404761603,
+            "precision_at_top_L10": 0.21621621621621623,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "2X21": {
+            "n_residues": 151,
+            "n_positive": 50,
+            "positive_rate": 0.33112582781456956,
+            "auroc": 0.7093069306930693,
+            "auprc": 0.5459719965617097,
+            "precision_at_top_L10": 0.6,
+            "recall_at_top_L10": 0.18
+          },
+          "2XIR": {
+            "n_residues": 296,
+            "n_positive": 19,
+            "positive_rate": 0.06418918918918919,
+            "auroc": 0.813794413832415,
+            "auprc": 0.28300943604726103,
+            "precision_at_top_L10": 0.1724137931034483,
+            "recall_at_top_L10": 0.2631578947368421
+          },
+          "2Z85": {
+            "n_residues": 145,
+            "n_positive": 18,
+            "positive_rate": 0.12413793103448276,
+            "auroc": 0.795275590551181,
+            "auprc": 0.45284588802726994,
+            "precision_at_top_L10": 0.42857142857142855,
+            "recall_at_top_L10": 0.3333333333333333
+          },
+          "2Z8A": {
+            "n_residues": 145,
+            "n_positive": 17,
+            "positive_rate": 0.11724137931034483,
+            "auroc": 0.8065257352941176,
+            "auprc": 0.4721002122048024,
+            "precision_at_top_L10": 0.5714285714285714,
+            "recall_at_top_L10": 0.47058823529411764
+          },
+          "2ZDP": {
+            "n_residues": 110,
+            "n_positive": 20,
+            "positive_rate": 0.18181818181818182,
+            "auroc": 0.8877777777777778,
+            "auprc": 0.7525454831833012,
+            "precision_at_top_L10": 0.9090909090909091,
+            "recall_at_top_L10": 0.5
+          },
+          "2ZKB": {
+            "n_residues": 295,
+            "n_positive": 7,
+            "positive_rate": 0.023728813559322035,
+            "auroc": 0.4895833333333333,
+            "auprc": 0.02499451740817739,
+            "precision_at_top_L10": 0.0,
+            "recall_at_top_L10": 0.0
+          },
+          "2ZQC": {
+            "n_residues": 261,
+            "n_positive": 14,
+            "positive_rate": 0.05363984674329502,
+            "auroc": 0.868421052631579,
+            "auprc": 0.43706985712805535,
+            "precision_at_top_L10": 0.3076923076923077,
+            "recall_at_top_L10": 0.5714285714285714
+          },
+          "37BV": {
+            "n_residues": 260,
+            "n_positive": 22,
+            "positive_rate": 0.08461538461538462,
+            "auroc": 0.5941558441558441,
+            "auprc": 0.1027173480745181,
+            "precision_at_top_L10": 0.038461538461538464,
+            "recall_at_top_L10": 0.045454545454545456
+          },
+          "3BHM": {
+            "n_residues": 274,
+            "n_positive": 43,
+            "positive_rate": 0.15693430656934307,
+            "auroc": 0.6924393436021343,
+            "auprc": 0.33985974293264076,
+            "precision_at_top_L10": 0.4074074074074074,
+            "recall_at_top_L10": 0.2558139534883721
+          },
+          "3BKB": {
+            "n_residues": 373,
+            "n_positive": 19,
+            "positive_rate": 0.05093833780160858,
+            "auroc": 0.7865001486767766,
+            "auprc": 0.1658549753296656,
+            "precision_at_top_L10": 0.16216216216216217,
+            "recall_at_top_L10": 0.3157894736842105
+          }
+        }
+      },
+      "pooled_minus_per_protein_auprc": -0.06082652358670465,
+      "caveats": [
+        "AUROC is reported for comparability with the literature, but at a 7.0% positive rate it is not a sufficient summary: the false-positive-rate denominator is the large negative class, so a high AUROC is compatible with low precision. AUPRC (chance = 0.070) and precision in the top L/10 are the metrics that reflect usable output."
+      ]
+    }
+  ],
+  "comparison": {
+    "ranked_by": "auprc",
+    "ranking": [
+      {
+        "model": "transformer",
+        "split_strategy": "homology_cluster",
+        "auprc": 0.2510532485142371,
+        "auroc": 0.7808545126625085,
+        "auprc_lift": 3.5918188264931903,
+        "best_f1": 0.31076388888888895,
+        "precision_at_top_L10": 0.26153846153846155,
+        "per_protein_mean_auprc": 0.31187977210094175
+      },
+      {
+        "model": "random_forest",
+        "split_strategy": "homology_cluster",
+        "auprc": 0.22126816617654613,
+        "auroc": 0.7769528819418351,
+        "auprc_lift": 3.1656836534878456,
+        "best_f1": 0.2920616113744076,
+        "precision_at_top_L10": 0.24405594405594405,
+        "per_protein_mean_auprc": 0.30843768228086166
+      },
+      {
+        "model": "logistic",
+        "split_strategy": "homology_cluster",
+        "auprc": 0.19274725356144326,
+        "auroc": 0.7649973698053656,
+        "auprc_lift": 2.7576349567035687,
+        "best_f1": 0.275797373358349,
+        "precision_at_top_L10": 0.21748251748251748,
+        "per_protein_mean_auprc": 0.3147709134579281
+      },
+      {
+        "model": "burial",
+        "split_strategy": "homology_cluster",
+        "auprc": 0.08985794625319049,
+        "auroc": 0.6168481250469677,
+        "auprc_lift": 1.2855976370443964,
+        "best_f1": 0.17140862279629954,
+        "precision_at_top_L10": 0.07482517482517483,
+        "per_protein_mean_auprc": 0.11428165459958203
+      },
+      {
+        "model": "prevalence",
+        "split_strategy": "homology_cluster",
+        "auprc": 0.06989585517578807,
+        "auroc": 0.5,
+        "auprc_lift": 1.0,
+        "best_f1": 0.13065917554060233,
+        "precision_at_top_L10": 0.06433566433566433,
+        "per_protein_mean_auprc": 0.07855499146295523
+      }
+    ],
+    "best_model": "transformer",
+    "baseline_auprc": {
+      "prevalence": 0.06989585517578807,
+      "burial": 0.08985794625319049,
+      "logistic": 0.19274725356144326,
+      "random_forest": 0.22126816617654613
+    },
+    "beats_baselines": {
+      "burial": {
+        "prevalence": true,
+        "logistic": false,
+        "random_forest": false
+      },
+      "logistic": {
+        "prevalence": true,
+        "burial": true,
+        "random_forest": false
+      },
+      "random_forest": {
+        "prevalence": true,
+        "burial": true,
+        "logistic": true
+      },
+      "transformer": {
+        "prevalence": true,
+        "burial": true,
+        "logistic": true,
+        "random_forest": true
+      }
+    },
+    "note": "ranked by AUPRC: under class imbalance AUROC compresses exactly the differences that matter, and a model must beat the per-residue baselines to have justified its context modelling"
+  },
+  "training_history": {
+    "epochs_run": 25,
+    "train_loss": [
+      1.2737936982243852,
+      1.2369593212651286,
+      1.1664137168021824,
+      1.1049152309923096,
+      1.0607543816196663,
+      1.027513392132608,
+      0.996700948832904,
+      0.9582187337583938,
+      0.9160192482857499,
+      0.8895256184173697,
+      0.8456838948933245,
+      0.8006750291111362,
+      0.7567452989973878,
+      0.7077273531149368,
+      0.6639583611121654,
+      0.6190037584420566,
+      0.5768809998958978,
+      0.542194174258557,
+      0.5036065848198727,
+      0.468456836428494,
+      0.4389620897963982,
+      0.4079479125728376,
+      0.38105874814257035,
+      0.3494212226627915,
+      0.33472478088524826
+    ],
+    "val_loss": [
+      1.1358912038682256,
+      1.085951286354092,
+      1.0225827936401406,
+      0.9883289787068888,
+      0.9399875564272776,
+      0.9374652168223853,
+      0.9316432664590982,
+      0.9228250923828506,
+      0.9019465792581146,
+      0.9122231243197251,
+      0.9019622455695829,
+      0.9411253113907458,
+      1.0094789751278308,
+      0.9489776236526496,
+      1.1202341732020438,
+      1.0941134742906866,
+      1.2209085559541313,
+      1.2533079793450272,
+      1.2478114440509456,
+      1.5109122562179154,
+      1.377854600257286,
+      1.6111323397343476,
+      1.8168715434167668,
+      1.8358982350674589,
+      2.1125777969196746
+    ],
+    "val_auprc": [
+      0.07837911111504138,
+      0.12578468176925428,
+      0.15979758628940463,
+      0.16871256839024137,
+      0.19921312814780973,
+      0.20273129296682418,
+      0.22906079401172177,
+      0.25660166756936664,
+      0.2359549850875442,
+      0.24056866624091539,
+      0.26193858955951466,
+      0.25896460853000175,
+      0.2706201785909387,
+      0.2699691482165356,
+      0.24887190308967225,
+      0.27036840641718013,
+      0.25085144181144947,
+      0.2634961045699609,
+      0.2633947667187823,
+      0.2485751550621172,
+      0.2526939195103562,
+      0.2325731999230861,
+      0.2529729529411351,
+      0.2374054829919633,
+      0.248579430911165
+    ],
+    "val_auroc": [
+      0.5543732623357791,
+      0.6794711642505351,
+      0.7338466320500749,
+      0.7539308600895143,
+      0.7798874799957545,
+      0.7892451593516487,
+      0.7954746295854692,
+      0.8074227639698898,
+      0.8018807092220087,
+      0.8043914574118057,
+      0.8083028129311853,
+      0.8023021251021749,
+      0.8036859502309535,
+      0.8061564487071159,
+      0.7887718116919904,
+      0.7932456293911128,
+      0.7864795077956253,
+      0.7830887451049043,
+      0.7847933273693918,
+      0.7730921015450651,
+      0.7843594023744574,
+      0.7656613427690424,
+      0.7747796259257779,
+      0.7675823017046857,
+      0.767879970391649
+    ],
+    "best_epoch": 12,
+    "best_val_auprc": 0.2706201785909387,
+    "stopped_early": true,
+    "pos_weight": 11.052099533437014,
+    "n_parameters": 1677381,
+    "device": "mps",
+    "seconds": 392.4955620765686,
+    "early_stopping_metric": "validation AUPRC"
+  },
+  "warnings": [
+    "4 of 62 multi-member clusters contain pairs below the 30% identity threshold (minimum observed 0.071). Centroid linkage compares each sequence only to a cluster representative, so it over-merges. This is conservative for leakage \u2014 unrelated proteins sharing a fold never split a homologous pair \u2014 but it coarsens the split and reduces the number of independent test families."
+  ],
+  "provenance": {
+    "timestamp_utc": "2026-09-17T10:59:24+00:00",
+    "python": "3.14.6",
+    "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+    "git_commit": null,
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.18.1",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.9.1",
+      "torch": "2.14.0",
+      "biopython": "1.88"
+    }
+  }
+}
