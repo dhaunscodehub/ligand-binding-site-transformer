@@ -273,3 +273,48 @@ those are dropped) nor by array layout (`ascontiguousarray` makes no
 difference), they are absent on numpy 2.5.x, and the results are identical
 under both versions (same AUPRC to four decimals, finite coefficients with
 maximum magnitude 1.061). The environment specs ask for `numpy>=2.3`.
+
+---
+
+## 8. Clean-clone reproduction
+
+The repository was cloned fresh from GitHub into an empty directory,
+`pip install -e .`'d, and re-run. `data/pdb/` and `data/identity_matrix.npz`
+are gitignored, so the clone re-downloaded all 416 structures and recomputed
+the 86,320-pair identity matrix from scratch.
+
+**Every deterministic value reproduced bit-exactly** (to 10 decimal places),
+`VERIFIED_REPRODUCED`:
+
+| quantity | reference | clean clone |
+|---|---|---|
+| proteins / residues / binding residues | 416 / 91,692 / 7,153 | identical |
+| positive rate | 0.07801117 | identical |
+| clusters / largest / singletons | 199 / 32 / 137 | identical |
+| similarity edges | 1,216 | identical |
+| identity distribution p50 / p90 / p99 | 0.0482758621 / 0.1010101010 / 0.9278350515 | identical |
+| split train / val / test | 298 / 62 / 56 | identical |
+| max train–test identity, worst pair | 0.2649253731, `3BHY`–`2XIR` | identical |
+| `prevalence` AUPRC | 0.0698958552 | identical |
+| `burial` AUPRC | 0.0898579463 | identical |
+| `logistic` AUPRC | 0.1927472536 | identical |
+| `random_forest` AUPRC | 0.2212681662 | identical |
+
+The transformer's training trajectory also reproduced bit-identically where
+observed — epoch 1 gave `train 1.2738  val 1.1359  AUPRC 0.0784  AUROC
+0.5544` in two independent clone runs, matching the reference exactly.
+
+**Caveat, stated rather than glossed.** The full 25-epoch transformer run was
+not carried to completion on the clone: the process was repeatedly terminated
+by the host environment before finishing (it takes ~400 s on Apple MPS). The
+clone verification therefore covers the dataset, curation, clustering, split,
+leakage verification and all four baselines exhaustively, plus the
+transformer's architecture, forward/backward pass and early training
+trajectory — but the clone's final transformer metrics were not re-derived
+end to end. The reference values for the transformer come from the run
+committed in `results/reference/homology_split.json`.
+
+Test suite on the clone: **292 passed, 19 skipped**. All 19 skips are the
+intended guards for absent cached structures (16 in `test_dataset.py`, 3
+reference-structure tests) — they skip cleanly rather than failing, and pass
+once structures are cached.
